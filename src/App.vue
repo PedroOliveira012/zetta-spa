@@ -5,7 +5,7 @@
 
 <script>
     import Navbar from './components/navbar.vue'
-    import PhotoCarousel from './components/photo-carousel.vue'
+    import photoCarousel from './components/photo-carousel.vue';
 
     export default{
         components: {
