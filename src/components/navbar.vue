@@ -7,7 +7,7 @@
                 </div>
             </a>
             <ul class="navbar-nav position-absolute top-50 start-50 translate-middle">
-                <li v-for="page in pages" class="nav-item mx-4 border-b-2 border-[#212529] hover:text-white hover:border-b-2 hover:border-[#00aac0] transition ease-in-out delay-150 duration-300">
+                <li v-for="page in pages" class="nav-item mx-4 border-b-2 border-[#212529] hover:text-white hover:border-b-2 hover:border-[#00aac0] transition ease-in-out delay-30 duration-300">
                     <a class="nav-link" aria-current="page" :href="page.link.url">{{ page.link.name }}</a>
                 </li>
             </ul>
