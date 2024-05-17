@@ -8,7 +8,7 @@
 </template> -->
 
 <template>
-    <div class="bg-gradient-to-b from-[#005c66] to-[#00aac0] p-16">
+    <div class="bg-gradient-to-t from-[#005c66] to-[#00aac0] p-16">
         <h3 class="text-white text-6xl mb-6">Conheça nossos parceiros</h3>
         <section class="grid grid-cols-4">
             <div v-for="partner in partners" :key="partner.name" class="rounded-2xl w-52 h-32 mx-auto my-7 bg-white flex items-center justify-center p-6 hover:shadow-2xl hover:-translate-y-1 hover:scale-110  duration-300">
