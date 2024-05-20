@@ -31,7 +31,7 @@
                         link: {name: 'Projetos', url: 'projects.html'},
                     },
                     {
-                        link: {name: 'Serviços', url: 'services.html'},
+                        link: {name: 'Robô sinalizador', url: 'robot.html'},
                     },
                     {
                         link: {name: 'Sobre nós', url: 'about.html'},
