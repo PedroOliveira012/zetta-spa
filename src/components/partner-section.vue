@@ -1,12 +1,3 @@
-<!-- <template>
-    <section class="grid grid-cols-4 grid-rows -3">
-        <div v-for="partner in partners" >
-            <span>{{ partner.name }}</span>
-            <img :src="partner.logo" alt="">
-        </div>
-    </section>
-</template> -->
-
 <template>
     <div class="bg-gradient-to-b from-[#00aac0] to-[#005c66] p-16 mb-16">
         <h3 class="text-white text-6xl mb-6">Conheça nossos parceiros</h3>
