@@ -8,7 +8,7 @@
             </a>
             <ul class="navbar-nav position-absolute top-50 start-50 translate-middle">
                 <li v-for="page in pages" class="nav-item mx-4 border-b-2 border-[#212529] hover:text-white hover:border-b-2 hover:border-[#00aac0] transition ease-in-out delay-30 duration-300">
-                    <a class="nav-link" aria-current="page" :href="page.link.url">{{ page.link.name }}</a>
+                    <router-link :to="`/${page.link.url}`" class="nav-link">{{ page.link.name }}</router-link>
                 </li>
             </ul>
         </div>
@@ -17,27 +17,26 @@
 
 <script>
     export default{
-        props:['links'],
         data(){
             return{
                 pages: [
                     {
-                        link: {name: 'Home', url: 'index.html'},
+                        link: {name: 'Home', url:''},
                     },
                     {
-                        link: {name: 'Paineis', url: 'panels.html'},
+                        link: {name: 'Paineis', url: 'panels'},
                     },
                     {
-                        link: {name: 'Projetos', url: 'projects.html'},
+                        link: {name: 'Projetos', url: 'projects'},
                     },
                     {
-                        link: {name: 'Robô sinalizador', url: 'robot.html'},
+                        link: {name: 'Robô sinalizador', url: 'robots'},
                     },
                     {
-                        link: {name: 'Sobre nós', url: 'about.html'},
+                        link: {name: 'Sobre nós', url: 'about'},
                     },
                     {
-                        link: {name: 'Contato', url: 'contact.html'},
+                        link: {name: 'Contato', url: 'contact'},
                     },
                 ]
             }
