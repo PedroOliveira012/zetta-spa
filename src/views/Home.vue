@@ -5,9 +5,9 @@
 </template>
 
 <script>
-    import PhotoCarousel from '../components/home components/photo-carousel.vue';
-    import productsSections from '../components/home components/products-sections.vue';
-    import partnerSection from '../components/home components/partner-section.vue'
+    import PhotoCarousel from '../components/home/photo-carousel.vue';
+    import productsSections from '../components/home/products-sections.vue';
+    import partnerSection from '../components/home/partner-section.vue'
 
     export default{
         components: {
