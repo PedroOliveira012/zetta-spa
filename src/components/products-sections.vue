@@ -6,7 +6,6 @@
                     Lorem ipsum dolor sit amet
                 </h3>
                 <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
-                <!-- <button class="px-3 py-2 rounded-xl absolute bottom-0 right-0 mr-8 mb-8 bg-gradient-to-l from-[#0095a5] to-[#00daf3] hover:bg-gradient-to-r from-[#0095a5] to-[#00daf3]">Saiba mais!</button> -->
                 <button class="absolute bottom-0 right-0 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-[#00daf3] to-[#0095a5] focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800 hover:shadow-2xl hover:-translate-y-1 hover:scale-110 duration-300">
                     <span class="relative px-5 py-2.5 transition-all ease-in duration-180 dark:bg-white rounded-md group-hover:bg-opacity-0">Saiba mais!</span>
                 </button>
