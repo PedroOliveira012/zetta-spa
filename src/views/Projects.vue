@@ -4,11 +4,11 @@
 </template>
 <script>
     import CtaComponent from '@/components/cta-component.vue';
-    import Projects from '@/components/projects.vue';
+    import Projects from '@/components/projects components/projects.vue';
     export default{
         components:{
             Projects,
             CtaComponent
         }
     }
-</script>
+</script>@/components/projects components/projects.vue

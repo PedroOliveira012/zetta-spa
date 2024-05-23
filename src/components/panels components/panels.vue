@@ -1,4 +1,8 @@
 <template>
+    <div class="bg-[#777777] h-72 mb-24">banner</div>
+    <div class="text-6xl flex justify-center mb-12">
+        <h2>Painéis elétricos</h2>
+    </div>
     <div class="grid gap-4 grid-cols-1 grid-rows-3 place-content-evenly mt-24">
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-32 h-12/12">
             <div class="w-12/12  relative">
