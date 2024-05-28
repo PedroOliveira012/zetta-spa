@@ -45,6 +45,9 @@
                     <textarea name="message" id="" placeholder="Mensagem" class="form-control h-36"></textarea>
                 </div>
             </form>
+            <div class="mx-auto w-fit">
+                <button type="submit" class="w-24 h-12 rounded-2xl bg-[#00aac0] hover:shadow-2xl hover:-translate-y-1 hover:scale-110 hover:bg-[#00aac0] duration-300">Enviar</button>
+            </div>
         </div>
     </section>
 </template>
