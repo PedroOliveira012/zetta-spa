@@ -1,7 +1,7 @@
 <template>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <div class="w-64">
                     <img src="../assets/logo zetta.png">
                 </div>
