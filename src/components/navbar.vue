@@ -7,8 +7,8 @@
                 </div>
             </a>
             <ul class="navbar-nav position-absolute top-50 start-50 translate-middle">
-                <li v-for="page in pages" class="nav-item mx-4 border-b-2 border-[#212529] hover:text-white hover:border-b-2 hover:border-[#00aac0] transition ease-in-out delay-30 duration-300">
-                    <router-link :to="`/${page.link.url}`" class="nav-link">{{ page.link.name }}</router-link>
+                <li v-for="page in pages" :key="index" class="nav-item mx-4 border-b-2 border-[#212529] hover:text-white hover:border-b-2 hover:border-[#00aac0] transition ease-in-out delay-30 duration-300">
+                    <router-link :to="`/${page.link.url}`" class="nav-link" exact-active-class="active-link">{{ page.link.name }}</router-link>
                 </li>
             </ul>
         </div>
@@ -43,3 +43,8 @@
         }
     }
 </script>
+<style>
+.active-link {
+    border-bottom: 2px solid #00aac0;
+}
+</style>
