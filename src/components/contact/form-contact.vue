@@ -7,7 +7,7 @@
         <div class="flex flex-col justify-center space-y-12 text-xl px-16 bg-white rounded-l-xl ">
             <div>
                 <i class="fa-solid fa-location-dot mr-2"></i>
-                <span>Rua João Sierra, 245, Araras-SP</span>
+                <span>R. João Sierra, 245 - Distrito Industrial II, Araras-SP</span>
             </div>
             <div>
                 <!-- telefone -->
