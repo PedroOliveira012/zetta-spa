@@ -1,11 +1,11 @@
 <template>
-    <div id="carouselPhotoIndicators" class="carousel slide">
+    <div id="carouselPhotoIndicators" class="carousel slide h-96">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselPhotoIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselPhotoIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselPhotoIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner max-h-96">
             <div class="carousel-item active">
                 <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
                     <title>Placeholder</title>
