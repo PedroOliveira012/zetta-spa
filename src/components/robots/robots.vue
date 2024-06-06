@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="bg-[#777777] h-72 mb-24">banner</div>
+        <div class="bg-[#777777] h-96 mb-24">banner</div>
         <div class="text-6xl flex justify-center mb-12">
             <h2>Robô sinalizador</h2>
         </div>
@@ -39,7 +39,8 @@
         </div>
         <div class="w-8/12 mx-auto">
             <div class="flex h-96 bg-[#F5F5F5] m-12 rounded-2xl hover:bg-[#eaeaeb] hover:scale-110 hover:-trasnlate-y-1 hover:shadow-xl duration-300">
-                <div class="w-4/12 m-auto">foto</div>
+                <!-- <img src="@/assets/photorealistic-scene-with-warehouse-logistics-operations.jpg" alt="" class="w-4/12 rounded-l-2xl"> -->
+                <div class="w-4/12 h-96 m-auto ">foto</div>
                 <div class="w-5/12 my-4 ml-6 border-r-2 border-black">
                     <h3 class="text-5xl">Físicas</h3>
                     <ul>
@@ -61,19 +62,19 @@
                         </li>
                     </ul>
                 </div>
-                <div class="w-5/12 p-8 ml-6">
+                <div class="w-5/12 p-4 ml-4">
                     <h3 class="text-5xl">Elétricas</h3>
                     <ul>
                         <li class="text-2xl">
-                            <i class="fa-solid fa-car-battery mr-2 my-8"></i>
+                            <i class="fa-solid fa-car-battery mr-2 my-4"></i>
                             <span>Bateria: 63 A/h x 12 Vcc</span>
                         </li>
                         <li class="text-2xl">
-                            <i class="fa-solid fa-heart-pulse mr-2 my-8"></i>
+                            <i class="fa-solid fa-heart-pulse mr-2 my-4"></i>
                             <span>Vida da bateria: 48 horas</span>
                         </li>
                         <li class="text-2xl">
-                            <i class="fa-solid fa-bolt mr-2 my-8"></i>
+                            <i class="fa-solid fa-bolt mr-2 my-4"></i>
                             <span>Tempo de recarga 10 horas</span>
                         </li>
                     </ul>

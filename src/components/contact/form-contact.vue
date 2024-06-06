@@ -1,4 +1,5 @@
 <template>
+    <div class="bg-[#777777] h-96 mb-24">banner</div>
     <div class="flex flex-col justify-center items-center w-6/12 h-56 mx-auto border-b">
         <h3 class="text-6xl m-8">Fale conosco</h3>
         <h4 class="text-3xl">Entre em contato com nossa equipe</h4>

@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="bg-[#777777] h-72 mb-24">banner</div>
+        <div class="bg-[#777777] h-96 mb-24">banner</div>
         <div class="text-6xl flex justify-center mb-12">
             <h2>Projetos elétricos</h2>
         </div>
