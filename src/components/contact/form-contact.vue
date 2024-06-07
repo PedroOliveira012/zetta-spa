@@ -1,11 +1,13 @@
 <template>
-    <div class="bg-[#777777] h-96 mb-24">banner</div>
-    <div class="flex flex-col justify-center items-center w-6/12 h-56 mx-auto border-b">
-        <h3 class="text-6xl m-8">Fale conosco</h3>
-        <h4 class="text-3xl">Entre em contato com nossa equipe</h4>
+    <div class="h-96  flex flex-col justify-center items-center">
+        <img src="@/assets/pattern.png" alt="" class="opacity-10 -z-10">
+        <div class="absolute flex flex-col justify-center items-center w-6/12 h-48 mx-auto ">
+            <h3 class="text-6xl m-8">Fale conosco</h3>
+            <h4 class="text-3xl">Entre em contato com nossa equipe</h4>
+        </div>
     </div>
-    <section class="flex flex-row justify-center mx-auto mt-10 py-4 bg-gradient-to-b from-[#00aac0] to-[#005c66] ">
-        <div class="flex flex-col justify-center space-y-12 text-xl px-16 bg-white rounded-l-xl ">
+    <section class="flex flex-row justify-evenly mx-auto mt-10 py-4 bg-gradient-to-b from-[#00aac0] to-[#005c66] z-20">
+        <div class="flex flex-col justify-center space-y-12 text-xl mr- px-16 bg-white rounded-xl ">
             <div>
                 <i class="fa-solid fa-location-dot mr-2"></i>
                 <span>R. João Sierra, 245 - Distrito Industrial II, Araras-SP</span>
@@ -28,26 +30,50 @@
                 <span>Horario de funcionamento: de Segunda a Sexta das 7 às 17</span>
             </div>
         </div>
-        <div class="w-4/12 py-4 bg-white rounded-r-xl">
+        <div class="w-4/12 pt-2 bg-white rounded-xl">
             <form action="" class="flex flex-col justify-center space-y-8 text-xl bg-white p-8 border-l">
                 <div>
-                    <input type="text" placeholder="Nome completo" class="form-control">
+                    <input
+                        class="text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-[#00aac0] hover:shadow-lg hover:border-[#00aac0] bg-gray-100"
+                        placeholder="Nome completo"
+                        type="text"
+                    />
                 </div>
                 <div>
-                    <input type="email" placeholder="Email" class="form-control">
+                    <input
+                        class="text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-[#00aac0] hover:shadow-lg hover:border-[#00aac0] bg-gray-100"
+                        placeholder="Email"
+                        type="email"
+                    />
+                </div>
+                <div class="flex flex-row space-x-6">
+                    <input
+                        class="text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-[#00aac0] hover:shadow-lg hover:border-[#00aac0] bg-gray-100"
+                        placeholder="Telefone"
+                        v-mask="'(##) #####-####'"
+                        type="tel"
+                    />
+                    <input
+                        class="text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-[#00aac0] hover:shadow-lg hover:border-[#00aac0] bg-gray-100"
+                        placeholder="Celular"
+                        v-mask="'(##) #####-####'"
+                        type="tel"
+                    />
                 </div>
                 <div>
-                    <input type="tel" placeholder="Telefone" v-mask="'(##) #####-####'" class="form-control">
-                </div class="">
-                <div>
-                    <input type="tel" placeholder="Celular" v-mask="'(##) #####-####'" class="form-control">
-                </div>
-                <div>
-                    <textarea name="message" id="" placeholder="Mensagem" class="form-control h-36"></textarea>
+                    <textarea name="message" id="" placeholder="Mensagem" class="text-sm custom-input w-full h-28 px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-[#00aac0] hover:shadow-lg hover:border-[#00aac0] bg-gray-100"></textarea>
                 </div>
             </form>
-            <div class="mx-auto w-fit">
-                <button type="submit" class="w-24 h-12 rounded-2xl bg-[#00aac0] hover:shadow-2xl hover:-translate-y-1 hover:scale-110 hover:bg-[#00aac0] duration-300">Enviar</button>
+            <div class="mx-auto w-fit mb-6">
+                <button class="relative overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group">
+                    Enviar
+                    <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
+                    <span class="absolute w-36 h-32 -top-8 -left-2 bg-cyan-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
+                    <span class="absolute w-36 h-32 -top-8 -left-2 bg-cyan-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
+                    <span class="group-hover group-hover:duration-1000 duration-100 opacity-5 absolute w-36 h-32 top-2.5 -left-2 z-10">
+                        Enviar
+                    </span>
+                </button>
             </div>
         </div>
     </section>

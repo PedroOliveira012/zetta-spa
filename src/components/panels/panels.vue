@@ -16,7 +16,7 @@
             </div>
         </section>
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div class="size-fit border-2 border-cyan-500 rounded-l-full">
+            <div class="border-2 border-cyan-500 rounded-l-full">
                 <p>imagem</p>
             </div>
             <div class="w-12/12 relative">
@@ -34,12 +34,12 @@
                 </h3>
                 <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
-            <div class="size-fit border-2 border-cyan-500 rounded-r-full">
+            <div class="border-2 border-cyan-500 rounded-r-full">
                 <p>imagem</p>
             </div>
         </section>
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div class="size-fit border-2 border-cyan-500 rounded-l-full">
+            <div class="border-2 border-cyan-500 rounded-l-full">
                 <p>imagem</p>
             </div>
             <div class="w-12/12 relative">
@@ -57,12 +57,12 @@
                 </h3>
                 <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
-            <div class="size-fit border-2 border-cyan-500 rounded-r-full">
+            <div class="border-2 border-cyan-500 rounded-r-full">
                 <p>imagem</p>
             </div>
         </section>
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div class="size-fit border-2 border-cyan-500 rounded-l-full">
+            <div class="border-2 border-cyan-500 rounded-l-full">
                 <p>imagem</p>
             </div>
             <div class="w-12/12 relative">
