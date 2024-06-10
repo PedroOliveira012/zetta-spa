@@ -5,21 +5,21 @@
     </div>
     <div class="grid gap-4 grid-cols-1 grid-rows-3 place-content-evenly mt-24">
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-32 h-12/12">
-            <div class="w-12/12  relative">
+            <div v-motion-slide-visible-once-left :duration="1000" class="w-12/12  relative">
                 <h3 class="text-6xl mb-6 pt-12">
                     CCM CLP
                 </h3>
                 <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
-            <div class=" border-2 border-cyan-500 rounded-r-full">
+            <div v-motion-slide-visible-once-right :duration="1000" class=" border-2 border-cyan-500 rounded-r-full">
                 <p>imagem</p>
             </div>
         </section>
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div class="border-2 border-cyan-500 rounded-l-full">
+            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full">
                 <p>imagem</p>
             </div>
-            <div class="w-12/12 relative">
+            <div v-motion-slide-visible-once-right :duration="1000" class="w-12/12 relative">
                 <h3 class="text-6xl mb-6 pt-12">
                     QGBT
                 </h3>
@@ -28,21 +28,21 @@
             
         </section>
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div class="w-12/12 relative">
+            <div v-motion-slide-visible-once-left :duration="1000" class="w-12/12 relative">
                 <h3 class="text-6xl mb-6 pt-12">
                     QGD
                 </h3>
                 <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
-            <div class="border-2 border-cyan-500 rounded-r-full">
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full">
                 <p>imagem</p>
             </div>
         </section>
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div class="border-2 border-cyan-500 rounded-l-full">
+            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full">
                 <p>imagem</p>
             </div>
-            <div class="w-12/12 relative">
+            <div v-motion-slide-visible-once-right :duration="1000" class="w-12/12 relative">
                 <h3 class="text-6xl mb-6 pt-12">
                     Remotas
                 </h3>
@@ -51,21 +51,21 @@
             
         </section>
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div class="w-12/12 relative">
+            <div v-motion-slide-visible-once-left :duration="1000" class="w-12/12 relative">
                 <h3 class="text-6xl mb-6 pt-12">
                     Quadros de iluminação e tomadas
                 </h3>
                 <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
-            <div class="border-2 border-cyan-500 rounded-r-full">
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full">
                 <p>imagem</p>
             </div>
         </section>
         <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div class="border-2 border-cyan-500 rounded-l-full">
+            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full">
                 <p>imagem</p>
             </div>
-            <div class="w-12/12 relative">
+            <div v-motion-slide-visible-once-right :duration="1000" class="w-12/12 relative">
                 <h3 class="text-6xl mb-6 pt-12">
                     Média tensão SIMOSEC SIEMENS
                 </h3>
