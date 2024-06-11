@@ -15,11 +15,11 @@
             <div>
                 <!-- telefone -->
                 <i class="fa-solid fa-phone mr-2"></i>
-                <span>(99)9999-9999</span>
+                <span>(99) 9999-9999</span>
             </div>
             <div>
                 <i class="fa-solid fa-mobile mr-2"></i>
-                <span>(99)9999-9999</span>
+                <span>(99) 9999-9999</span>
             </div>
             <div>
                 <i class="fa-solid fa-envelope mr-2"></i>
@@ -27,7 +27,7 @@
             </div>
             <div>
                 <i class="fa-solid fa-clock mr-2"></i>
-                <span>Horario de funcionamento: de Segunda a Sexta das 7 às 17</span>
+                <span>Horario de funcionamento: de Segunda a Sexta das 7h às 17h</span>
             </div>
         </div>
         <div class="w-4/12 pt-2 bg-white rounded-xl">
@@ -70,7 +70,7 @@
                     <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
                     <span class="absolute w-36 h-32 -top-8 -left-2 bg-cyan-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
                     <span class="absolute w-36 h-32 -top-8 -left-2 bg-cyan-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left"></span>
-                    <span class="group-hover group-hover:duration-1000 duration-100 opacity-5 absolute w-36 h-32 top-2.5 -left-2 z-10">
+                    <span class="group-hover group-hover:duration-1000 duration-100 opacity-100 absolute w-36 h-32 top-2.5 -left-2 z-10">
                         Enviar
                     </span>
                 </button>

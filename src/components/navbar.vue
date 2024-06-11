@@ -24,7 +24,7 @@
                         link: {name: 'Home', url:''},
                     },
                     {
-                        link: {name: 'Paineis', url: 'panels'},
+                        link: {name: 'Painéis', url: 'panels'},
                     },
                     {
                         link: {name: 'Projetos', url: 'projects'},
