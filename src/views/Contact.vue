@@ -1,14 +1,14 @@
 <template>
-    <form-contact />
+    <contact-info />
     <map-component />
 </template>
 <script>
-    import FormContact from '@/components/contact/form-contact.vue'
+    import ContactInfo from '@/components/contact/contact-info.vue'
     import MapComponent from "@/components/contact/map-component.vue"
 
     export default{
         components:{
-            FormContact,
+            ContactInfo,
             MapComponent,
         }
     }
