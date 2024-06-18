@@ -22,11 +22,12 @@
                         </a>
                     </div>
                 </div>
-                <div class="flex flex-col justify-between md:h-full px-4 relative border-[#656567]
-                md:flex-col md:items-start md:border-l md:border-[#656567]
-                sm:w-full sm:h-3/6 sm:flex-row sm:max-md:border-t">
-                    <div class="absolute top-0 left-0
-                    md:w-full md:justify-start
+                <div class="flex px-4 relative border-[#656567]
+                md:max-2xl:flex-col md:justify-center md:items-center md:border-l md:border-[#656567] md:h-full
+                sm:w-full sm:h-3/6 sm:max-md:border-t">
+                    <div class="xl:w-8/12
+                    lg:w-11/12
+                    md:max-lg:w-full md:justify-start
                     sm:relative sm:flex sm:items-start sm:justify-center sm:items-center sm:w-6/12">
                         <div>
                             <span>Contato</span><br>
@@ -34,8 +35,9 @@
                             <span>teste@zettatecck.com.br</span>
                         </div>
                     </div>
-                    <div class="absolute bottom-0 right-0
-                    md:w-full md:flex md:justify-start
+                    <div class="xl:w-8/12
+                    lg:w-11/12
+                    md:max-lg:w-full md:flex md:justify-start
                     sm:relative sm:flex sm:items-end sm:justify-center sm:items-center sm:w-6/12">
                         <div>
                             <span>Telefone</span><br>
