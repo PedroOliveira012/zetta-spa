@@ -2,18 +2,22 @@
     <section class="mb-16">
         <div class="bg-[#777777] h-96 mb-16">banner</div>
         <div class="flex flex-col justify-center items-center mb-12">
-            <h3 class="text-4xl mb-6">Quem somos</h3>
-            <p class="text-xl text-center w-6/12">
-                Fundada em 13 de setembro de 2006, a ZETTATECCK PROJETOS INDUSTRIAIS E AUTOMAÇÃO LTDA é uma empresa especializada na fabricação de painéis elétricos de baixa tensão, controle e instrumentação, robôs sinalizadores, e na elaboração de projetos elétricos industriais e automação predial.
-                Nossa missão é inovar constantemente e desenvolver soluções que não apenas reduzam custos, mas também aumentem a produtividade e a qualidade. Comprometemo-nos a mitigar riscos relacionados à segurança do trabalho, garantindo um ambiente mais seguro para todos.
-                Na ZETTATECCK, valorizamos a criatividade e a tecnologia em cada projeto, buscando sempre a satisfação permanente de nossos clientes. Acreditamos no crescimento contínuo e na prosperidade, tanto da empresa quanto da comunidade.
+            <h3 class="text-4xl mb-6">Bem-vindo à Zettatecck</h3>
+            <p class="text-xl text-center w-6/12 text-justify">
+                Somos uma empresa especializada em tecnologia de alto nível. Trabalhamos no segmento de Engenharia Elétrica e Automação Industrial. 
+
+                Buscamos agregar nossa experiência para ajudar no desenvolvimento e nas melhores soluções para nossos clientes. 
+
+                Temos uma equipe altamente treinada e podemos lhe atender em todas as etapas do seu processo. Conheça um pouco mais da Zettatecck. Estamos a disposição para ajudar você a conquistar seus objetivos.
             </p>
-        </div>
-        <div class="flex flex-col justify-center items-center mb-12">
-            <h3 class="text-4xl mb-6">Nossa história</h3>
-            <p class="text-xl text-center w-6/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel lorem lacus. Sed maximus massa ac euismod egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque ac dignissim nunc. Phasellus tincidunt tincidunt arcu, eu dignissim diam mattis in. Nulla eleifend turpis ut porta interdum. Nam non eros interdum, vehicula mi vel, tempus arcu. Donec a ipsum quis purus ullamcorper mattis non eu lacus. Duis ex velit, tristique et pretium eget, bibendum nec mauris. Donec dignissim rhoncus elit eget rhoncus. Donec facilisis libero sit amet justo blandit blandit. Vivamus eleifend sagittis lacus ut varius. Nulla arcu arcu, cursus et ornare et, euismod ac justo. Donec convallis rutrum tellus, in fringilla turpis mattis et.</p>
-        </div>
-    </section>
+            </div>
+            <div class="flex flex-col justify-center items-center mb-12">
+                <h3 class="text-4xl mb-6">Quem somos</h3>
+                <p class="text-xl text-center w-6/12">
+                    Fundada em 2011, a ZETTATECCK PROJETOS INDUSTRIAIS E AUTOMAÇÃO LTDA é especializada na fabricação de painéis elétricos de baixa tensão, controle e instrumentação, robôs sinalizadores, e na elaboração de projetos elétricos industriais e automação predial. Nossa missão é inovar constantemente, desenvolvendo soluções que reduzem custos e aumentam a produtividade e a qualidade. Comprometemo-nos a mitigar riscos de segurança do trabalho, garantindo um ambiente mais seguro para todos.
+                </p>
+            </div>
+        </section>
     <section class="my-16">
         <div class="flex flex-col justify-center items-center mb-6">
             <h3 class="text-4xl mb-6">Pilares da nossa empresa</h3>
@@ -27,8 +31,8 @@
                     <h4 class="text-2xl">Missão</h4>
                 </div>
                 <div class="h-5/6">
-                    <p class="text-center">
-                        Desenvolver projetos, equipamentos e serviços aplicando constantemente tecnologia e criatividade, buscando a satisfação permanente dos nossos clientes, valorizando nossos colaboradores e fornecedores para que aperfeiçoem constantemente suas habilidades na busca do sucesso e prosperidade da empresa, comunidade e de si mesmo.
+                    <p class="text-center tracking-wider text-sm">
+                        Desenvolver projetos, equipamentos e serviços inovadores, combinando tecnologia e criatividade para garantir a satisfação contínua dos nossos clientes. Valorizamos nossos colaboradores e fornecedores, incentivando o aperfeiçoamento constante de suas habilidades, visando ao sucesso e à prosperidade da empresa, da comunidade e de cada indivíduo.    
                     </p>
                 </div>
             </div>
@@ -40,8 +44,8 @@
                     <h4 class="text-2xl">Visão</h4>
                 </div>
                 <div class="h-5/6">
-                    <p class="text-center">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eros erat, molestie ut tincidunt et, iaculis nec libero. Maecenas id consequat eros, et semper dolor. Duis non nisi eget diam ultrices imperdiet. Cras tristique sagittis dictum.
+                    <p class="text-center tracking-wider ">
+                        Na ZETTATECCK, cultivamos a criatividade e a tecnologia em cada projeto, buscando sempre a satisfação dos nossos clientes. Acreditamos no crescimento contínuo e na prosperidade compartilhada da empresa e da comunidade.    
                     </p>
                 </div>
             </div>
@@ -53,9 +57,8 @@
                     <h4 class="text-2xl">Valores</h4>
                 </div>
                 <div class="h-5/6">
-                    <p class="text-center">
-                        Produzir equipamentos e serviços com a máxima qualidade, cumprir os prazos de entrega e custos previstos, buscar constantemente soluções com viabilidade técnica e economia, e aplicar as melhores soluções envolvendo sempre: tecnologia, criatividade e flexibilidade    
-                    </p>
+                    <p class="text-center tracking-wider">
+                        Produzimos equipamentos e serviços de alta qualidade, cumprindo prazos e custos planejados. Buscamos soluções tecnicamente viáveis e econômicas, aplicando sempre a melhor tecnologia, criatividade e flexibilidade.</p>
                 </div>
             </div>
         </div>
