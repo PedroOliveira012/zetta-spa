@@ -1,9 +1,12 @@
 <template>
     <section class="mb-16">
-        <div class="bg-[#777777] h-96 mb-16">banner</div>
+        <div class="bg-[#777777] h-96 mb-16
+        lg:max-xl:h-80
+        sm:max-lg:h-64">banner</div>
         <div class="flex flex-col justify-center items-center mb-12">
             <h3 class="text-4xl mb-6">Bem-vindo à Zettatecck</h3>
-            <p class="text-xl text-center w-6/12 text-justify">
+            <p class="text-xl text-center w-6/12 text-justify
+            sm:max-xl:text-lg sm:max-2xl:w-10/12 sm:max-xl:tracking-wider">
                 Somos uma empresa especializada em tecnologia de alto nível. Trabalhamos no segmento de Engenharia Elétrica e Automação Industrial. 
 
                 Buscamos agregar nossa experiência para ajudar no desenvolvimento e nas melhores soluções para nossos clientes. 
@@ -13,7 +16,8 @@
         </div>
         <div class="flex flex-col justify-center items-center mb-12">
             <h3 class="text-4xl mb-6">Quem somos</h3>
-            <p class="text-xl text-center w-6/12">
+            <p class="text-xl text-center w-6/12
+            sm:max-xl:text-lg sm:max-2xl:w-10/12 sm:max-xl:tracking-wider">
                 Fundada em 2011, a ZETTATECCK PROJETOS INDUSTRIAIS E AUTOMAÇÃO LTDA é especializada na fabricação de painéis elétricos de baixa tensão, controle e instrumentação, robôs sinalizadores, e na elaboração de projetos elétricos industriais e automação predial. Nossa missão é inovar constantemente, desenvolvendo soluções que reduzem custos e aumentam a produtividade e a qualidade. Comprometemo-nos a mitigar riscos de segurança do trabalho, garantindo um ambiente mais seguro para todos.
             </p>
         </div>
