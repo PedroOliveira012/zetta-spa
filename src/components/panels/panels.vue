@@ -1,81 +1,99 @@
 <template>
-    <div class="bg-[#777777] h-96 mb-24">banner</div>
+    <div class="bg-[#777777] h-96 mb-16
+        lg:max-xl:h-80
+        sm:max-lg:h-64">banner</div>
     <div class="text-6xl flex justify-center mb-12">
         <h2>Painéis elétricos</h2>
     </div>
-    <div class="grid gap-4 grid-cols-1 grid-rows-3 place-content-evenly mt-24">
-        <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-32 h-12/12">
-            <div v-motion-slide-visible-once-left :duration="1000" class="w-12/12  relative">
-                <h3 class="text-6xl mb-6 pt-12">
+    <div class="grid gap-4 grid-cols-1 mt-24
+    sm:max-md:gap-1 sm:max-md:mt-0">
+        <section class="flex items-center gap-4 m-auto px-12 pb-32 h-full w-full
+        sm:max-lg:flex-col sm:max-lg:pb-24
+        ">
+            <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative">
+                <h3 class="text-6xl mb-6">
                     CCM CLP
                 </h3>
-                <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">
+                    consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.
+                </p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class=" border-2 border-cyan-500 rounded-r-full">
+            <div v-motion-slide-visible-once-right :duration="1000" class=" border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
+            sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-autosm:max-lg:w-8/12 sm:max-lg:mx-auto">
                 <p>imagem</p>
             </div>
         </section>
-        <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full">
+        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        sm:max-lg:flex-col-reverse sm:max-lg:mt-12 sm:max-lg:pb-24">
+            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
+            sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-autosm:max-lg:w-8/12 sm:max-lg:mx-auto">
                 <p>imagem</p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="w-12/12 relative">
-                <h3 class="text-6xl mb-6 pt-12">
+            <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8">
+                <h3 class="text-6xl mb-6">
                     QGBT
                 </h3>
-                <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
             
         </section>
-        <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div v-motion-slide-visible-once-left :duration="1000" class="w-12/12 relative">
-                <h3 class="text-6xl mb-6 pt-12">
+        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        sm:max-lg:flex-col sm:max-lg:pb-24">
+            <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8">
+                <h3 class="text-6xl mb-6">
                     QGD
                 </h3>
-                <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full">
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
+            sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto">
                 <p>imagem</p>
             </div>
         </section>
-        <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full">
+        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        sm:max-lg:flex-col-reverse sm:max-lg:mt-12 sm:max-lg:pb-24">
+            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
+            sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto">
                 <p>imagem</p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="w-12/12 relative">
-                <h3 class="text-6xl mb-6 pt-12">
+            <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8">
+                <h3 class="text-6xl mb-6">
                     Remotas
                 </h3>
-                <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
             
         </section>
-        <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div v-motion-slide-visible-once-left :duration="1000" class="w-12/12 relative">
-                <h3 class="text-6xl mb-6 pt-12">
+        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        sm:max-lg:flex-col sm:max-lg:pb-24">
+            <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-4">
+                <h3 class="text-6xl mb-6 sm:max-xl:text-4xl">
                     Quadros de iluminação e tomadas
                 </h3>
-                <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full">
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
+            sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto">
                 <p>imagem</p>
             </div>
         </section>
-        <section class="grid gap-4 grid-cols-2 grid-rows-1 content-center m-auto pl-36 pr-36 pb-24">
-            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full">
+        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        sm:max-lg:flex-col-reverse sm:max-lg:mt-12 sm:max-lg:pb-24">
+            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
+            sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto">
                 <p>imagem</p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="w-12/12 relative">
-                <h3 class="text-6xl mb-6 pt-12">
+            <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8">
+                <h3 class="text-6xl mb-6 sm:max-xl:text-5xl">
                     Média tensão SIMOSEC SIEMENS
                 </h3>
-                <p class="text-2xl pb-12">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
             </div>
             
         </section>
     </div>
     <div>
-        <h3 class="text-5xl ml-24 mb-6 pt-12">Conheça alguns dos nossos cases mais recentes: </h3>
+        <h3 class="text-5xl ml-24 mb-6">Conheça alguns dos nossos cases mais recentes: </h3>
         <section class="mx-auto">
             <div id="carouselCaptions" class="carousel slide">
             <div class="carousel-indicators">
@@ -148,3 +166,10 @@
     }
 
 </script>
+<style>
+    /* @media (min-width: 900px) and (max-width: 1023px) {
+      .bg-md-mid-custom {
+        background-color: blue;
+      }
+    } */
+</style>
