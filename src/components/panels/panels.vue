@@ -15,7 +15,7 @@
                     CCM CLP
                 </h3>
                 <p class="text-2xl">
-                    consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.
+                    Nosso CCM (Centro de Controle de Máquinas) é projetado conforme a norma ABNT NBR IEC 61439-1&2, garantindo alto desempenho e confiabilidade. Com acesso frontal a todas as conexões, facilita intervenções rápidas e mantém a operação contínua. O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.    
                 </p>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class=" border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
@@ -33,7 +33,9 @@
                 <h3 class="text-6xl mb-6">
                     QGBT
                 </h3>
-                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">
+                    consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.
+                </p>
             </div>
             
         </section>
@@ -41,9 +43,11 @@
         sm:max-lg:flex-col sm:max-lg:pb-24">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8">
                 <h3 class="text-6xl mb-6">
-                    QGD
+                    Banco de Capacitores
                 </h3>
-                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">
+                    Os Painéis de Banco de Capacitores são projetados para atender às necessidades específicas dos clientes, com alta qualidade e correção automática do fator de potência, garantindo eficiência conforme a norma ABNT NBR IEC 61439-1&2. Conexões frontais reduzem o tempo de intervenção, e o design otimiza o espaço e facilita o acesso, assegurando confiabilidade e segurança para instalações e operadores.  
+                </p>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
             sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto">
@@ -60,7 +64,9 @@
                 <h3 class="text-6xl mb-6">
                     Remotas
                 </h3>
-                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">
+                    consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.
+                </p>
             </div>
             
         </section>
@@ -70,7 +76,9 @@
                 <h3 class="text-6xl mb-6 sm:max-xl:text-4xl">
                     Quadros de iluminação e tomadas
                 </h3>
-                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">
+                    O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona rápida intervenção e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer fácil acessibilidade ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.    
+                </p>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
             sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto">
@@ -87,7 +95,9 @@
                 <h3 class="text-6xl mb-6 sm:max-xl:text-5xl">
                     Média tensão SIMOSEC SIEMENS
                 </h3>
-                <p class="text-2xl">consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.</p>
+                <p class="text-2xl">
+                    consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.
+                </p>
             </div>
             
         </section>
@@ -166,10 +176,3 @@
     }
 
 </script>
-<style>
-    /* @media (min-width: 900px) and (max-width: 1023px) {
-      .bg-md-mid-custom {
-        background-color: blue;
-      }
-    } */
-</style>
