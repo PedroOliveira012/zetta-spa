@@ -1,13 +1,71 @@
 <template>
     <div class="bg-gradient-to-b from-[#00aac0] to-[#005c66] p-16 mb-16">
         <h3 class="text-white text-6xl mb-6">Conheça nossos parceiros</h3>
-        <section class="grid grid-cols-4">
-            <div v-for="partner in partners" :key="partner.name" class="rounded-2xl w-52 h-32 mx-auto my-7 bg-white flex items-center justify-center p-6 hover:shadow-2xl hover:-translate-y-1 hover:scale-110  duration-300">
-                <div class="flex items-center justify-center h-full w-full">
-                    <img :src="partner.logo" :alt="partner.alt" class="max-h-full max-w-full object-contain">
+        <div class="hidden lg:block">
+            <section class="grid grid-cols-4">
+                <div v-for="partner in partners" :key="partner.name" class="rounded-2xl w-52 h-32 mx-auto my-7 bg-white flex items-center justify-center p-6 hover:shadow-2xl hover:-translate-y-1 hover:scale-110 duration-300">
+                    <div class="flex items-center justify-center h-full w-full">
+                        <img :src="partner.logo" :alt="partner.alt" class="max-h-full max-w-full object-contain">
+                    </div>
                 </div>
+            </section>
+        </div>
+        <div class="lg:hidden">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators sm:max-lg:hidden">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around">
+                            <div v-for="(partner, index) in partners.slice(0, 3)" :key="partner.name" class="rounded-2xl w-52 h-32 mx-2 my-7 bg-white flex items-center justify-center p-6">
+                                <div class="flex items-center justify-center h-full w-full">
+                                    <img :src="partner.logo" :alt="partner.alt" class="max-h-full max-w-full object-contain">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around">
+                            <div v-for="(partner, index) in partners.slice(3, 6)" :key="partner.name" class="rounded-2xl w-52 h-32 mx-2 my-7 bg-white flex items-center justify-center p-6">
+                                <div class="flex items-center justify-center h-full w-full">
+                                    <img :src="partner.logo" :alt="partner.alt" class="max-h-full max-w-full object-contain">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around">
+                            <div v-for="(partner, index) in partners.slice(6, 9)" :key="partner.name" class="rounded-2xl w-52 h-32 mx-2 my-7 bg-white flex items-center justify-center p-6">
+                                <div class="flex items-center justify-center h-full w-full">
+                                    <img :src="partner.logo" :alt="partner.alt" class="max-h-full max-w-full object-contain">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around">
+                            <div v-for="(partner, index) in partners.slice(9, 12)" :key="partner.name" class="rounded-2xl w-52 h-32 mx-2 my-7 bg-white flex items-center justify-center p-6">
+                                <div class="flex items-center justify-center h-full w-full">
+                                    <img :src="partner.logo" :alt="partner.alt" class="max-h-full max-w-full object-contain">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </section>
+        </div>
     </div>
 </template>
 
