@@ -15,7 +15,11 @@ module.exports = {
     'src/components/navbar.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens:{
+        'xs':'410'
+      }
+    },
   },
   plugins: [],
 }
