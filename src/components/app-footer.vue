@@ -28,7 +28,7 @@
                     <div class="xl:w-8/12
                     lg:w-11/12
                     md:max-lg:w-full md:justify-start
-                    sm:relative sm:flex sm:items-start sm:justify-center sm:items-center sm:w-6/12">
+                    sm:relative sm:flex sm:items-start sm:justify-center sm:w-6/12">
                         <div>
                             <span>Contato</span><br>
                             <span><i class="fa-solid fa-envelope mr-2"></i></span>
@@ -38,7 +38,7 @@
                     <div class="xl:w-8/12
                     lg:w-11/12
                     md:max-lg:w-full md:flex md:justify-start
-                    sm:relative sm:flex sm:items-end sm:justify-center sm:items-center sm:w-6/12">
+                    sm:relative sm:flex sm:items-end sm:justify-center sm:w-6/12">
                         <div>
                             <span>Telefone</span><br>
                             <span><i class="fa-solid fa-phone mr-2"></i></span>

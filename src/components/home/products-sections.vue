@@ -10,7 +10,8 @@
                     Painéis elétricos são fundamentais para eficiência e controle. Na Zettatecck, oferecemos uma gama completa de alta qualidade, projetados para aplicações industriais e comerciais. Com tecnologia avançada para máxima eficiência energética e conformidade com padrões de segurança rigorosos, garantimos confiabilidade e redução de tempo de inatividade. Descubra a solução ideal para seu negócio conosco.
                 </p>
                 <router-link to="/panels">
-                    <button class="absolute bottom-0 sm:max-lg:bottom-5 right-0 overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group">
+                    <button class="absolute right-0 overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group
+                    sm:max-lg:bottom-10 lg:bottom-0 ">
                         Saiba mais!
                         <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
                         <span class="absolute w-36 h-32 -top-8 -left-2 bg-cyan-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
@@ -42,7 +43,8 @@
                     Nossos projetos elétricos industriais são projetados sob medida para atender às necessidades específicas de cada cliente, garantindo eficiência e segurança em ambientes industriais. Com tecnologia avançada e estrita conformidade com normas de segurança, oferecemos soluções que proporcionam alta performance e confiabilidade. Descubra como podemos otimizar seus processos industriais com nossos serviços especializados em projetos elétricos.
                 </p>
                 <router-link to="/projects">
-                    <button class="absolute bottom-0 sm:max-lg:bottom-5 right-0 overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group">
+                    <button class="absolute right-0 overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group
+                    sm:max-lg:bottom-10 lg:bottom-0 ">
                         Saiba mais!
                         <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
                         <span class="absolute w-36 h-32 -top-8 -left-2 bg-cyan-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
@@ -65,7 +67,8 @@
                     Robôs sinalizadores para rodovias são essenciais para melhorar a segurança e eficiência do tráfego. Nossa linha de produtos inclui robôs avançados projetados para operar de forma autônoma, utilizando tecnologia de comunicação em tempo real e adaptação às condições do trânsito. Descubra como nossas soluções podem transformar a gestão de tráfego em suas estradas. 
                 </p>
                 <router-link to="/robots">
-                    <button class="absolute bottom-0 sm:max-lg:bottom-5 right-0 overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group">
+                    <button class="absolute right-0 overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group
+                    sm:max-lg:bottom-10 lg:bottom-0 ">
                         Saiba mais!
                         <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
                         <span class="absolute w-36 h-32 -top-8 -left-2 bg-cyan-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
