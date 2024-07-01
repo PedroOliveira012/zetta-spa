@@ -29,8 +29,10 @@
                 <span>(99) 9999-9999</span>
             </div>
             <div>
-                <i class="fa-solid fa-mobile mr-2"></i>
-                <span>(99) 9999-9999</span>
+                <a href="https://wa.me/5519989394227">
+                    <i class="fa-brands fa-square-whatsapp mr-2"></i>
+                    <span>(19) 98939-4227</span>
+                </a>
             </div>
             <div>
                 <i class="fa-solid fa-envelope mr-2"></i>
