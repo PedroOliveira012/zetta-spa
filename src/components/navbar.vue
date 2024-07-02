@@ -2,11 +2,11 @@
     <nav class="navbar sticky top-0 bg-dark text-white z-50 xs:w-full">
         <div class="container-fluid flex items-center justify-between w-full py-4 px-4">
             <a class="navbar-brand" href="/">
-                <div class="w-64">
+                <div class="w-64 xs:max-sm:w-44">
                     <img src="../assets/logo zetta.png" alt="Logo">
                 </div>
             </a>
-            <button class="block lg:hidden mr-6" type="button" data-bs-toggle="offcanvas"
+            <button class="block lg:hidden mr-6 xs:max-sm:mr-2" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <i class="fa-solid fa-bars text-white text-4xl"></i>
             </button>
