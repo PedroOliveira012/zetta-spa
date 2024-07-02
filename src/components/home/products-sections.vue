@@ -1,9 +1,10 @@
 <template>
     <div class="grid gap-4 grid-cols-1 place-content-evenly mt-24">
         <section class="flex items-center gap-4 m-auto px-20 pb-32 h-full w-full
-        sm:max-lg:flex-col sm:max-lg:pb-24">
-            <div v-motion-slide-left :duration="1000" class="flex flex-col w-full h-full relative lg:w-6/12 sm:max-lg:h-4/6">
-                <h3 class="text-6xl mb-6 sm:max-xl:text-5xl">
+        xs:max-lg:flex-col xs:max-lg:pb-16
+        xs:max-sm:px-3">
+            <div v-motion-slide-left :duration="1000" class="flex flex-col w-full h-full relative lg:w-6/12 xs:max-lg:h-5/6">
+                <h3 class="text-6xl mb-6 xs:max-xl:text-4xl">
                     Painéis elétricos
                 </h3>
                 <p class="text-xl pb-12 sm:max-xl:text-lg">
@@ -11,7 +12,7 @@
                 </p>
                 <router-link to="/panels">
                     <button class="absolute right-0 overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group
-                    sm:max-lg:bottom-10 lg:bottom-0 ">
+                    xs:max-lg:bottom-10 lg:bottom-0 ">
                         Saiba mais!
                         <span class="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"></span>
                         <span class="absolute w-36 h-32 -top-8 -left-2 bg-cyan-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"></span>
@@ -24,19 +25,23 @@
             </div>
             <div v-motion-slide-right :duration="1000" class="h-96 border-2 border-cyan-500 rounded-r-full
             lg:w-6/12
-            sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto">
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-full xs:max-sm:h-72">
                 <p>imagem</p>
             </div>
         </section>
         <section class="flex items-center gap-4 m-auto px-20 pb-32 h-full w-full
-        sm:max-lg:flex-col-reverse sm:max-lg:mt-12 sm:max-lg:pb-24">
+        xs:max-lg:flex-col-reverse sm:max-lg:mt-12 sm:max-lg:pb-24
+        xs:max-lg:pb-16
+        xs:max-sm:px-3">
             <div v-motion-slide-visible-once-left :duration="1000" class="h-96 border-2 border-cyan-500 rounded-l-full
             lg:w-6/12
-            sm:max-lg:h-80 sm:max-lg:rounded-2xl mx-auto sm:max-lg:w-8/12 sm:max-lg:mx-auto">
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-full xs:max-sm:h-72">
                 <p>imagem</p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12">
-                <h3 class="text-6xl mb-6 sm:max-xl:text-5xl">
+            <div v-motion-slide-visible-once-right :duration="1000" class="w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
+                <h3 class="text-6xl mb-6 sm:max-xl:text-5xl xs:max-sm:text-center xs:max-xl:text-4xl">
                     Projetos elétricos
                 </h3>
                 <p class="text-xl pb-12 sm:max-xl:text-lg">
@@ -58,9 +63,10 @@
             
         </section>
         <section class="flex items-center gap-4 m-auto px-20 pb-32 h-full w-full
-        sm:max-lg:flex-col sm:max-lg:pb-24">
-            <div v-motion-slide-left :duration="1000" class="flex flex-col w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12">
-                <h3 class="text-6xl mb-6 sm:max-xl:text-5xl">
+        xs:max-lg:flex-col xs:max-lg:pb-16
+        xs:max-sm:px-3">
+            <div v-motion-slide-left :duration="1000" class="flex flex-col w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
+                <h3 class="text-6xl mb-6 sm:max-xl:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Robôs sinalizadores
                 </h3>
                 <p class="text-xl pb-12 sm:max-xl:text-lg">
@@ -81,7 +87,8 @@
             </div>
             <div v-motion-slide-right :duration="1000" class="h-96 border-2 border-cyan-500 rounded-r-full
             lg:w-6/12
-            sm:max-lg:h-80 sm:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto">
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-full xs:max-sm:h-72">
                 <p>imagem</p>
             </div>
         </section>
