@@ -4,10 +4,10 @@
         xs:max-lg:flex-col xs:max-lg:pb-16
         xs:max-sm:px-3">
             <div v-motion-slide-left :duration="1000" class="flex flex-col w-full h-full relative lg:w-6/12 xs:max-lg:h-5/6">
-                <h3 class="text-6xl mb-6 xs:max-xl:text-4xl">
+                <h3 class="text-6xl mb-6 sm:max-xl:text-5xl xs:max-sm:text-center xs:max-xl:text-4xl">
                     Painéis elétricos
                 </h3>
-                <p class="text-xl pb-12 sm:max-xl:text-lg">
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-center xs:max-sm:pb-12">
                     Painéis elétricos são fundamentais para eficiência e controle. Na Zettatecck, oferecemos uma gama completa de alta qualidade, projetados para aplicações industriais e comerciais. Com tecnologia avançada para máxima eficiência energética e conformidade com padrões de segurança rigorosos, garantimos confiabilidade e redução de tempo de inatividade. Descubra a solução ideal para seu negócio conosco.
                 </p>
                 <router-link to="/panels">
@@ -44,7 +44,7 @@
                 <h3 class="text-6xl mb-6 sm:max-xl:text-5xl xs:max-sm:text-center xs:max-xl:text-4xl">
                     Projetos elétricos
                 </h3>
-                <p class="text-xl pb-12 sm:max-xl:text-lg">
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-center xs:max-sm:pb-8">
                     Nossos projetos elétricos industriais são projetados sob medida para atender às necessidades específicas de cada cliente, garantindo eficiência e segurança em ambientes industriais. Com tecnologia avançada e estrita conformidade com normas de segurança, oferecemos soluções que proporcionam alta performance e confiabilidade. Descubra como podemos otimizar seus processos industriais com nossos serviços especializados em projetos elétricos.
                 </p>
                 <router-link to="/projects">
@@ -69,7 +69,7 @@
                 <h3 class="text-6xl mb-6 sm:max-xl:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Robôs sinalizadores
                 </h3>
-                <p class="text-xl pb-12 sm:max-xl:text-lg">
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-center xs:max-sm:pb-8">
                     Robôs sinalizadores para rodovias são essenciais para melhorar a segurança e eficiência do tráfego. Nossa linha de produtos inclui robôs avançados projetados para operar de forma autônoma, utilizando tecnologia de comunicação em tempo real e adaptação às condições do trânsito. Descubra como nossas soluções podem transformar a gestão de tráfego em suas estradas. 
                 </p>
                 <router-link to="/robots">
