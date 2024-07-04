@@ -13,8 +13,8 @@
             <div class="hidden lg:flex lg:items-center lg:justify-center lg:mx-auto">
                 <ul class="navbar-nav flex flex-row lg:justify-end xl:justify-center">
                     <li v-for="(page, index) in pages" :key="index"
-                        class="nav-item mx-4 border-b-2 border-[#212529] hover:border-[#00aac0] transition ease-in-out delay-30 duration-300 sm:text-xs md:text-sm lg:text-base">
-                        <router-link :to="'/' + page.link.url" class="nav-link text-[#96989a] hover:text-white"
+                        class="nav-item mx-4   transition ease-in-out delay-30 duration-300 sm:text-xs md:text-sm lg:text-base">
+                        <router-link :to="'/' + page.link.url" class="nav-link text-[#96989a] border-b-2 border-[#212529] hover:border-[#00aac0] hover:text-white"
                             exact-active-class="active-link">
                             {{ page.link.name }}
                         </router-link>
@@ -72,5 +72,6 @@ export default {
 <style scoped>
 .active-link {
     border-bottom: 2px solid #00aac0;
+    color:white;
 }
 </style>
