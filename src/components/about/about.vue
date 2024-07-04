@@ -36,8 +36,7 @@
                 2xl: as tres alinhadas numa linha com espaçamento igual
                 xl: as tres alinhadas numa linha com espaçamento igual
                 lg: missao em cima e visao e valore em baixo 
-                md: as tres empilhadas com w-6/12
-                sm: as tres empilhadas com w-6/12
+                md ~ xs: as tres empilhadas com w-6/12
             -->
 
             <!-- div da missao -->
@@ -49,7 +48,7 @@
                 xl:max-2xl:px-6 xl:w-10/12
                 lg:max-xl:w-4/12
                 sm:w-6/12
-                xs:w-10/12">
+                xs:w-10/12 xs:max-md:px-4">
                 <div class="flex justify-center w-full h-1/6">
                     <i class="fa-solid fa-flag text-4xl mb-4"></i>
                 </div>
@@ -57,7 +56,11 @@
                         <h4 class="text-2xl">Missão</h4>
                     </div>
                     <div class="h-5/6">
-                        <p class="text-center tracking-wider text-sm xl:max-2xl:tracking-wide lg:max-xl:tracking-normal xs:max-md:text-xs xs:max-md:tracking-widest">
+                        <p class="text-center tracking-wider text-base 
+                        xl:max-2xl:tracking-wide 
+                        lg:max-xl:tracking-normal 
+                        md:text-sm
+                        xs:max-md:text-xs xs:max-md:tracking-widest">
                             Desenvolver projetos, equipamentos e serviços inovadores, combinando tecnologia e criatividade para garantir a satisfação contínua dos nossos clientes. Valorizamos nossos colaboradores e fornecedores, incentivando o aperfeiçoamento constante de suas habilidades, visando ao sucesso e à prosperidade da empresa, da comunidade e de cada indivíduo.    
                         </p>
                     </div>
@@ -73,7 +76,7 @@
                 xl:max-2xl:px-6 xl:w-10/12
                 lg:max-xl:w-full
                 sm:w-6/12
-                xs:w-10/12">
+                xs:w-10/12 xs:max-md:px-4">
                     <div class="flex justify-center w-full h-1/6">
                         <i class="fas fa-eye text-4xl"></i>
                     </div>
@@ -81,7 +84,7 @@
                         <h4 class="text-2xl">Visão</h4>
                     </div>
                     <div class="h-5/6">
-                        <p class="text-center text-xs tracking-wider ">
+                        <p class="text-center text-base tracking-wider xl:max-2xl:tracking-wide lg:max-xl:tracking-normal xs:max-md:text-sm xs:max-md:tracking-widest">
                             Na ZETTATECCK, cultivamos a criatividade e a tecnologia em cada projeto, buscando sempre a satisfação dos nossos clientes. Acreditamos no crescimento contínuo e na prosperidade compartilhada da empresa e da comunidade.    
                         </p>
                     </div>
@@ -97,15 +100,16 @@
                 xl:max-2xl:px-6 xl:w-10/12
                 lg:max-xl:w-full
                 sm:w-6/12
-                xs:w-10/12">
+                xs:w-10/12 xs:max-md:px-4
+                ">
                     <div class="flex justify-center w-full h-1/6">
                         <i class="fas fa-handshake text-4xl mb-4"></i>
                     </div>
                     <div class="flex justify-center w-full h-1/6">
                         <h4 class="text-2xl">Valores</h4>
                     </div>
-                    <div class="h-5/6">
-                        <p class="text-center text-xs tracking-wider">
+                    <div class="h-5/6 xs:max-sm:w-full">
+                        <p class="text-center text-base tracking-wider xl:max-2xl:tracking-wide lg:max-xl:tracking-normal xs:max-md:text-sm xs:max-md:tracking-widest">
                             Produzimos equipamentos e serviços de alta qualidade, cumprindo prazos e custos planejados. Buscamos soluções tecnicamente viáveis e econômicas, aplicando sempre a melhor tecnologia, criatividade e flexibilidade.</p>
                     </div>
                 </div>
