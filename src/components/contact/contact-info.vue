@@ -3,7 +3,7 @@
         md:max-lg:h-60
         xs:max-md:h-52
         ">
-        <img src="@/assets/topography.svg" alt="" class="opacity-15 w-full -z-10">
+        <img src="@/assets/topography.svg" alt="" class="opacity-15 w-full sm:pb-96 -z-10">
          
         <div class="absolute flex flex-col justify-center items-center w-6/12 h-96 mx-auto xs:max-sm:w-full">
             <h3 class="text-6xl m-8
