@@ -27,7 +27,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72">
-                <img src="@/assets/media/home/paineis.jpg" class="h-full w-full rounded-r-full
+                <img src="@/assets/media/home/paineis.jpg" class="h-full w-fit
             xs:max-lg:rounded-2xl sm:max-lg:mx-auto
             " alt="">
             </div>
