@@ -109,7 +109,9 @@
         </section>
     </div>
     <div class="xs:max-sm:mx-auto xs:max-sm:w-11/12">
-        <h3 class="text-5xl ml-24 mb-6 xs:text-3xl xs:ml-0 xs:text-center xs:mx-auto">Conheça alguns dos nossos cases mais recentes: </h3>
+        <h3 class="text-5xl ml-24 mb-6 
+        sm:px-16 
+        xs:text-3xl xs:ml-0 xs:text-center xs:mx-auto">Conheça alguns dos nossos cases mais recentes: </h3>
         <section class="mx-auto">
             <div id="carouselCaptions" class="carousel slide">
             <div class="carousel-indicators">

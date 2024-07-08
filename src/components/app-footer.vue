@@ -1,13 +1,13 @@
 <template>
     <div class="bg-[#131313]">
-        <footer class="text-[#656567] p-24 xs:p-4">
+        <footer class="text-[#656567] p-24 xs:p-4 md:p-8">
             <div class="grid grid-cols-3 h-36 w-12/12 mx-auto
             lg:h-32 lg:text-base
-            md:h-28 md:text-sm md:grid
+            md:h-28 md:text-sm md:grid 
             xs:h-52 xs:text-sm xs:flex xs:flex-col">
-                <div class="flex justify-center items-center px-6 
+                <div class="flex justify-center items-center px-6 w-full
                 md:h-full md:border-r md:border-[#656567]
-                xs:w-fit xs:h-2/6 xs:max-md:border-b xs:border-[#656567]">
+                xs:max-sm:w-fit xs:h-2/6 xs:max-md:border-b xs:border-[#656567]">
                     <img src="../assets/logo zetta.png" alt="" class="
                     xs:max-md:h-full xs:max-lg:pb-3">
                 </div>
@@ -23,8 +23,9 @@
                     </div>
                 </div>
                 <div class="flex sm:px-4 relative border-[#656567]
-                md:max-2xl:flex-col md:justify-center md:items-center md:border-l md:border-[#656567] md:h-full
-                xs:w-full xs:h-3/6 xs:max-md:border-t xs:px-1 xs:justify-between">
+                md:max-2xl:flex-col md:justify-evenly md:items-center md:border-l md:border-[#656567] md:h-full
+                sm:justify-evenly
+                xs:w-full xs:h-3/6 xs:max-md:border-t xs:px-1 xs:max-sm:justify-between">
                     <div class="xl:w-8/12
                     lg:w-11/12
                     md:max-lg:w-full md:justify-start
