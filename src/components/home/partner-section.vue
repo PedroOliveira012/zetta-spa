@@ -137,40 +137,40 @@
             return{
                 partners:[
                     {
-                        name: 'Legrand', logo: require('@/assets/legrand.png'), alt: 'Logo de Legrand'
+                        name: 'Legrand', logo: require('@/assets/logos/legrand.png'), alt: 'Logo de Legrand'
                     },
                     {
-                        name: 'Holec', logo: require('@/assets/holec.png'), alt: 'Logo de Holec'
+                        name: 'Holec', logo: require('@/assets/logos/holec.png'), alt: 'Logo de Holec'
                     },
                     {
-                        name: 'Weidmuller', logo: require('@/assets/weidmuller.png'), alt: 'Logo de Weidmuller'
+                        name: 'Weidmuller', logo: require('@/assets/logos/weidmuller.png'), alt: 'Logo de Weidmuller'
                     },
                     {
-                        name: 'Siemens', logo: require('@/assets/siemens.png'), alt: 'Logo de Siemens'
+                        name: 'Siemens', logo: require('@/assets/logos/siemens.png'), alt: 'Logo de Siemens'
                     },
                     {
-                        name: 'Finder', logo: require('@/assets/finder.png'), alt: 'Logo de Finder'
+                        name: 'Finder', logo: require('@/assets/logos/finder.png'), alt: 'Logo de Finder'
                     },
                     {
-                        name: 'Dehn', logo: require('@/assets/dehn.png'), alt: 'Logo de Dehn'
+                        name: 'Dehn', logo: require('@/assets/logos/dehn.png'), alt: 'Logo de Dehn'
                     },
                     {
-                        name: 'ABB', logo: require('@/assets/abb.png'), alt: 'Logo de ABB'
+                        name: 'ABB', logo: require('@/assets/logos/abb.png'), alt: 'Logo de ABB'
                     },
                     {
-                        name: 'Phoenix Contact', logo: require('@/assets/phoenix.png'), alt: 'Logo de Phoenix'
+                        name: 'Phoenix Contact', logo: require('@/assets/logos/phoenix.png'), alt: 'Logo de Phoenix'
                     },
                     {
-                        name: 'Rockwell Automation', logo: require('@/assets/rockwell.png'), alt: 'Logo de Rockwell'
+                        name: 'Rockwell Automation', logo: require('@/assets/logos/rockwell.png'), alt: 'Logo de Rockwell'
                     },
                     {
-                        name: 'Eaton', logo: require('@/assets/eaton.png'), alt: 'Logo de Eaton'
+                        name: 'Eaton', logo: require('@/assets/logos/eaton.png'), alt: 'Logo de Eaton'
                     },
                     {
-                        name: 'Rittal', logo: require('@/assets/rittal.png'), alt: 'Logo de Rittal'
+                        name: 'Rittal', logo: require('@/assets/logos/rittal.png'), alt: 'Logo de Rittal'
                     },
                     {
-                        name: 'Wago', logo: require('@/assets/wago.png'), alt: 'Logo de Wago'
+                        name: 'Wago', logo: require('@/assets/logos/wago.png'), alt: 'Logo de Wago'
                     },
                 ]
             }
