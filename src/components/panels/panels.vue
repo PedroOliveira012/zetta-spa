@@ -1,13 +1,15 @@
 <template>
-    <div class="bg-[#777777] h-96 mb-16
+    <div class="flex justify-center items-center h-96 mb-8 border-[#a1dfe7] border-b
         lg:max-xl:h-80
-        xs:max-lg:h-64">banner</div>
-    <div class="text-6xl flex justify-center mb-12">
-        <h2 class="text-6xl xs:max-md:text-4xl text-center mb-6">Painéis elétricos</h2>
+        xs:max-lg:h-36">
+        <img src="@/assets/banner/endless-constellation.svg" class="opacity-60 h-full w-full -z-10" alt="">
+        <div class="absolute text-6xl flex justify-center">
+            <h2 class="text-6xl xs:max-md:text-4xl text-center mb-6">Painéis elétricos</h2>
+        </div>
     </div>
     <div class="grid gap-4 grid-cols-1 mt-24
     xs:max-md:gap-1 xs:max-md:mt-0">
-        <section class="flex items-center gap-4 m-auto px-12 pb-32 h-full w-full
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-32 h-full w-full
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0
         ">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative xs:max-sm:w-11/12">
@@ -18,13 +20,18 @@
                     Nosso CCM (Centro de Controle de Máquinas) é projetado conforme a norma ABNT NBR IEC 61439-1&2, garantindo alto desempenho e confiabilidade. Com acesso frontal a todas as conexões, facilita intervenções rápidas e mantém a operação contínua. O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.    
                 </p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class=" border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-fit 
+            lg:w-fit
+            md:bg-cover md:bg-center
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
             xs:max-sm:h-48 xs:max-sm:w-11/12">
-                <p>imagem</p>
+                <img src="@/assets/media/panels/painel ccm.jpg" class="h-96 rounded-r-full
+                lg:w-full
+                xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
+                xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
         </section>
-        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
@@ -41,7 +48,7 @@
             </div>
             
         </section>
-        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
                 <h3 class="text-6xl mb-6 xs:max-sm:text-4xl">
@@ -51,13 +58,18 @@
                     Os Painéis de Banco de Capacitores são projetados para atender às necessidades específicas dos clientes, com alta qualidade e correção automática do fator de potência, garantindo eficiência conforme a norma ABNT NBR IEC 61439-1&2. Conexões frontais reduzem o tempo de intervenção, e o design otimiza o espaço e facilita o acesso, assegurando confiabilidade e segurança para instalações e operadores.  
                 </p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
-           sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-fit 
+            lg:w-fit
+            md:bg-cover md:bg-center
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
             xs:max-sm:h-48 xs:max-sm:w-11/12">
-                <p>imagem</p>
+                <img src="@/assets/media/panels/banco de capacitor.jpg" class="h-96 rounded-r-full
+                lg:w-full
+                xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
+                xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
         </section>
-        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
@@ -74,7 +86,7 @@
             </div>
             
         </section>
-        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-4 xs:max-sm:w-11/12">
                 <h3 class="text-6xl mb-6 xs:max-xl:text-4xl">
@@ -84,13 +96,18 @@
                     O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona rápida intervenção e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer fácil acessibilidade ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.    
                 </p>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-96 lg:w-6/12
-           sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-fit 
+            lg:w-fit
+            md:bg-cover md:bg-center
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
             xs:max-sm:h-48 xs:max-sm:w-11/12">
-                <p>imagem</p>
+                <img src="@/assets/media/panels/qdfl.jpg" class="h-96 rounded-r-full
+                lg:w-full
+                xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
+                xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
         </section>
-        <section class="flex items-center gap-4 m-auto px-12 pb-24
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
