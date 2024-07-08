@@ -1,8 +1,13 @@
 <template>
     <section class="mb-16">
-        <div class="bg-[#777777] h-96 mb-16
-        lg:max-xl:h-80
-        xs:max-lg:h-64">banner</div>
+        <div class="flex justify-center items-center h-96 mb-8 border-[#a1dfe7] border-b
+            lg:max-xl:h-80
+            xs:max-lg:h-36">
+            <img src="@/assets/banner/endless-constellation.svg" class="opacity-60 h-full w-full -z-10" alt="">
+            <div class="absolute text-6xl flex justify-center">
+                <h2 class="text-6xl xs:max-md:text-4xl text-center mb-6">Sobre nós</h2>
+            </div>
+        </div>
         <div class="flex flex-col justify-center items-center mb-12">
             <h3 class="text-4xl text-center mb-6 xs:hidden">Bem-vindo à Zettatecck</h3>
             <h3 class="hidden text-4xl text-center mb-6 xs:block">Bem-vindo<br> à Zettatecck</h3>
