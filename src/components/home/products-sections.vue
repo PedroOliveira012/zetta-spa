@@ -67,7 +67,7 @@
         <section class="flex items-center gap-4 m-auto px-20 pb-32 h-full w-full
         xs:max-lg:flex-col xs:max-lg:pb-16
         xs:max-sm:px-3">
-            <div v-motion-slide-left :duration="1000" class="flex flex-col w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
+            <div v-motion-slide-visible-once-left :duration="1000" class="flex flex-col w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
                 <h3 class="text-6xl mb-6 sm:max-xl:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Robôs sinalizadores
                 </h3>
@@ -87,11 +87,10 @@
                     </button>
                 </router-link>
             </div>
-            <div v-motion-slide-right :duration="1000" class="h-96 border-2 border-cyan-500 rounded-r-full
+            <div v-motion-slide-visible-once-right :duration="1000" class="h-96 border-2 border-cyan-500 rounded-r-full item-3 bg-cover bg-left
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72">
-                <p>imagem</p>
             </div>
         </section>
     </div>
@@ -106,3 +105,8 @@
         }
     }
 </script>
+<style>
+    .item-3{
+        background-image: url('@/assets/media/home/robo.jpg');
+    }
+</style>
