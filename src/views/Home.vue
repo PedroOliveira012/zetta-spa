@@ -1,5 +1,5 @@
 <template>
-    <photo-carousel></photo-carousel>
+    <!-- <photo-carousel></photo-carousel> -->
     <products-sections></products-sections>
     <partner-section></partner-section>
 </template>

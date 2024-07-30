@@ -1,4 +1,8 @@
 <template>
+    <div class="flex justify-center items-center h-96 mb-8 border-[#a1dfe7] border-b banner bg-cover bg-center 
+            lg:max-xl:h-80
+            xs:max-lg:h-36">
+        </div>
     <div class="grid gap-4 grid-cols-1 place-content-evenly mt-24">
         <section class="flex items-center gap-4 m-auto px-20 pb-32 h-full w-full
         xs:max-lg:flex-col xs:max-lg:pb-16
@@ -36,11 +40,10 @@
         xs:max-lg:flex-col-reverse sm:max-lg:mt-12 sm:max-lg:pb-24
         xs:max-lg:pb-16
         xs:max-sm:px-3">
-            <div v-motion-slide-visible-once-left :duration="1000" class="h-96 border-2 border-cyan-500 rounded-l-full
+            <div v-motion-slide-visible-once-left :duration="1000" class="h-96 border-2 border-cyan-500 rounded-l-full item-2 bg-cover bg-center
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72">
-                <p>imagem</p>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
                 <h3 class="text-6xl mb-6 sm:max-xl:text-5xl xs:max-sm:text-center xs:max-xl:text-4xl">
@@ -106,6 +109,12 @@
     }
 </script>
 <style>
+    .banner{
+        background-image: url('@/assets/media/fachada.jpg');
+    }
+    .item-2{
+        background-image: url('@/assets/media/projects/projetos.jpg');
+    }
     .item-3{
         background-image: url('@/assets/media/home/robo.jpg');
     }
