@@ -11,7 +11,13 @@
             </section>
         </div>
         <div class="lg:hidden xs:max-sm:hidden">
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div id="carousel" class="carousel slide">
+                <div class="carousel-indicators mb-0">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-around">
@@ -61,6 +67,12 @@
         </div>
         <div class="sm:hidden">
             <div id="carousel-xs" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators mb-0">
+                    <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-around">
@@ -119,9 +131,11 @@
                 </div>
                 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-xs" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel-xs" data-bs-slide="next">
+                <button class="carousel-control-next bg-red" type="button" data-bs-target="#carousel-xs" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
