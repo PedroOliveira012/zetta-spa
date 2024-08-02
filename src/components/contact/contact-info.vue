@@ -37,7 +37,7 @@
             </div>
             <div>
                 <i class="fa-solid fa-clock mr-2"></i>
-                <span>Horario de funcionamento: de Segunda a Sexta das 7h às 17h</span>
+                <span>Horário de Segunda à Sexta-feira das 7h às 17h</span>
             </div>
         </div>
     </section>
