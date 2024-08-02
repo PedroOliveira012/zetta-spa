@@ -27,13 +27,15 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-2 bg-cover bg-top
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-evenly items-center w-8/12 p-8 xs:max-md:w-full">
-                    <h3 class="text-xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
+                    <h3 class="text-2xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Diurno</h3>
-                    <p class="text-base 
+                    <p class="text-lg 
                     xs:max-md:text-sm 
                     xl:max-2xl:text-sm">Para garantir eficiência e segurança durante operações diurnas, nosso robô será equipado com:</p>
-                    <ul class="text-xl xs:max-md:text-base lg:text-2xl xl:max-2xl:text-lg">
+                    <ul class="text-lg 
+                    xl:max-2xl:text-sm
+                    xs:max-md:text-sm xs:max-md:mt-6">
                         <li class="list-disc">Bandeira</li>
                     </ul>
                 </div>
@@ -43,13 +45,15 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-3 bg-cover bg-center
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-evenly items-center w-8/12 px-8 py-6 xs:max-md:w-full">
-                    <h3 class="text-xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
+                    <h3 class="text-2xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Noturno</h3>
-                    <p class="text-base 
+                    <p class="text-lg 
                     xs:max-md:text-sm 
                     xl:max-2xl:text-sm">Para garantir eficiência e segurança durante operações noturnas, nosso robô será equipado com:</p>
-                    <ul class="text-xl xs:max-md:text-base lg:text-2xl xl:max-2xl:text-lg">
+                    <ul class="text-lg 
+                    xl:max-2xl:text-sm
+                    xs:max-md:text-sm xs:max-md:mt-6">
                         <li class="list-disc">Holofote</li>
                         <li class="list-disc">Luz laranja</li>
                         <li class="list-disc">Luz na caixa</li>
@@ -61,20 +65,15 @@
                 <div class="w-4/12 h-full border border-[#777777] md:rounded-l-xl robo-4 bg-cover bg-top
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-evenly items-center w-8/12 p-8 xs:max-md:w-full">
-                    <!-- <h3 class="text-4xl xs:max-lg:text-3xl lg:text-4xl lg:mb-6 xs:max-md:mb-4 xl:max-2xl:text-2xl">Diurno / Noturno</h3>
-                    <p class="text-xl xs:max-md:text-base lg:text-2xl xl:max-2xl:text-lg"> Para garantir eficiência e segurança em ambas as operações (diurnas e noturnas), nosso robô será equipado com: </p>
-                    <ul class="text-xl xs:max-md:text-base lg:text-2xl xl:max-2xl:text-lg">
-                        <li class="list-disc">Holofote</li>
-                        <li class="list-disc">Luz laranja</li>
-                        <li class="list-disc">Luz na caixa</li>
-                     </ul> -->
-                    <h3 class="text-xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
+                    <h3 class="text-2xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Diurno / Noturno</h3>
-                    <p class="text-base 
+                    <p class="text-lg 
                     xs:max-md:text-sm 
                     xl:max-2xl:text-sm">Para garantir eficiência e segurança em ambas as operações (diurnas e noturnas), nosso robô será equipado com:</p>
-                    <ul class="text-xl xs:max-md:text-base lg:text-2xl xl:max-2xl:text-lg">
+                    <ul class="text-lg 
+                    xl:max-2xl:text-sm
+                    xs:max-md:text-sm xs:max-md:mt-6">
                         <li class="list-disc">Holofote</li>
                         <li class="list-disc">Luz laranja</li>
                         <li class="list-disc">Luz na caixa</li>

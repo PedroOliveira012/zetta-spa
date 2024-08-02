@@ -43,7 +43,7 @@
                         <div>
                             <span>Telefone</span><br>
                             <span><i class="fa-solid fa-phone mr-2"></i></span>
-                            <span>(99)9999-9999</span>
+                            <span>(19)3321-8400</span>
                         </div>
                     </div>
                 </div>
