@@ -32,10 +32,15 @@
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
-            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
+            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-fit
+            lg:w-fit
+            md:bg-cover md:bg-center
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
             xs:max-sm:h-48 xs:max-sm:w-11/12">
-                <p>imagem</p>
+            <img src="@/assets/media/panels/qgbt.jpg" class="h-96 rounded-l-full
+                lg:w-full
+                xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto
+                xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
                 <h3 class="text-6xl mb-6 xs:max-sm:text-4xl">
@@ -108,20 +113,24 @@
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
-            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
-           sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-            xs:max-sm:h-48 xs:max-sm:w-11/12">
-                <p>imagem</p>
+            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-fit
+                lg:w-fit
+                md:bg-cover md:bg-center
+                sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
+                xs:max-sm:h-48 xs:max-sm:w-11/12">
+                <img src="@/assets/media/panels/simosec.webp" class="h-96 rounded-l-full
+                    lg:w-full
+                    xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto
+                    xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
                 <h3 class="text-6xl mb-6 xs:max-xl:text-4xl">
                     Média tensão SIMOSEC SIEMENS
                 </h3>
                 <p class="text-2xl xs:max-sm:text-base">
-                    consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.
+                    O painel SIMOSEC é um equipamento trifásico de uso abrigado, montado em fábrica e testado conforme as normas IEC 62271-200 e GB 3906, com invólucro metálico e barramento simples até 1250 A. Suporta até 24 kV e 25 kA, utilizando tecnologia de isolamento a ar e comutação com isolamento a gás. Com um design compacto, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão.
                 </p>
             </div>
-            
         </section>
     </div>
     <div class="xs:max-sm:mx-auto xs:max-sm:w-11/12">
@@ -198,7 +207,6 @@
             }
         }
     }
-
 </script>
 <style>
      .banner-panels {
@@ -211,5 +219,8 @@
             rgba(255, 255, 255, 0.5)  
         ),
         url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='386' height='386' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23007B8A' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2300AAC0'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    }
+    .img-qgbt{
+        background-image: url('@/assets/media/panels/qgbt.jpg');
     }
 </style>
