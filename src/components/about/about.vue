@@ -12,7 +12,7 @@
             <h3 class="text-4xl text-center mb-6 xs:hidden">Bem-vindo à Zettatecck</h3>
             <h3 class="hidden text-4xl text-center mb-6 xs:block">Bem-vindo<br> à Zettatecck</h3>
             <p class="text-xl w-6/12 text-justify
-            xs:max-xl:text-lg xs:max-2xl:w-10/12 xs:max-xl:tracking-wider">
+            xs:max-xl:text-lg xs:max-2xl:w-10/12 xs:max-sm:leading-normal">
                 Somos uma empresa especializada em tecnologia de alto nível. Trabalhamos no segmento de Engenharia Elétrica e Automação Industrial. 
 
                 Buscamos agregar nossa experiência para ajudar no desenvolvimento e nas melhores soluções para nossos clientes. 
@@ -23,7 +23,7 @@
         <div class="flex flex-col justify-center items-center mb-12">
             <h3 class="text-4xl mb-6">Quem somos</h3>
             <p class="text-xl text-justify w-6/12
-            xs:max-xl:text-lg xs:max-2xl:w-10/12 xs:max-xl:tracking-wider">
+            xs:max-xl:text-lg xs:max-2xl:w-10/12 xs:max-sm:leading-normal">
                 Fundada em 2011, a ZETTATECCK PROJETOS INDUSTRIAIS E AUTOMAÇÃO LTDA é especializada na fabricação de painéis elétricos de baixa tensão, controle e instrumentação, robôs sinalizadores, e na elaboração de projetos elétricos industriais e automação predial. Nossa missão é inovar constantemente, desenvolvendo soluções que reduzem custos e aumentam a produtividade e a qualidade. Comprometemo-nos a mitigar riscos de segurança do trabalho, garantindo um ambiente mais seguro para todos.
             </p>
         </div>
@@ -61,11 +61,7 @@
                         <h4 class="text-2xl">Missão</h4>
                     </div>
                     <div class="h-5/6">
-                        <p class="text-center tracking-wider text-base 
-                        xl:max-2xl:tracking-wide 
-                        lg:max-xl:tracking-normal 
-                        md:text-sm
-                        xs:max-md:text-xs xs:max-md:tracking-widest">
+                        <p class="text-justify text-base md:text-sm xs:max-md:text-sm">
                             Desenvolver projetos, equipamentos e serviços inovadores, combinando tecnologia e criatividade para garantir a satisfação contínua dos nossos clientes. Valorizamos nossos colaboradores e fornecedores, incentivando o aperfeiçoamento constante de suas habilidades, visando ao sucesso e à prosperidade da empresa, da comunidade e de cada indivíduo.    
                         </p>
                     </div>
@@ -89,7 +85,7 @@
                         <h4 class="text-2xl">Visão</h4>
                     </div>
                     <div class="h-5/6">
-                        <p class="text-center text-base tracking-wider xl:max-2xl:tracking-wide lg:max-xl:tracking-normal xs:max-md:text-sm xs:max-md:tracking-widest">
+                        <p class="text-justify text-base xs:max-md:text-sm">
                             Na ZETTATECCK, cultivamos a criatividade e a tecnologia em cada projeto, buscando sempre a satisfação dos nossos clientes. Acreditamos no crescimento contínuo e na prosperidade compartilhada da empresa e da comunidade.    
                         </p>
                     </div>
@@ -114,7 +110,7 @@
                         <h4 class="text-2xl">Valores</h4>
                     </div>
                     <div class="h-5/6 xs:max-sm:w-full">
-                        <p class="text-center text-base tracking-wider xl:max-2xl:tracking-wide lg:max-xl:tracking-normal xs:max-md:text-sm xs:max-md:tracking-widest">
+                        <p class="text-justify text-base xs:max-md:text-sm">
                             Produzimos equipamentos e serviços de alta qualidade, cumprindo prazos e custos planejados. Buscamos soluções tecnicamente viáveis e econômicas, aplicando sempre a melhor tecnologia, criatividade e flexibilidade.</p>
                     </div>
                 </div>
