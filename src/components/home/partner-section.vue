@@ -151,10 +151,10 @@
             return{
                 partners:[
                     {
-                        name: 'Legrand', logo: require('@/assets/logos/legrand.png'), alt: 'Logo de Legrand'
+                        name: 'Cosmo', logo: require('@/assets/logos/cosmo.png'), alt: 'Logo de Legrand'
                     },
                     {
-                        name: 'Holec', logo: require('@/assets/logos/holec.png'), alt: 'Logo de Holec'
+                        name: 'Woehner', logo: require('@/assets/logos/woehner.svg'), alt: 'Logo de Holec'
                     },
                     {
                         name: 'Weidmuller', logo: require('@/assets/logos/weidmuller.png'), alt: 'Logo de Weidmuller'
@@ -169,7 +169,7 @@
                         name: 'Dehn', logo: require('@/assets/logos/dehn.png'), alt: 'Logo de Dehn'
                     },
                     {
-                        name: 'ABB', logo: require('@/assets/logos/abb.png'), alt: 'Logo de ABB'
+                        name: 'Condumax', logo: require('@/assets/logos/condumax.svg'), alt: 'Logo de ABB'
                     },
                     {
                         name: 'Phoenix Contact', logo: require('@/assets/logos/phoenix.png'), alt: 'Logo de Phoenix'
