@@ -9,7 +9,7 @@
         xs:max-lg:flex-col xs:max-lg:pb-16
         xs:max-sm:px-3">
             <div v-motion-slide-visible-once-left :duration="1000" class="flex flex-col w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
-                <h3 class="text-6xl mb-6 sm:max-xl:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Painéis elétricos
                 </h3>
                 <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
@@ -28,13 +28,13 @@
                     </button>
                 </router-link>
             </div>
-            <div v-motion-slide-right :duration="1000" class="h-96 border-2 border-cyan-500 rounded-r-full
+            <div v-motion-slide-right :duration="1000" class="h-96 border-2 border-cyan-500 rounded-r-full item-1 bg-cover bg-center
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72 xs:max-sm:mt-12">
-                <img src="@/assets/media/home/paineis.jpg" class="h-full w-fit
+                <!-- <img src="@/assets/media/home/paineis.jpg" class="h-full w-fit
             xs:max-lg:rounded-2xl sm:max-lg:mx-auto
-            " alt="">
+            " alt=""> -->
             </div>
         </section>
         <section class="flex items-center gap-4 m-auto px-20 pb-32 h-full w-full
@@ -47,7 +47,7 @@
             xs:max-sm:w-full xs:max-sm:h-72">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
-                <h3 class="text-6xl mb-6 sm:max-xl:text-5xl xs:max-sm:text-center xs:max-xl:text-4xl">
+                <h3 class="mb-6 sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Projetos elétricos
                 </h3>
                 <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
@@ -72,7 +72,7 @@
         xs:max-lg:flex-col xs:max-lg:pb-16
         xs:max-sm:px-3">
             <div v-motion-slide-visible-once-left :duration="1000" class="flex flex-col w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
-                <h3 class="text-6xl mb-6 sm:max-xl:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Robôs sinalizadores
                 </h3>
                 <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
@@ -112,6 +112,9 @@
 <style>
     .banner{
         background-image: url('@/assets/media/fachada.jpg');
+    }
+    .item-1{
+        background-image: url('@/assets/media/home/paineis.jpg');
     }
     .item-2{
         background-image: url('@/assets/media/projects/projetos.jpg');
