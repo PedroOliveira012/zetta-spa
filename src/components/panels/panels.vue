@@ -47,7 +47,7 @@
                     QGBT
                 </h3>
                 <p class="text-2xl xs:max-sm:text-base">
-                    consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.
+                    Oferecemos soluções para distribuição de energia em baixa tensão com os sistemas Ri4Power TS8 e VX25 Ri4Power, suportando até 5500 A e 100 kA. Disponíveis em aço carbono e inox, esses sistemas apresentam montagem compartimentada, desde a forma 1 até 4b, e aceitam componentes de principais marcas, mantendo certificação conforme a norma IEC 61439-1/2. Entre os produtos dessa linha, incluem-se QGBT's, QF's, Bancos de Capacitores, Centros de Controle de Motores (CCM's) e CCM's Inteligentes, oferecendo versatilidade e alta qualidade para diferentes necessidades.
                 </p>
             </div>
             
