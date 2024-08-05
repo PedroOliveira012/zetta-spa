@@ -32,9 +32,6 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72 xs:max-sm:mt-12">
-                <!-- <img src="@/assets/media/home/paineis.jpg" class="h-full w-fit
-            xs:max-lg:rounded-2xl sm:max-lg:mx-auto
-            " alt=""> -->
             </div>
         </section>
         <section class="flex items-center gap-4 m-auto px-20 pb-32 h-full w-full
@@ -99,7 +96,6 @@
         </section>
     </div>
 </template>
-
 <script>
     export default{
         data(){
