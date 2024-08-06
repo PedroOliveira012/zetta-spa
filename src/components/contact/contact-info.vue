@@ -7,37 +7,57 @@
             md:max-lg:text-5xl
             xs:max-md:text-4xl xs:max-sm-w-full">Fale conosco</h3>
             <h4 class="text-xl
-            md:max-lg:text-2xl
+            md:max-lg:text-xl
             xs:max-md:text-xl">Entre em contato com nossa equipe</h4>
         </div>
     </div>
     <section class="flex flex-row justify-evenly mx-auto py-4 bg-gradient-to-b from-[#00aac0] to-[#005c66] z-20
     md:max-lg:mt-5
     xs:max-md:mt-0">
-        <div class="flex flex-col justify-center space-y-12 text-xl p-16 bg-white rounded-xl 
+        <div class="flex flex-col space-y-8 w-8/12 justify-center text-xl p-16 bg-white rounded-xl 
         md:max-lg:text-base md:max-lg:space-y-6 md:max-lg:p-8
         xs:max-md:text-sm xs:max-md:space-y-6 xs:max-md:p-6 xs:max-sm:w-11/12">
-            <div>
+            <div class="text-center">
+                <span>Clique em uma das opções abaixo para<br> conversar com a nossa equipe</span>
+            </div>
+            <div class="grid grid-cols-2 gap-x-8 gap-y-12 border-t pt-8
+            xs:max-lg:flex xs:max-lg:flex-col xs:max-lg:gap-y-6">
+                <div class="flex justify-center items-center">
+                    <i class="fa-solid fa-phone mr-2 my-auto lg:text-xl xl:text-sxl"></i>
+                    <a href="tel:+551933218400" class="lg:text-base xl:text-xl">(19) 3321-8400</a>
+                </div>
+                <div class="flex justify-center items-center">
+                    <i class="fa-brands fa-square-whatsapp mr-2 lg:text-2xl"></i>
+                    <a href="https://wa.me/5519989394227" class="lg:text-base xl:text-xl">(19) 98939-4227</a>
+                </div>
+                <div class="flex w-fit mx-auto items-center">
+                    <i class="fa-solid fa-envelope mr-2 lg:text-xl xl:text-sxl"></i>
+                    <a href="mailto:teste@zettatecck.com.br" class="lg:text-base xl:text-xl">comercial@zettatecck.com.br</a>
+                </div>
+                <div class="flex w-fit mx-auto items-center">
+                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
+                    <a href="mailto:teste@zettatecck.com.br" class="lg:text-base xl:text-xl">engenharia@zettatecck.com.br</a>
+                </div>
+                <div class="flex w-fit mx-auto items-center">
+                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
+                    <a href="mailto:teste@zettatecck.com.br" class="lg:text-base xl:text-xl">financeiro@zettatecck.com.br</a>
+                </div>
+                <div class="flex w-fit mx-auto items-center">
+                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
+                    <a href="mailto:teste@zettatecck.com.br" class="lg:text-base xl:text-xl">rh@zettatecck.com.br</a>
+                </div>
+            </div>
+            <div class="mx-auto border-t pt-8 w-11/12 text-center lg:text-base xl:text-xl">
                 <i class="fa-solid fa-location-dot mr-2"></i>
                 <span>R. João Sierra, 245 - Distrito Industrial II, Araras-SP</span>
             </div>
-            <div>
-                <i class="fa-solid fa-phone mr-2"></i>
-                <span>(99) 9999-9999</span>
-            </div>
-            <div>
-                <a href="https://wa.me/5519989394227">
-                    <i class="fa-brands fa-square-whatsapp mr-2"></i>
-                    <span>(19) 98939-4227</span>
-                </a>
-            </div>
-            <div>
-                <i class="fa-solid fa-envelope mr-2"></i>
-                <span>teste@zettatecck.com.br</span>
-            </div>
-            <div>
+            <div class="mx-auto xs:max-sm:hidden lg:text-base xl:text-xl">
                 <i class="fa-solid fa-clock mr-2"></i>
                 <span>Horário de Segunda à Sexta-feira das 7h às 17h</span>
+            </div>
+            <div class="mx-auto text-center sm:hidden ">
+                <i class="fa-solid fa-clock mr-2"></i>
+                <span>Horário de Segunda à Sexta-feira<br> das 7h às 17h</span>
             </div>
         </div>
     </section>
