@@ -43,7 +43,7 @@
                     <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
                     <a href="mailto:rh@zettatecck.com.br" class="lg:text-base xl:text-xl">rh@zettatecck.com.br</a>
                 </div>
-                <div class="flex w-fit mx-auto items-center">
+                <div class="flex w-fit mx-auto items-center col-span-2">
                     <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
                     <a href="mailto:suprimentos@zettatecck.com.br" class="lg:text-base xl:text-xl">suprimentos@zettatecck.com.br</a>
                 </div>
