@@ -16,6 +16,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        slide: {
+          '0%': { width: '0%' },
+          '100%': { width: '100%' },
+        },
+      },
+      animation: {
+        slide: 'slide 2s forwards',
+      },
       screens:{
         'xs':'360px'
       }

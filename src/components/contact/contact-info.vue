@@ -3,12 +3,9 @@
         lg:max-xl:h-80
         xs:max-lg:h-36">
         <div class="absolute flex flex-col justify-center items-center w-6/12 h-96 mx-auto xs:max-sm:w-full">
-            <h3 class="text-6xl m-8
+            <h3 class="text-6xl m-8 text-[#012a62] font-bold uppercase
             md:max-lg:text-5xl
             xs:max-md:text-4xl xs:max-sm-w-full">Fale conosco</h3>
-            <h4 class="text-xl
-            md:max-lg:text-xl
-            xs:max-md:text-xl">Entre em contato com nossa equipe</h4>
         </div>
     </div>
     <section class="flex flex-row justify-evenly mx-auto py-4 bg-gradient-to-b from-[#00aac0] to-[#005c66] z-20
@@ -20,7 +17,7 @@
             <div class="text-center">
                 <span>Clique em uma das opções abaixo para<br> conversar com a nossa equipe</span>
             </div>
-            <div class="grid grid-cols-2 gap-x-8 gap-y-12 border-t pt-8
+            <div class="grid grid-cols-2 gap-x-6 gap-y-12 border-t pt-8
             xs:max-lg:flex xs:max-lg:flex-col xs:max-lg:gap-y-6">
                 <div class="flex justify-center items-center">
                     <i class="fa-solid fa-phone mr-2 my-auto lg:text-xl xl:text-sxl"></i>
@@ -32,22 +29,30 @@
                 </div>
                 <div class="flex w-fit mx-auto items-center">
                     <i class="fa-solid fa-envelope mr-2 lg:text-xl xl:text-sxl"></i>
-                    <a href="mailto:teste@zettatecck.com.br" class="lg:text-base xl:text-xl">comercial@zettatecck.com.br</a>
+                    <a href="mailto:comercial@zettatecck.com.br" class="lg:text-base xl:text-xl">comercial@zettatecck.com.br</a>
                 </div>
                 <div class="flex w-fit mx-auto items-center">
                     <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
-                    <a href="mailto:teste@zettatecck.com.br" class="lg:text-base xl:text-xl">engenharia@zettatecck.com.br</a>
+                    <a href="mailto:engenharia@zettatecck.com.br" class="lg:text-base xl:text-xl">engenharia@zettatecck.com.br</a>
                 </div>
                 <div class="flex w-fit mx-auto items-center">
                     <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
-                    <a href="mailto:teste@zettatecck.com.br" class="lg:text-base xl:text-xl">financeiro@zettatecck.com.br</a>
+                    <a href="mailto:financeiro@zettatecck.com.br" class="lg:text-base xl:text-xl">financeiro@zettatecck.com.br</a>
                 </div>
                 <div class="flex w-fit mx-auto items-center">
                     <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
-                    <a href="mailto:teste@zettatecck.com.br" class="lg:text-base xl:text-xl">rh@zettatecck.com.br</a>
+                    <a href="mailto:rh@zettatecck.com.br" class="lg:text-base xl:text-xl">rh@zettatecck.com.br</a>
+                </div>
+                <div class="flex w-fit mx-auto items-center">
+                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
+                    <a href="mailto:suprimentos@zettatecck.com.br" class="lg:text-base xl:text-xl">suprimentos@zettatecck.com.br</a>
+                </div>
+                <div class="flex w-fit mx-auto items-center">
+                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
+                    <a href="mailto:recepcao@zettatecck.com.br" class="lg:text-base xl:text-xl">recepcao@zettatecck.com.br</a>
                 </div>
             </div>
-            <div class="mx-auto border-t pt-8 w-11/12 text-center lg:text-base xl:text-xl">
+            <div class="mx-auto border-t pt-8 w-full text-center lg:text-base xl:text-xl">
                 <i class="fa-solid fa-location-dot mr-2"></i>
                 <span>R. João Sierra, 245 - Distrito Industrial II, Araras-SP</span>
             </div>

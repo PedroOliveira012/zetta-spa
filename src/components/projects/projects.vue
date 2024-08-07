@@ -4,7 +4,7 @@
             lg:max-xl:h-80
             xs:max-lg:h-36">
             <div class="absolute text-6xl flex justify-center">
-                <h2 class="text-6xl xs:max-md:text-4xl text-center mb-6">Projetos elétricos</h2>
+                <h2 class="text-6xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Projetos elétricos</h2>
             </div>
         </div>
         <div class="grid grid-cols-2 px-12
@@ -14,7 +14,7 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl card-1 bg-center
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
-                    <h3 class="text-3xl text-center 
+                    <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Encaminhamento de rede, potência e comando</h3>
                     <p class="text-base 
@@ -27,7 +27,7 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl card-2 bg-center
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
-                    <h3 class="text-3xl text-center 
+                    <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">SPDA</h3>
                     <p class="text-base 
@@ -40,7 +40,7 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl card-3 bg-center
                  xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
-                    <h3 class="text-3xl text-center 
+                    <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Cálculos de infraestrutura</h3>
                     <p class="text-base 
@@ -54,7 +54,7 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl card-4 bg-center
                  xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
-                    <h3 class="text-3xl text-center 
+                    <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Iluminotécnico</h3>
                     <p class="text-base 

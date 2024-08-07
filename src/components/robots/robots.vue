@@ -4,7 +4,7 @@
             lg:max-xl:h-80
             xs:max-lg:h-36">
             <div class="absolute text-6xl flex justify-center">
-                <h2 class="text-6xl xs:max-md:text-4xl text-center mb-6">Robô sinalizador</h2>
+                <h2 class="text-6xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Robô sinalizador</h2>
             </div>
         </div>
         <div class="grid grid-cols-2 px-12
@@ -14,7 +14,8 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-1 bg-cover bg-center
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
-                    <h3 class="text-xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
+                    <h3 class="text-xl text-center text-[#012a62] font-bold uppercase
+                    xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">O que é o robô sinalizador</h3>
                     <p class="text-base 
@@ -27,7 +28,8 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-2 bg-cover bg-top
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-evenly items-center w-8/12 p-8 xs:max-md:w-full">
-                    <h3 class="text-2xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
+                    <h3 class="text-2xl text-center text-[#012a62] font-bold uppercase
+                    xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Diurno</h3>
                     <p class="text-lg 
@@ -45,7 +47,8 @@
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-3 bg-cover bg-center
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-evenly items-center w-8/12 px-8 py-6 xs:max-md:w-full">
-                    <h3 class="text-2xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
+                    <h3 class="text-2xl text-center text-[#012a62] font-bold uppercase
+                    xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Noturno</h3>
                     <p class="text-lg 
@@ -65,7 +68,8 @@
                 <div class="w-4/12 h-full border border-[#777777] md:rounded-l-xl robo-4 bg-cover bg-top
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
                 <div class="flex flex-col justify-evenly items-center w-8/12 p-8 xs:max-md:w-full">
-                    <h3 class="text-2xl text-center xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
+                    <h3 class="text-2xl text-center text-[#012a62] font-bold uppercase
+                    xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">Diurno / Noturno</h3>
                     <p class="text-lg 
@@ -83,7 +87,7 @@
         </div>
         <!-- titulo -->
         <div class="text-6xl flex justify-center mt-12">
-            <h2 class="text-6xl xs:max-md:text-4xl text-center mb-6">Características</h2>
+            <h2 class="text-6xl  text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Características</h2>
         </div>
         <!-- card caracteristicas -->
         <div v-motion-slide-visible-once-bottom :duration="1000" class="flex justify-center w-full mx-auto">
@@ -95,7 +99,7 @@
                 sm:border-r
                 xs:max-sm:w-11/12 xs:max-sm:border-b xs:max-sm:mx-auto">
                     <div class="flex justify-center w-full h-1/6">
-                        <h3 class="text-5xl xs:max-md:text-3xl">Físicas</h3>
+                        <h3 class="text-5xl text-[#012a62] font-bold uppercase xs:max-md:text-3xl">Físicas</h3>
                     </div>
                     <div class="flex justify-center w-full h-5/6">
                         <ul>
@@ -121,7 +125,7 @@
                 <div class="w-96 my-4 
                 xs:max-sm:w-11/12 xs:max-sm:m-auto xs:max-sm:mb-4">
                     <div class="flex justify-center w-full h-1/6">
-                        <h3 class="text-5xl xs:max-md:text-3xl">Elétricas</h3>
+                        <h3 class="text-5xl text-[#012a62] font-bold uppercase xs:max-md:text-3xl">Elétricas</h3>
                     </div>
                     <div class="flex justify-center w-full h-5/ lg:text-2xl6 xs:max-md:text-xs">
                         <ul>

@@ -3,7 +3,7 @@
         lg:max-xl:h-80
         xs:max-lg:h-36">
         <div class="absolute text-6xl flex justify-center">
-            <h2 class="text-6xl xs:max-md:text-4xl text-center mb-6">Painéis elétricos</h2>
+            <h2 class="text-6xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Painéis elétricos</h2>
         </div>
     </div>
     <div class="grid gap-4 grid-cols-1 mt-24
@@ -12,7 +12,7 @@
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0
         ">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative xs:max-sm:w-11/12">
-                <h3 class="text-6xl mb-6 xs:max-sm:text-4xl">
+                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-sm:text-4xl">
                     CCM CLP
                 </h3>
                 <p class="text-2xl xs:max-sm:text-base">
@@ -43,7 +43,7 @@
                 xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="text-6xl mb-6 xs:max-sm:text-4xl">
+                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-sm:text-4xl">
                     QGBT
                 </h3>
                 <p class="text-2xl xs:max-sm:text-base">
@@ -55,7 +55,7 @@
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="text-6xl mb-6 xs:max-sm:text-4xl">
+                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-sm:text-4xl">
                     Banco de Capacitores
                 </h3>
                 <p class="text-2xl xs:max-sm:text-base">
@@ -81,7 +81,7 @@
                 <p>imagem</p>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="text-6xl mb-6 xs:max-sm:text-4xl">
+                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-sm:text-4xl">
                     Remotas
                 </h3>
                 <p class="text-2xl xs:max-sm:text-base">
@@ -93,7 +93,7 @@
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-4 xs:max-sm:w-11/12">
-                <h3 class="text-6xl mb-6 xs:max-xl:text-4xl">
+                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-xl:text-4xl">
                     Quadros de iluminação e tomadas
                 </h3>
                 <p class="text-2xl xs:max-sm:text-base">
@@ -124,7 +124,7 @@
                     xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="text-6xl mb-6 xs:max-xl:text-4xl">
+                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-xl:text-4xl">
                     Média tensão SIMOSEC SIEMENS
                 </h3>
                 <p class="text-2xl xs:max-sm:text-base">

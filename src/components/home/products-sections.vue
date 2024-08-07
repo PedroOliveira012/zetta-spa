@@ -9,12 +9,19 @@
         xs:max-lg:flex-col xs:max-lg:pb-16
         xs:max-sm:px-3">
             <div v-motion-slide-visible-once-left :duration="1000" class="flex flex-col w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
-                <h3 class="mb-6 sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Painéis elétricos
                 </h3>
-                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
-                    Painéis elétricos são fundamentais para eficiência e controle. Na Zettatecck, oferecemos uma gama completa de alta qualidade, projetados para aplicações industriais e comerciais. Com tecnologia avançada para máxima eficiência energética e conformidade com padrões de segurança rigorosos, garantimos confiabilidade e redução de tempo de inatividade. Descubra a solução ideal para seu negócio conosco.
-                </p>
+                <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                    <p>
+                        <div class="relative inline-block">
+                            <span class="relative z-10 p-1">Painéis elétricos</span>
+                            <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        </div>
+                        são fundamentais para eficiência e controle. Na Zettatecck, oferecemos uma gama completa de alta qualidade, projetados para aplicações industriais e comerciais. Com tecnologia avançada para máxima eficiência energética e conformidade com padrões de segurança rigorosos, garantimos confiabilidade e redução de tempo de inatividade. Descubra a solução ideal para seu negócio conosco.
+                    </p>
+                </div>
+                
                 <router-link to="/robots">
                     <button class="absolute right-0 overflow-hidden w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group
                     sm:max-lg:bottom-10 lg:bottom-0 ">
@@ -44,7 +51,7 @@
             xs:max-sm:w-full xs:max-sm:h-72">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
-                <h3 class="mb-6 sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 text-[#012a62] font-bold uppercase sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Projetos elétricos
                 </h3>
                 <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
@@ -69,7 +76,7 @@
         xs:max-lg:flex-col xs:max-lg:pb-16
         xs:max-sm:px-3">
             <div v-motion-slide-visible-once-left :duration="1000" class="flex flex-col w-full h-full relative sm:max-lg:h-4/6 lg:w-6/12 xs:max-lg:h-5/6">
-                <h3 class="mb-6 sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 text-[#012a62] font-bold uppercase sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Robôs sinalizadores
                 </h3>
                 <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
