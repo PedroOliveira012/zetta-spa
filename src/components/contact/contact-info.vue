@@ -47,10 +47,6 @@
                     <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
                     <a href="mailto:suprimentos@zettatecck.com.br" class="lg:text-base xl:text-xl">suprimentos@zettatecck.com.br</a>
                 </div>
-                <div class="flex w-fit mx-auto items-center">
-                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
-                    <a href="mailto:recepcao@zettatecck.com.br" class="lg:text-base xl:text-xl">recepcao@zettatecck.com.br</a>
-                </div>
             </div>
             <div class="mx-auto border-t pt-8 w-full text-center lg:text-base xl:text-xl">
                 <i class="fa-solid fa-location-dot mr-2"></i>
@@ -58,11 +54,11 @@
             </div>
             <div class="mx-auto xs:max-sm:hidden lg:text-base xl:text-xl">
                 <i class="fa-solid fa-clock mr-2"></i>
-                <span>Horário de Segunda à Sexta-feira das 7h às 17h</span>
+                <span>Horário: Segunda à Sexta-feira das 7h às 17h</span>
             </div>
             <div class="mx-auto text-center sm:hidden ">
                 <i class="fa-solid fa-clock mr-2"></i>
-                <span>Horário de Segunda à Sexta-feira<br> das 7h às 17h</span>
+                <span>Horário: Segunda à Sexta-feira<br> das 7h às 17h</span>
             </div>
         </div>
     </section>

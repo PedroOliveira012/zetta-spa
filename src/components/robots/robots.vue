@@ -99,7 +99,7 @@
                 sm:border-r
                 xs:max-sm:w-11/12 xs:max-sm:border-b xs:max-sm:mx-auto">
                     <div class="flex justify-center w-full h-1/6">
-                        <h3 class="text-5xl text-[#012a62] font-bold uppercase xs:max-md:text-3xl">Físicas</h3>
+                        <h3 class="text-4xl text-[#012a62] font-bold uppercase xs:max-md:text-3xl">Físicas</h3>
                     </div>
                     <div class="flex justify-center w-full h-5/6">
                         <ul>
@@ -125,7 +125,7 @@
                 <div class="w-96 my-4 
                 xs:max-sm:w-11/12 xs:max-sm:m-auto xs:max-sm:mb-4">
                     <div class="flex justify-center w-full h-1/6">
-                        <h3 class="text-5xl text-[#012a62] font-bold uppercase xs:max-md:text-3xl">Elétricas</h3>
+                        <h3 class="text-4xl text-[#012a62] font-bold uppercase xs:max-md:text-3xl">Elétricas</h3>
                     </div>
                     <div class="flex justify-center w-full h-5/ lg:text-2xl6 xs:max-md:text-xs">
                         <ul>

@@ -30,8 +30,8 @@
     </section>
     <section class="my-16">
         <div class="flex flex-col justify-center items-center mb-6">
-            <h3 class="text-4xl text-center mb-6 xs:hidden">Pilares da nossa empresa</h3>
-            <h3 class="hidden text-4xl text-center mb-6 xs:block">Pilares<br>da nossa empresa</h3>
+            <h3 class="text-4xl text-[#012a62] font-bold uppercase text-center mb-6 xs:hidden">Pilares da nossa empresa</h3>
+            <h3 class="hidden text-4xl text-center text-[#012a62] font-bold uppercase mb-6 xs:block">Pilares<br>da nossa empresa</h3>
         </div>
         <!-- div que compreende as outras divs -->
         <div class="flex flex-row justify-evenly
