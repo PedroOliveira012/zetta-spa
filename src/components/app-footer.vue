@@ -26,14 +26,19 @@
                 md:max-2xl:flex-col md:justify-evenly md:items-center md:border-l md:border-[#656567] md:h-full
                 sm:justify-evenly
                 xs:w-full xs:h-3/6 xs:max-md:border-t xs:px-1 xs:max-sm:justify-between">
-                    <div class="xl:w-8/12
+                    <div class="xl:w-10/12
                     lg:w-11/12
                     md:max-lg:w-full md:justify-start
-                    xs:relative xs:flex xs:items-center xs:w-fit xs:justify-start">
+                    xs:relative xs:flex xs:items-center xs:w-fit xs:justify-start xs:text-sm">
                         <div class="xs:max-sm:text-sm">
                             <span>Contato</span><br>
                             <span><i class="fa-solid fa-envelope mr-2"></i></span>
-                            <span>teste@zettatecck.com.br</span>
+                            <a href="mailto:comercial@zettatecck.com.br">comercial@zettatecck.com.br</a><br>
+                            <span class="hover:underline decoration-solid">
+                                <router-link to="/contact">
+                                    Mais opções de contato <i class="fa-solid fa-angle-right"></i>
+                                </router-link>
+                            </span>
                         </div>
                     </div>
                     <div class="xl:w-8/12
@@ -43,7 +48,15 @@
                         <div>
                             <span>Telefone</span><br>
                             <span><i class="fa-solid fa-phone mr-2"></i></span>
-                            <span>(19)3321-8400</span>
+                            <a href="tel:+551933218400">(19) 3321-8400</a>
+                        </div>
+                    </div>
+                    <div class="xl:w-3/12
+                    lg:w-11/12
+                    md:max-lg:w-full md:flex md:justify-start
+                    xs:relative xs:flex xs:items-center xs:w-fit xs:justify-end">
+                        <div>
+                            <i class="fa-brands fa-linkedin text-3xl" style="color: #656567;"></i>
                         </div>
                     </div>
                 </div>
