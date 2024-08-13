@@ -1,7 +1,7 @@
 <template>
     <section>
-        <div class="flex justify-center items-center h-96 mb-8 border-[#a1dfe7] border-b banner-projects
-            lg:max-xl:h-80
+        <div class="flex justify-center items-center h-72 mb-8 border-[#a1dfe7] border-b banner-projects
+            lg:max-xl:h-56
             xs:max-lg:h-36">
             <div class="absolute text-6xl flex justify-center">
                 <h2 class="text-6xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Projetos elétricos</h2>
@@ -56,10 +56,10 @@
                 <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
                     <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
                     xs:max-xl:text-2xl xs:max-md:mb-4 
-                    xl:max-2xl:text-xl xl:mb-5">Iluminotécnico</h3>
+                    xl:max-2xl:text-xl xl:mb-5">Luminotécnico</h3>
                     <p class="text-base 
                     xs:max-md:text-sm 
-                    xl:max-2xl:text-sm">Na iluminotécnica, o dimensionamento de área, o cálculo de lumens e o cálculo de potência das luminárias são essenciais para criar ambientes bem iluminados e eficientes. Com precisão nos cálculos, garantimos a quantidade ideal de luz para cada espaço, otimizando o consumo de energia e melhorando a qualidade da iluminação. A conformidade com as normas técnicas assegura um projeto seguro e eficaz, adaptado às necessidades específicas de cada ambiente.</p>
+                    xl:max-2xl:text-sm">Na Luminotécnica, o dimensionamento de área, o cálculo de lumens e o cálculo de potência das luminárias são essenciais para criar ambientes bem iluminados e eficientes. Com precisão nos cálculos, garantimos a quantidade ideal de luz para cada espaço, otimizando o consumo de energia e melhorando a qualidade da iluminação. A conformidade com as normas técnicas assegura um projeto seguro e eficaz, adaptado às necessidades específicas de cada ambiente.</p>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-center items-center h-96 mb-8 border-[#a1dfe7] border-b banner-panels
-        lg:max-xl:h-80
+    <div class="flex justify-center items-center h-72 mb-8 border-[#a1dfe7] border-b banner-panels
+        lg:max-xl:h-56
         xs:max-lg:h-36">
         <div class="absolute text-6xl flex justify-center">
             <h2 class="text-6xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Painéis elétricos</h2>
@@ -12,11 +12,11 @@
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0
         ">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative xs:max-sm:w-11/12">
-                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-sm:text-4xl">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     CCM CLP
                 </h3>
-                <p class="text-2xl xs:max-sm:text-base">
-                    Nosso CCM (Centro de Controle de Máquinas) é projetado conforme a norma ABNT NBR IEC 61439-1&2, garantindo alto desempenho e confiabilidade. Com acesso frontal a todas as conexões, facilita intervenções rápidas e mantém a operação contínua. O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.    
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                    Nosso CCM (Centro de Controle de Motores) é projetado conforme a norma ABNT NBR IEC 61439-1&2, garantindo alto desempenho e confiabilidade. Com acesso frontal a todas as conexões, facilita intervenções rápidas e mantém a operação contínua. O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.    
                 </p>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-fit 
@@ -43,10 +43,10 @@
                 xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-sm:text-4xl">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     QGBT
                 </h3>
-                <p class="text-2xl xs:max-sm:text-base">
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
                     Oferecemos soluções para distribuição de energia em baixa tensão com os sistemas Ri4Power TS8 e VX25 Ri4Power, suportando até 5500 A e 100 kA. Disponíveis em aço carbono e inox, esses sistemas apresentam montagem compartimentada, desde a forma 1 até 4b, e aceitam componentes de principais marcas, mantendo certificação conforme a norma IEC 61439-1/2. Entre os produtos dessa linha, incluem-se QGBT's, QF's, Bancos de Capacitores, Centros de Controle de Motores (CCM's) e CCM's Inteligentes, oferecendo versatilidade e alta qualidade para diferentes necessidades.
                 </p>
             </div>
@@ -55,10 +55,10 @@
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-sm:text-4xl">
-                    Banco de Capacitores
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                    Banco de Capacitores e filto passivo
                 </h3>
-                <p class="text-2xl xs:max-sm:text-base">
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
                     Os Painéis de Banco de Capacitores são projetados para atender às necessidades específicas dos clientes, com alta qualidade e correção automática do fator de potência, garantindo eficiência conforme a norma ABNT NBR IEC 61439-1&2. Conexões frontais reduzem o tempo de intervenção, e o design otimiza o espaço e facilita o acesso, assegurando confiabilidade e segurança para instalações e operadores.  
                 </p>
             </div>
@@ -81,11 +81,11 @@
                 <p>imagem</p>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-sm:text-4xl">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Remotas
                 </h3>
-                <p class="text-2xl xs:max-sm:text-base">
-                    consectetur adipiscing elit. Vivamus eu iaculis velit, in malesuada odio. Morbi nec ligula ut lectus convallis efficitur. Nulla hendrerit mattis arcu, ac molestie enim tempor sed. Integer dui lectus, molestie eu varius vel, dignissim at odio. Quisque tristique dolor laoreet, semper tellus non, hendrerit metus.
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                    Oferecemos ao mercado soluções de Remotas fabricadas em aço carbono e inox, com desempenho garantido pela certificação conforme os requisitos de projeto, construção e desempenho da norma ABNT NBR IEC 61439-1&2. Nossas Remotas são projetadas para assegurar continuidade de serviço, com todas as conexões acessíveis pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam otimização de espaço na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
                 </p>
             </div>
             
@@ -93,10 +93,10 @@
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-4 xs:max-sm:w-11/12">
-                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-xl:text-4xl">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Quadros de iluminação e tomadas
                 </h3>
-                <p class="text-2xl xs:max-sm:text-base">
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
                     O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona rápida intervenção e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer fácil acessibilidade ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.    
                 </p>
             </div>
@@ -124,77 +124,12 @@
                     xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="text-6xl text-[#012a62] font-bold uppercase mb-6 xs:max-xl:text-4xl">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
                     Média tensão SIMOSEC SIEMENS
                 </h3>
-                <p class="text-2xl xs:max-sm:text-base">
+                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
                     O painel SIMOSEC é um equipamento trifásico de uso abrigado, montado em fábrica e testado conforme as normas IEC 62271-200 e GB 3906, com invólucro metálico e barramento simples até 1250 A. Suporta até 24 kV e 25 kA, utilizando tecnologia de isolamento a ar e comutação com isolamento a gás. Com um design compacto, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão.
                 </p>
-            </div>
-        </section>
-    </div>
-    <div class="xs:max-sm:mx-auto xs:max-sm:w-11/12">
-        <h3 class="text-5xl ml-24 mb-6 
-        sm:px-16 
-        xs:text-3xl xs:ml-0 xs:text-center xs:mx-auto">Conheça alguns dos nossos cases mais recentes: </h3>
-        <section class="mx-auto">
-            <div id="carouselCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner mx-auto">
-                <div class="carousel-item active">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777"></rect>
-                        <text x="50%" y="50%" fill="#555" dy=".3em">First slide</text>
-                    </svg>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Nova linha de produção de porcelanatos Embramaco – Santa Gertrudes – SP - 2022</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777"></rect>
-                        <text x="50%" y="50%" fill="#555" dy=".3em">First slide</text>
-                    </svg> 
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Nova fábrica de chocolates Harald – Santana de Parnaíba – SP - 2022</h5>
-                    </div>           
-                </div>
-                <div class="carousel-item">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777"></rect>
-                        <text x="50%" y="50%" fill="#555" dy=".3em">First slide</text>
-                    </svg>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Nova linha do Kitkat – Nestlé Garoto – Caçapava – SP - 2023</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#777"></rect>
-                        <text x="50%" y="50%" fill="#555" dy=".3em">First slide</text>
-                    </svg>
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Nova fábrica de rações Nestlé Purina – Vargeão – SC - 2023</h5>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
             </div>
         </section>
     </div>

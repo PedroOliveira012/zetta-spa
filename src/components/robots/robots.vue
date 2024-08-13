@@ -1,7 +1,7 @@
 <template>
     <section>
-        <div class="flex justify-center items-center h-96 mb-8 border-[#a1dfe7] border-b banner-robots
-            lg:max-xl:h-80
+        <div class="flex justify-center items-center h-72 mb-8 border-[#a1dfe7] border-b banner-robots
+            lg:max-xl:h-56
             xs:max-lg:h-36">
             <div class="absolute text-6xl flex justify-center">
                 <h2 class="text-6xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Robô sinalizador</h2>
@@ -87,7 +87,7 @@
         </div>
         <!-- titulo -->
         <div class="text-6xl flex justify-center mt-12">
-            <h2 class="text-6xl  text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Características</h2>
+            <h2 class="text-4xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Características</h2>
         </div>
         <!-- card caracteristicas -->
         <div v-motion-slide-visible-once-bottom :duration="1000" class="flex justify-center w-full mx-auto">
@@ -99,7 +99,7 @@
                 sm:border-r
                 xs:max-sm:w-11/12 xs:max-sm:border-b xs:max-sm:mx-auto">
                     <div class="flex justify-center w-full h-1/6">
-                        <h3 class="text-4xl text-[#012a62] font-bold uppercase xs:max-md:text-3xl">Físicas</h3>
+                        <h3 class="text-3xl text-[#012a62] font-bold uppercase">Físicas</h3>
                     </div>
                     <div class="flex justify-center w-full h-5/6">
                         <ul>
@@ -125,7 +125,7 @@
                 <div class="w-96 my-4 
                 xs:max-sm:w-11/12 xs:max-sm:m-auto xs:max-sm:mb-4">
                     <div class="flex justify-center w-full h-1/6">
-                        <h3 class="text-4xl text-[#012a62] font-bold uppercase xs:max-md:text-3xl">Elétricas</h3>
+                        <h3 class="text-3xl text-[#012a62] font-bold uppercase">Elétricas</h3>
                     </div>
                     <div class="flex justify-center w-full h-5/ lg:text-2xl6 xs:max-md:text-xs">
                         <ul>
@@ -135,7 +135,7 @@
                         </li>
                         <li class="text-xl xs:max-md:text-base">
                             <i class="fa-solid fa-heart-pulse mr-2 my-3"></i>
-                            <span>Vida da bateria: 48 h</span>
+                            <span>Autonomia da bateria: 48 h</span>
                         </li>
                         <li class="text-xl xs:max-md:text-sm">
                             <i class="fa-solid fa-bolt mr-2 my-3"></i>

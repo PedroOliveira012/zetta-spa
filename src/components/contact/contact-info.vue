@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-center items-center h-96 banner-contact
-        lg:max-xl:h-80
+    <div class="flex justify-center items-center h-72 banner-contact
+        lg:max-xl:h-56
         xs:max-lg:h-36">
         <div class="absolute flex flex-col justify-center items-center w-6/12 h-96 mx-auto xs:max-sm:w-full">
             <h3 class="text-6xl m-8 text-[#012a62] font-bold uppercase
@@ -48,7 +48,13 @@
                     <a href="mailto:suprimentos@zettatecck.com.br" class="lg:text-base xl:text-xl">suprimentos@zettatecck.com.br</a>
                 </div>
             </div>
-            <div class="mx-auto border-t pt-8 w-full text-center lg:text-base xl:text-xl">
+            <div class="flex flex-col w-full mx-auto text-center justify-center border-t p-8">
+                <h3>Fique ligado em nossa rede</h3>
+                <a href="https://www.linkedin.com/company/zettatecck-projetos-ind-e-aut-ltda/">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+            <div class="mx-auto mt-0 border-t pt-8 w-full text-center lg:text-base xl:text-xl">
                 <i class="fa-solid fa-location-dot mr-2"></i>
                 <span>R. João Sierra, 245 - Distrito Industrial II, Araras-SP</span>
             </div>
