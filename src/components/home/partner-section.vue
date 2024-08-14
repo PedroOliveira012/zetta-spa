@@ -1,6 +1,6 @@
 <template>
     <div class="bg-gradient-to-b from-[#00aac0] to-[#005c66] p-16 mb-16 xs:max-sm:px-4">
-        <h3 class="text-white uppercase font-bold text-6xl mb-6 xs:max-sm:text-3xl xs:max-sm:">Conheça nossos parceiros</h3>
+        <h3 class="text-white uppercase font-bold text-6xl mb-6 xs:max-sm:text-xl md:max-lg:text-4xl sm:max-md:text-3xl">Conheça nossos parceiros</h3>
         <div class="hidden lg:block">
             <section class="grid grid-cols-4">
                 <div v-for="partner in partners" :key="partner.name" class="rounded-2xl w-52 h-32 mx-auto my-7 bg-white flex items-center justify-center p-6 hover:shadow-2xl hover:-translate-y-1 hover:scale-110 duration-300">
@@ -178,7 +178,7 @@
                         name: 'Rockwell Automation', logo: require('@/assets/logos/rockwell.png'), alt: 'Logo de Rockwell'
                     },
                     {
-                        name: 'Eaton', logo: require('@/assets/logos/eaton.png'), alt: 'Logo de Eaton'
+                        name: 'Muli inst', logo: require('@/assets/logos/multi-inst.jpg'), alt: 'Logo de Multi inst'
                     },
                     {
                         name: 'Rittal', logo: require('@/assets/logos/rittal.png'), alt: 'Logo de Rittal'
