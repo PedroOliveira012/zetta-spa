@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center items-center h-72 mb-8 border-[#a1dfe7] border-b banner bg-cover bg-center 
+    <div class="flex justify-center items-center h-72 mb-8 border-[#a1dfe7] border-b banner bg-cover bg-center
             lg:max-xl:h-56
             xs:max-lg:h-32">
         </div>

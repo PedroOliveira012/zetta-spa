@@ -12,10 +12,10 @@
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0
         ">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative xs:max-sm:w-11/12">
-                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
                     CCM CLP
                 </h3>
-                <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     Nosso CCM (Centro de Controle de Motores) é projetado conforme a norma ABNT NBR IEC 61439-1&2, garantindo
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> alto desempenho</span>
@@ -27,15 +27,15 @@
                     </div>  O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.
                 </div>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-fit 
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 rounded-r-full h-fit
             lg:w-fit
             md:bg-cover md:bg-center
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-            xs:max-sm:h-48 xs:max-sm:w-11/12">
+            xs:max-sm:h-48 xs:max-sm:w-11/12 xs:max-sm:justify-center">
                 <img src="@/assets/media/panels/painel ccm.jpg" class="h-96 rounded-r-full
                 lg:w-full
                 xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
-                xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
+                xs:max-lg:h-full xs:max-sm:w-fit xs:max-sm:mx-auto" alt="">
             </div>
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
@@ -44,17 +44,17 @@
             lg:w-fit
             md:bg-cover md:bg-center
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-            xs:max-sm:h-48 xs:max-sm:w-11/12">
+            xs:max-sm:h-48 xs:max-sm:w-11/12 xs:max-sm:border-white">
             <img src="@/assets/media/panels/qgbt.jpg" class="h-96 rounded-l-full
                 lg:w-full
                 xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto
-                xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
+                xs:max-lg:h-full xs:max-sm:w-11/12 xs:max-sm:mx-auto" alt="">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
                     QGBT
                 </h3>
-                <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     Oferecemos soluções para distribuição de energia em baixa tensão com os sistemas Ri4Power TS8 e VX25 Ri4Power, suportando 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> até 5500 A e 100 kA.</span>
@@ -70,17 +70,17 @@
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
-                    Banco de Capacitores e filto passivo
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
+                    Banco de Capacitores e filtro passivo
                 </h3>
-                <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     Os Painéis de Banco de Capacitores são projetados para atender às necessidades específicas dos clientes, com alta qualidade e
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> correção automática</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div> do fator de potência, garantindo eficiência conforme a norma ABNT NBR IEC 61439-1&2. Conexões  
+                    </div> do fator de potência, garantindo eficiência conforme a norma ABNT NBR IEC 61439-1&2. Conexões frontais 
                     <div class="relative inline-block">
-                        <span class="relative z-10 p-1">frontais reduzem o tempo de intervenção</span>
+                        <span class="relative z-10 p-1">reduzem o tempo de intervenção</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
                     </div>, e o design otimiza o espaço e facilita o acesso, assegurando confiabilidade e segurança para instalações e operadores.
                 </div>
@@ -93,7 +93,7 @@
                 <img src="@/assets/media/panels/banco de capacitor.jpg" class="h-96 rounded-r-full
                 lg:w-full
                 xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
-                xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
+                xs:max-lg:h-full xs:max-sm:w-11/12 xs:max-sm:mx-auto" alt="">
             </div>
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
@@ -104,22 +104,30 @@
                 <p>imagem</p>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
                     Remotas
                 </h3>
-                <p class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
-                    Oferecemos ao mercado soluções de Remotas fabricadas em aço carbono e inox, com desempenho garantido pela certificação conforme os requisitos de projeto, construção e desempenho da norma ABNT NBR IEC 61439-1&2. Nossas Remotas são projetadas para assegurar continuidade de serviço, com todas as conexões acessíveis pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam otimização de espaço na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
-                </p>
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
+                    Oferecemos ao mercado soluções de Remotas fabricadas em aço carbono e inox, com desempenho garantido pela certificação conforme os requisitos de projeto, construção e desempenho da norma ABNT NBR IEC 61439-1&2. Nossas Remotas são projetadas para assegurar continuidade de serviço, com todas as 
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> conexões acessíveis</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                    </div>pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> otimização de espaço</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                    </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
+                </div>
             </div>
             
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-4 xs:max-sm:w-11/12">
-                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
                     Quadros de iluminação e tomadas
                 </h3>
-                <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> rápida intervenção</span>
@@ -139,7 +147,7 @@
                 <img src="@/assets/media/panels/qdfl.jpg" class="h-96 rounded-r-full
                 lg:w-full
                 xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
-                xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
+                xs:max-lg:h-full xs:max-sm:w-11/12 xs:max-sm:mx-auto" alt="">
             </div>
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
@@ -148,17 +156,17 @@
                 lg:w-fit
                 md:bg-cover md:bg-center
                 sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-                xs:max-sm:h-48 xs:max-sm:w-11/12">
+                xs:max-sm:h-48 xs:max-sm:w-11/12 xs:max-sm:border-white">
                 <img src="@/assets/media/panels/simosec.webp" class="h-96 rounded-l-full
                     lg:w-full
                     xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto
-                    xs:max-lg:h-full xs:max-sm:w-11/12" alt="">
+                    xs:max-lg:h-full xs:max-sm:w-11/12 xs:max-sm:mx-auto" alt="">
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-4xl xs:max-sm:text-center">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
                     Média tensão SIMOSEC SIEMENS
                 </h3>
-                <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     O painel SIMOSEC é um equipamento trifásico de uso abrigado, montado em fábrica e testado conforme as normas IEC 62271-200 e GB 3906, com invólucro metálico e barramento simples até 1250 A. Suporta até 24 kV e 25 kA, utilizando tecnologia de isolamento a ar e comutação com isolamento a gás. Com um 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> design compacto</span>
