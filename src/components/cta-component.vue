@@ -1,6 +1,9 @@
 <template>
     <section class="relative my-16 mx-32 py-9 flex bg-[#e8e8e8] rounded-xl hover:bg-[#e8e8e8] hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.03] duration-500 
-    xs:mx-3 sm:max-xl:mx-20 xs:max-xl:flex-col lg:w-7/12 lg:mx-auto lg:px-16">
+    xl:max-2xl:mt-0 xl:max-2xl:mb-12
+    lg:w-7/12 lg:mx-auto lg:px-16
+    sm:max-xl:mx-20
+    xs:mx-3 xs:max-xl:flex-col">
         <span class="text-3xl m-auto 
         xs:max-md:text-base xs:max-xl:pb-6 xs:max-md:w-10/12
         md:max-lg:text-base
