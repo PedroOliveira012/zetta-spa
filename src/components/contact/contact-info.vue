@@ -17,9 +17,9 @@
             <div class="text-center">
                 <div class="relative inline-block">
                         <span class="relative z-10 p-1">Clique</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 opacity-60 h-full w-0 animate-slide group rounded-lg"></span>
                     </div>
-                <span>em uma das opções abaixo para<br> conversar com a nossa equipe</span>
+                <span> em uma das opções abaixo para<br> conversar com a nossa equipe</span>
             </div>
             <div class="grid grid-cols-2 gap-x-6 gap-y-12 border-t pt-8
             xs:max-lg:flex xs:max-lg:flex-col xs:max-lg:gap-y-6">
