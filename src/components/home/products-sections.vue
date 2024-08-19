@@ -13,17 +13,15 @@
                     Painéis elétricos
                 </h3>
                 <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
+                    Painéis elétricos são fundamentais para
                     <div class="relative inline-block">
-                        Painéis elétricos são fundamentais para
-                    </div>
-                    <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> eficiência e controle de processos.</span>
+                        <span class="relative z-10 p-1"> eficiência e controle</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div> Na Zettatecck, oferecemos uma gama completa de alta qualidade, projetados para aplicações industriais e comerciais. Com tecnologia avançada para máxima eficiência energética e conformidade com padrões de segurança rigorosos, garantimos
+                    </div> de processos. Na Zettatecck, oferecemos uma gama completa de alta qualidade, projetados para aplicações industriais e comerciais. Com tecnologia avançada para máxima eficiência energética e conformidade com padrões de segurança rigorosos, garantimos confiabilidade e 
                     <div class="relative inline-block">
-                        <span class="relative z-10 p-1">confiabilidade e redução de tempo de inatividade.</span>
+                        <span class="relative z-10 p-1"> redução de tempo</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div> Descubra a solução ideal para seu negócio conosco.
+                    </div> de inatividade. Descubra a solução ideal para seu negócio conosco.
                 </div>
                 
                 <router-link to="/panels">
@@ -42,7 +40,7 @@
             <div v-motion-slide-right :duration="1000" class="h-96 border-2 border-cyan-500 rounded-r-full item-1 bg-cover bg-center
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
-            xs:max-sm:w-full xs:max-sm:h-72 xs:max-sm:mt-12">
+            xs:max-sm:w-full xs:max-sm:h-72">
             </div>
         </section>
         <section class="flex items-center gap-4 m-auto px-20 pb-32 h-full w-full
@@ -92,9 +90,9 @@
                     Robôs sinalizadores
                 </h3>
                 <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
-                    <div class="relative inline-block">
+                    <!-- <div class="relative inline-block"> -->
                         Robôs sinalizadores para rodovias são essenciais para 
-                    </div>
+                    <!-- </div> -->
                     <div class="relative inline-block w-fit">
                         <span class="relative z-10 p-1"> melhorar a segurança</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
