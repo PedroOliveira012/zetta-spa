@@ -9,6 +9,7 @@
     <div class="grid gap-4 grid-cols-1 mt-24
     xs:max-md:gap-1 xs:max-md:mt-0">
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-32 h-full w-full
+        xl:mb-12 xl:max-2xl:pb-14
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0
         ">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative xs:max-sm:w-11/12">
@@ -27,7 +28,7 @@
                     </div>  O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.
                 </div>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 rounded-r-full h-fit
+            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 rounded-r-full h-fit border-cyan-500
             lg:w-fit
             md:bg-cover md:bg-center
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
@@ -63,7 +64,7 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> montagem compartimentada</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div>  , desde a forma 1 até 4b, e aceitam componentes de principais marcas, mantendo certificação conforme a norma IEC 61439-1/2. Entre os produtos dessa linha, incluem-se QGBT's, QF's, Bancos de Capacitores, Centros de Controle de Motores (CCM's) e CCM's Inteligentes, oferecendo versatilidade e alta qualidade para diferentes necessidades.
+                    </div>, desde a forma 1 até 4b, e aceitam componentes de principais marcas, mantendo certificação conforme a norma IEC 61439-1/2. Entre os produtos dessa linha, incluem-se QGBT's, QF's, Bancos de Capacitores, Centros de Controle de Motores (CCM's) e CCM's Inteligentes, oferecendo versatilidade e alta qualidade para diferentes necessidades.
                 </div>
             </div>
         </section>
@@ -112,7 +113,7 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> conexões acessíveis</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div>pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
+                    </div> pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> otimização de espaço</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
@@ -132,11 +133,11 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> rápida intervenção</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div>e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer   
+                    </div> e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer   
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> fácil acessibilidade</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div>ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.
+                    </div> ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.
                 </div>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-fit 
@@ -167,15 +168,15 @@
                     Média tensão SIMOSEC SIEMENS
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    O painel SIMOSEC é um equipamento trifásico de uso abrigado, montado em fábrica e testado conforme as normas IEC 62271-200 e GB 3906, com invólucro metálico e barramento simples até 1250 A. Suporta até 24 kV e 25 kA, utilizando tecnologia de isolamento a ar e comutação com isolamento a gás. Com um 
+                    O painel SIMOSEC é um equipamento trifásico de uso abrigado, montado em fábrica e testado conforme as normas IEC 62271-200 e GB 3906, com invólucro metálico e barramento simples até 1250 A. Suporta até
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> 24 kV e 25 kA</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                    </div>, utilizando tecnologia de isolamento a ar e comutação com isolamento a gás. Com um 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> design compacto</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div>, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser    
-                    <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> fácil acessibilidade</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
-                    </div>econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão.
+                    </div>, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão.
                 </div>
             </div>
         </section>
