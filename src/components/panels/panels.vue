@@ -20,11 +20,11 @@
                     Nosso CCM (Centro de Controle de Motores) é projetado conforme a norma ABNT NBR IEC 61439-1&2, garantindo
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> alto desempenho</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> e confiabilidade. Com acesso frontal a todas as conexões, facilita intervenções rápidas e mantém a
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1">operação contínua.</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div>  O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.
                 </div>
             </div>
@@ -59,11 +59,11 @@
                     Oferecemos soluções para distribuição de energia em baixa tensão com os sistemas Ri4Power TS8 e VX25 Ri4Power, suportando 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> até 5500 A e 100 kA.</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> Disponíveis em aço carbono e inox, esses sistemas apresentam 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> montagem compartimentada</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div>, desde a forma 1 até 4b, e aceitam componentes de principais marcas, mantendo certificação conforme a norma IEC 61439-1/2. Entre os produtos dessa linha, incluem-se QGBT's, QF's, Bancos de Capacitores, Centros de Controle de Motores (CCM's) e CCM's Inteligentes, oferecendo versatilidade e alta qualidade para diferentes necessidades.
                 </div>
             </div>
@@ -78,11 +78,11 @@
                     Os Painéis de Banco de Capacitores são projetados para atender às necessidades específicas dos clientes, com alta qualidade e
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> correção automática</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> do fator de potência, garantindo eficiência conforme a norma ABNT NBR IEC 61439-1&2. Conexões frontais 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1">reduzem o tempo de intervenção</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div>, e o design otimiza o espaço e facilita o acesso, assegurando confiabilidade e segurança para instalações e operadores.
                 </div>
             </div>
@@ -112,11 +112,11 @@
                     Oferecemos ao mercado soluções de Remotas fabricadas em aço carbono e inox, com desempenho garantido pela certificação conforme os requisitos de projeto, construção e desempenho da norma ABNT NBR IEC 61439-1&2. Nossas Remotas são projetadas para assegurar continuidade de serviço, com todas as 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> conexões acessíveis</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> otimização de espaço</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
                 </div>
             </div>
@@ -132,11 +132,11 @@
                     O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> rápida intervenção</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer   
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> fácil acessibilidade</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.
                 </div>
             </div>
@@ -171,25 +171,35 @@
                     O painel SIMOSEC é um equipamento trifásico de uso abrigado, montado em fábrica e testado conforme as normas IEC 62271-200 e GB 3906, com invólucro metálico e barramento simples até 1250 A. Suporta até
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> 24 kV e 25 kA</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div>, utilizando tecnologia de isolamento a ar e comutação com isolamento a gás. Com um 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> design compacto</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 animate-slide group rounded-lg"></span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div>, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão.
                 </div>
             </div>
         </section>
     </div>
 </template>
-<script>
-    export default{
-        data(){
-            return{
+<script setup>
+    import { onMounted } from 'vue'
 
-            }
-        }
-    }
+    onMounted(() => {
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.classList.add('animate-slide')
+                    observer.unobserve(entry.target)
+                }
+            })
+        })
+
+        document.querySelectorAll('span.bg-cyan-400').forEach((section) => {
+            observer.observe(section)
+        })
+    })
+
 </script>
 <style>
      .banner-panels {
