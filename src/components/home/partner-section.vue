@@ -150,41 +150,41 @@
         data(){
             return{
                 partners:[
+                    {   
+                        name: 'Rittal', logo: require('@/assets/logos/rittal.png'), alt: 'Logo de Rittal'
+                    },
                     {
-                        name: 'Cosmo', logo: require('@/assets/logos/cosmo.png'), alt: 'Logo de Legrand'
+                        name: 'Siemens', logo: require('@/assets/logos/siemens.png'), alt: 'Logo de Siemens'
+                    },
+                    {
+                        name: 'Wago', logo: require('@/assets/logos/wago.png'), alt: 'Logo de Wago'
+                    },
+                    {
+                        name: 'Cosmo', logo: require('@/assets/logos/cosmo.png'), alt: 'Logo de Cosmo'
+                    },
+                    {
+                        name: 'Finder', logo: require('@/assets/logos/finder.png'), alt: 'Logo de Finder'
+                    },
+                    {
+                        name: 'Weg', logo: require('@/assets/logos/weg.svg'), alt: 'Logo de Weg'
+                    },
+                    {
+                        name: 'Condumax', logo: require('@/assets/logos/condumax.svg'), alt: 'Logo de Condumax'
+                    },
+                    {
+                        name: 'Phoenix Contact', logo: require('@/assets/logos/phoenix.png'), alt: 'Logo de Phoenix'
+                    },
+                    {
+                        name: 'Intereng', logo: require('@/assets/logos/intereng.webp'), alt: 'Logo de Intereng'
+                    },
+                    {
+                        name: 'Muli inst', logo: require('@/assets/logos/multi-inst.jpg'), alt: 'Logo de Multi inst'
                     },
                     {
                         name: 'Woehner', logo: require('@/assets/logos/woehner.svg'), alt: 'Logo de Holec'
                     },
                     {
                         name: 'Weidmuller', logo: require('@/assets/logos/weidmuller.png'), alt: 'Logo de Weidmuller'
-                    },
-                    {
-                        name: 'Siemens', logo: require('@/assets/logos/siemens.png'), alt: 'Logo de Siemens'
-                    },
-                    {
-                        name: 'Finder', logo: require('@/assets/logos/finder.png'), alt: 'Logo de Finder'
-                    },
-                    {
-                        name: 'Dehn', logo: require('@/assets/logos/dehn.png'), alt: 'Logo de Dehn'
-                    },
-                    {
-                        name: 'Condumax', logo: require('@/assets/logos/condumax.svg'), alt: 'Logo de ABB'
-                    },
-                    {
-                        name: 'Phoenix Contact', logo: require('@/assets/logos/phoenix.png'), alt: 'Logo de Phoenix'
-                    },
-                    {
-                        name: 'Rockwell Automation', logo: require('@/assets/logos/rockwell.png'), alt: 'Logo de Rockwell'
-                    },
-                    {
-                        name: 'Muli inst', logo: require('@/assets/logos/multi-inst.jpg'), alt: 'Logo de Multi inst'
-                    },
-                    {
-                        name: 'Rittal', logo: require('@/assets/logos/rittal.png'), alt: 'Logo de Rittal'
-                    },
-                    {
-                        name: 'Wago', logo: require('@/assets/logos/wago.png'), alt: 'Logo de Wago'
                     },
                 ]
             }
