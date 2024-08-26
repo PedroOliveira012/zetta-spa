@@ -17,8 +17,13 @@
 
                 Buscamos agregar nossa experiência para ajudar no desenvolvimento e nas melhores soluções para nossos clientes. 
 
-                Temos uma equipe altamente treinada e podemos lhe atender em todas as etapas do seu processo. Conheça um pouco mais da Zettatecck. Estamos a disposição para ajudar você a conquistar seus objetivos.
+                Temos uma equipe altamente treinada e podemos lhe atender em todas as etapas do seu processo.
             </p>
+            <p class="text-xl w-6/12 text-center mt-4
+            xs:max-xl:text-lg xs:max-2xl:w-10/12 xs:max-sm:leading-normal">
+                <b>Conheça um pouco mais da Zettatecck!</b><br> Estamos a disposição para ajudar você a conquistar seus objetivos.
+            </p>
+            
         </div>
         <div class="flex flex-col justify-center items-center mb-12">
             <h3 class="text-4xl text-[#012a62] font-bold uppercase mb-6">Quem somos</h3>

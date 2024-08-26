@@ -108,9 +108,7 @@
                     Robôs sinalizadores
                 </h3>
                 <div class="text-xl pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8">
-                    <!-- <div class="relative inline-block"> -->
                     Robôs sinalizadores para rodovias são essenciais para
-                    <!-- </div> -->
                     <div class="relative inline-block w-fit">
                         <span class="relative z-10 p-1"> melhorar a segurança</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
@@ -180,6 +178,6 @@
     }
 
     .item-3 {
-        background-image: url('@/assets/media/home/robo.jpg');
+        background-image: url('@/assets/media/home/robo.webp');
     }
 </style>

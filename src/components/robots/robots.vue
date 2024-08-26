@@ -105,15 +105,15 @@
                         <ul>
                             <li class="text-xl xs:max-md:text-base">
                                 <i class="fa-solid fa-person mr-2 my-3"></i>
-                                <span>Peso do corpo: 10Kg</span>
+                                <span>Peso do corpo: 10kg</span>
                             </li>
                             <li class="text-xl xs:max-md:text-base">
                                 <i class="fa-solid fa-box-archive mr-2 my-3"></i>
-                                <span>Peso da caixa: 43Kg</span>
+                                <span>Peso da caixa: 43kg</span>
                             </li>
                             <li class="text-xl xs:max-md:text-base">
                                 <i class="fa-solid fa-weight-hanging mr-2 my-3"></i>
-                                <span>Peso total: 53Kg</span>
+                                <span>Peso total: 53kg</span>
                             </li>
                             <li class="text-xl xs:max-md:text-base ">
                                 <i class="fa-solid fa-ruler mr-2 my-3"></i>
@@ -131,15 +131,15 @@
                         <ul>
                         <li class="text-xl xs:max-md:text-base">
                             <i class="fa-solid fa-car-battery mr-2 my-3"></i>
-                            <span>Bateria: 63 A/h x 12 Vcc</span>
+                            <span>Bateria: 63A/h x 12Vcc</span>
                         </li>
                         <li class="text-xl xs:max-md:text-base">
                             <i class="fa-solid fa-heart-pulse mr-2 my-3"></i>
-                            <span>Autonomia da bateria: 48 h</span>
+                            <span>Autonomia da bateria: 48h</span>
                         </li>
                         <li class="text-xl xs:max-md:text-sm">
                             <i class="fa-solid fa-bolt mr-2 my-3"></i>
-                            <span>Tempo de recarga: 10 horas</span>
+                            <span>Tempo de recarga: 10h</span>
                         </li>
                     </ul>
                     </div>
