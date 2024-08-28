@@ -32,11 +32,11 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselCCM" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
@@ -58,11 +58,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCCM" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCCM" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -75,11 +75,11 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselQGBT" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
@@ -101,11 +101,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselQGBT" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselQGBT" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -150,11 +150,11 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselBC" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
@@ -176,11 +176,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselBC" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselBC" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -193,11 +193,11 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselRemota" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
@@ -219,11 +219,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRemota" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRemota" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -268,11 +268,11 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselQDFL" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
@@ -294,11 +294,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselQDFL" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselQDFL" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -311,11 +311,11 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselSubstacao" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
@@ -337,11 +337,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSubstacao" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSubstacao" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -386,11 +386,11 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselCanteiro" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
@@ -412,11 +412,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
