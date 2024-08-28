@@ -209,7 +209,7 @@
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" id="carouselRobo" class="border-2 border-cyan-500 carousel slide h-fit
             lg:w-6/12
-            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            sm:max-lg:h-80 sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselRobo" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>

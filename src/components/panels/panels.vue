@@ -28,28 +28,88 @@
                     </div>  O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.
                 </div>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 rounded-r-full h-fit border-cyan-500
-            lg:w-fit
-            md:bg-cover md:bg-center
-            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-            xs:max-sm:h-48 xs:max-sm:w-11/12 xs:max-sm:justify-center">
-                <img src="@/assets/media/panels/painel ccm.jpg" class="h-96 rounded-r-full
-                lg:w-full
-                xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
-                xs:max-lg:h-full xs:max-sm:w-fit xs:max-sm:mx-auto" alt="">
+            <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 3</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
-            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-fit
-            lg:w-fit
-            md:bg-cover md:bg-center
-            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-            xs:max-sm:h-48 xs:max-sm:w-11/12 xs:max-sm:border-white">
-            <img src="@/assets/media/panels/qgbt.jpg" class="h-96 rounded-l-full
-                lg:w-full
-                xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto
-                xs:max-lg:h-full xs:max-sm:w-11/12 xs:max-sm:mx-auto" alt="">
+            <div v-motion-slide-visible-once-left :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 3</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
                 <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
@@ -86,23 +146,88 @@
                     </div>, e o design otimiza o espaço e facilita o acesso, assegurando confiabilidade e segurança para instalações e operadores.
                 </div>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-fit 
-            lg:w-fit
-            md:bg-cover md:bg-center
-            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-            xs:max-sm:h-48 xs:max-sm:w-11/12">
-                <img src="@/assets/media/panels/banco de capacitor.jpg" class="h-96 rounded-r-full
-                lg:w-full
-                xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
-                xs:max-lg:h-full xs:max-sm:w-11/12 xs:max-sm:mx-auto" alt="">
+            <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 3</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
-            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-96 lg:w-6/12
-           sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-            xs:max-sm:h-48 xs:max-sm:w-11/12">
-                <p>imagem</p>
+            <div v-motion-slide-visible-once-left :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 3</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
                 <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
@@ -120,7 +245,6 @@
                     </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
                 </div>
             </div>
-            
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
@@ -140,32 +264,92 @@
                     </div> ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.
                 </div>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="border-2 border-cyan-500 rounded-r-full h-fit 
-            lg:w-fit
-            md:bg-cover md:bg-center
-            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-            xs:max-sm:h-48 xs:max-sm:w-11/12">
-                <img src="@/assets/media/panels/qdfl.jpg" class="h-96 rounded-r-full
-                lg:w-full
-                xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto 
-                xs:max-lg:h-full xs:max-sm:w-11/12 xs:max-sm:mx-auto" alt="">
+            <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 3</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </section>
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
-            <div v-motion-slide-visible-once-left :duration="1000" class="border-2 border-cyan-500 rounded-l-full h-fit
-                lg:w-fit
-                md:bg-cover md:bg-center
-                sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto 
-                xs:max-sm:h-48 xs:max-sm:w-11/12 xs:max-sm:border-white">
-                <img src="@/assets/media/panels/simosec.webp" class="h-96 rounded-l-full
-                    lg:w-full
-                    xs:max-lg:rounded-2xl sm:max-lg:w-full sm:max-lg:mx-auto
-                    xs:max-lg:h-full xs:max-sm:w-11/12 xs:max-sm:mx-auto" alt="">
+            <div v-motion-slide-visible-once-left :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 3</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
                 <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
-                    Média tensão SIMOSEC SIEMENS
+                    Subestação unitária
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     O painel SIMOSEC é um equipamento trifásico de uso abrigado, montado em fábrica e testado conforme as normas IEC 62271-200 e GB 3906, com invólucro metálico e barramento simples até 1250 A. Suporta até
@@ -177,6 +361,65 @@
                         <span class="relative z-10 p-1"> design compacto</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div>, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão.
+                </div>
+            </div>
+        </section>
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
+        xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
+            <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
+                    Painel robô canteiro de obras
+                </h3>
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
+                    Oferecemos ao mercado soluções de Remotas fabricadas em aço carbono e inox, com desempenho garantido pela certificação conforme os requisitos de projeto, construção e desempenho da norma ABNT NBR IEC 61439-1&2. Nossas Remotas são projetadas para assegurar continuidade de serviço, com todas as 
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> conexões acessíveis</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> otimização de espaço</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
+                </div>
+            </div>
+            <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 3</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </section>
