@@ -37,24 +37,38 @@
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="2000">
-                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/ccm/ccm 8.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
                                 <h5>nome do painel 1</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/ccm/ccm 9.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
                                 <h5>nome do painel 2</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/ccm/ccm 12.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
                                 <h5>nome do painel 3</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/panels/ccm/ccm 16 (inversores).webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 4</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="@/assets/media/panels/ccm/ccm 19.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
+                                <h5>nome do painel 5</h5>
                             </div>
                         </div>
                     </div>
@@ -82,14 +96,14 @@
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="2000">
                             <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
                                 <h5>nome do painel 1</h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="@/assets/media/panels/qgbt 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-50">
                                 <h5>nome do painel 2</h5>
                             </div>
@@ -457,6 +471,9 @@
         url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='386' height='386' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23007B8A' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2300AAC0'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
     }
     .img-qgbt{
-        background-image: url('@/assets/media/panels/qgbt.jpg');
+        background-image: url('@/assets/media/panels/qgbt 3.webp');
+    }
+    .img-topic-ccm-1{
+        background-image: url('@/assets/media/panels/qgbt 3.webp');
     }
 </style>
