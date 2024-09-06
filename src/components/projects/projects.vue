@@ -14,7 +14,7 @@
                 <div class="flex h-full justify-center items-center xs:max-md:flex-col xl:flex-col">
                     <div class="w-4/12 h-full card-1 bg-center
                     xl:bg-cover xl:size-full xl:rounded-t-2xl
-                    md:rounded-l-2xl
+                    md:max-xl:rounded-l-2xl
                     xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"></div>
                     <div class="flex flex-col justify-center items-center text-justify size-full p-8 
                     md:max-xl:w-8/12
@@ -44,19 +44,6 @@
                     xl:max-2xl:text-sm">O Sistema de Proteção contra Descargas Atmosféricas (SPDA) é cuidadosamente dimensionado com uma malha precisa, distância adequada entre descidas e equipotencialização eficaz. Essas características garantem uma proteção robusta contra raios, aumentando a segurança das instalações e reduzindo riscos. Conforme as normas rigorosas, o SPDA assegura alta confiabilidade e segurança para as instalações e seus operadores.</p>
                 </div>
             </div>
-            <!-- <div v-motion-slide-visible-once-left :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500
-            xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
-                <div class="w-4/12 h-full md:rounded-l-xl card-3 bg-center
-                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"></div>
-                <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
-                    <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
-                    xs:max-xl:text-2xl xs:max-md:mb-4 
-                    xl:max-2xl:text-xl xl:mb-5">Cálculos de infraestrutura</h3>
-                    <p class="text-base 
-                    xs:max-md:text-sm 
-                    xl:max-2xl:text-sm">Os cálculos de infraestrutura englobam eletrodutos, eletrocalhas e perfilados, garantindo uma instalação eficiente e segura. Com dimensionamento preciso, esses cálculos asseguram a correta distribuição de cabos, otimização do espaço e facilidade de manutenção. A conformidade com as normas técnicas garante a confiabilidade e a segurança das instalações, proporcionando um sistema robusto e bem estruturado.</p>
-                </div>
-            </div> -->
             <div v-motion-slide-visible-once-right :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500
              xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
                 
