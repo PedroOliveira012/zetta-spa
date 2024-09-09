@@ -71,7 +71,9 @@
                     <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carousel-xs" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -131,11 +133,11 @@
                 </div>
                 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-xs" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next bg-red" type="button" data-bs-target="#carousel-xs" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
