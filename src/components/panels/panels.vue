@@ -44,31 +44,31 @@
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 1</h5>
+                                <h5>Vista externa de um CCM (1)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
+                                <h5>Vista externa de um CCM (2)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Vista externa de um CCM (3)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 4</h5>
+                                <h5>Inversores para controle de motores</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 5.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 5</h5>
+                                <h5>Disjuntores motor SIEMENS®</h5>
                             </div>
                         </div>
                     </div>
@@ -100,25 +100,25 @@
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 1</h5>
+                                <h5>Vista externa de um QGBT</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
+                                <h5>Vista interna do QGBT com espelhos frontais</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Vista interna sem espelhos</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Detalhes dos disjuntores do painel</h5>
                             </div>
                         </div>
                     </div>
@@ -182,25 +182,25 @@
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 1</h5>
+                                <h5>Capacitores do painel (1)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
+                                <h5>Capacitores do painel (2)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Detalhes dos contatores do painel</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Vista interna de um Banco de capacitores</h5>
                             </div>
                         </div>
                     </div>
@@ -236,13 +236,13 @@
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 1</h5>
+                                <h5>Teto de proteção para instalações externas</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
+                                <h5>Vista interna de um painel remota</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
@@ -260,25 +260,25 @@
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 5.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Detalhes do I/O do painel (1)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 6.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Detalhes do I/O do painel (1)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 7.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
+                                <h5>Detalhes do CLP do painel (1)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 8.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Detalhes do CLP do painel (2)</h5>
                             </div>
                         </div>
                     </div>
@@ -344,37 +344,37 @@
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 1</h5>
+                                <h5>Vista externa de um painel QDFL (aço inox)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
+                                <h5>Vista interna de um painel QDFL (aço inox)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Vista interna de um painel QDFL (aço carbono)</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 5.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Detalhes dos disjuntores do painel</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 6.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>DPS e bloco de distribuição</h5>
                             </div>
                         </div>
                     </div>
@@ -481,25 +481,25 @@
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 1</h5>
+                                <h5>Vista externa frontal do painel</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
+                                <h5>Vista externa lateral direita do painel</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Vista externa lateral esquerda do painel</h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
+                                <h5>Vista externa traseira do painel</h5>
                             </div>
                         </div>
                     </div>
