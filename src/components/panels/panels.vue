@@ -38,7 +38,7 @@
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
+                        <!-- <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -62,15 +62,15 @@
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Inversores para controle de motores</h5>
+                                <h5>Vista interna de um CCM</h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 5.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5>Disjuntores motor SIEMENS®</h5>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCCM" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -95,6 +95,8 @@
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="5" class="bg-white" aria-label="Slide 6"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -118,7 +120,19 @@
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Detalhes dos disjuntores do painel</h5>
+                                <h5>Vista externa de um QGBT feito com SIVACON da SIEMENS®</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/qgbt/qgbt 5.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                <h5>Vista externa de um QGBT feito com SIVACON da SIEMENS® (2)</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/qgbt/qgbt 6.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                <h5>Vista traseira do painel com sistema de barramentos</h5>
                             </div>
                         </div>
                     </div>
@@ -177,6 +191,7 @@
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -200,7 +215,13 @@
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna de um Banco de capacitores</h5>
+                                <h5>Vista interna de um Banco de capacitores (1)</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/banco de capacitores/bc 5.webp" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                <h5>Vista interna de um Banco de capacitores (2)</h5>
                             </div>
                         </div>
                     </div>
@@ -223,17 +244,17 @@
             xs:max-sm:w-11/12 xs:max-sm:h-72">
                 <div id="carouselRemota" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                        <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button> -->
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class=" active bg-white" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="5" class="bg-white" aria-label="Slide 6"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="6" class="bg-white" aria-label="Slide 7"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="7" class="bg-white" aria-label="Slide 8"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                        <!-- <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5>Teto de proteção para instalações externas</h5>
@@ -250,8 +271,8 @@
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5>descrição do painel 3</h5>
                             </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        </div> -->
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5>descrição do painel 2</h5>
@@ -436,35 +457,35 @@
                     Subestação unitária
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    O painel SIMOSEC é um equipamento trifásico de uso abrigado, montado em fábrica e testado conforme as normas IEC 62271-200 e GB 3906, com invólucro metálico e barramento simples até 1250 A. Suporta até
-                    <div class="relative inline-block">
+                    As subestações unitárias são instalações elétricas que ajustam a tensão para distribuição em diversos setores de uma planta industrial. Elas são compostas por cubículos de média tensão, transformadores, QGBT e sistemas auxiliares. A empresa oferece soluções completas, desde o projeto até o fornecimento dos equipamentos, incluindo digitalização, monitoramento de umidade e temperatura.
+                    <!-- <div class="relative inline-block">
                         <span class="relative z-10 p-1"> 24 kV e 25 kA</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div>, utilizando tecnologia de isolamento a ar e comutação com isolamento a gás. Com um 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> design compacto</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div>, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão.
+                    </div>, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão. -->
                 </div>
             </div>
         </section>
-        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
+        <!-- <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
                 <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
                     Painel robô canteiro de obras
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    Oferecemos ao mercado soluções de Remotas fabricadas em aço carbono e inox, com desempenho garantido pela certificação conforme os requisitos de projeto, construção e desempenho da norma ABNT NBR IEC 61439-1&2. Nossas Remotas são projetadas para assegurar continuidade de serviço, com todas as 
-                    <div class="relative inline-block">
+                    Os paineis robô para canteiros de obras são pensados e desenvolvidos para assegurar o fornecimento de energia em obras de diversos seguimentos. Contam com sistemas de bloqueio de segurança para a proteção dos profissionais, circuitos dimensionados e preparados para a correta distribuição de energia elétrica evitando improvisos, riscos de acidentes e incêndios. São de fácil locomoção e instalação. Construídos conforme normas ABNT NBR IEC 61439-1&2, NR-10 e NBR-5410 para garantir alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.  -->
+                    <!-- <div class="relative inline-block">
                         <span class="relative z-10 p-1"> conexões acessíveis</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> otimização de espaço</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
-                </div>
+                    </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários. -->
+                <!-- </div>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
             lg:w-6/12
@@ -513,7 +534,7 @@
                     </button>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 </template>
 <script setup>
