@@ -34,42 +34,27 @@
             xs:max-sm:w-11/12 xs:max-sm:h-72">
                 <div id="carouselCCM" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
                         <!-- <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 1.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa de um CCM (1)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 2.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa de um CCM (2)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa de um CCM (3)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 4.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna de um CCM</h5>
-                            </div>
                         </div>
                         <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 5.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Disjuntores motor SIEMENS®</h5>
-                            </div>
                         </div> -->
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCCM" data-bs-slide="prev">
@@ -91,49 +76,31 @@
             xs:max-sm:w-11/12 xs:max-sm:h-72">
                 <div id="carouselQGBT" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="5" class="bg-white" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 1.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa de um QGBT</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 2.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna do QGBT com espelhos frontais</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 3.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna sem espelhos</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 4.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa de um QGBT feito com SIVACON da SIEMENS®</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 5.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa de um QGBT feito com SIVACON da SIEMENS® (2)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 6.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista traseira do painel com sistema de barramentos</h5>
-                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQGBT" data-bs-slide="prev">
@@ -151,7 +118,7 @@
                     QGBT
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    Oferecemos soluções para distribuição de energia em baixa tensão com os sistemas Ri4Power TS8 e VX25 Ri4Power, suportando 
+                    Oferecemos soluções para distribuição de energia em baixa tensão com os sistemas Ri4Power TS8 , VX25 (Rittal) e SIVACON (Siemens), suportando 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> até 5500 A e 100 kA.</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
@@ -187,43 +154,28 @@
             xs:max-sm:w-11/12 xs:max-sm:h-72">
                 <div id="carouselBC" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <!-- <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 1.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Capacitores do painel (1)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 2.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Capacitores do painel (2)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 3.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Detalhes dos contatores do painel</h5>
-                            </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 4.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna de um Banco de capacitores (1)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 5.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna de um Banco de capacitores (2)</h5>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselBC" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -247,61 +199,37 @@
                         <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button> -->
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class=" active bg-white" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class=" active bg-black" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner">
-                        <!-- <div class="carousel-item active" data-bs-interval="5000">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 1.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Teto de proteção para instalações externas</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 2.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna de um painel remota</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 3.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
-                            </div>
-                        </div> -->
-                        <div class="carousel-item active" data-bs-interval="5000">
+                        </div>
+                        <!-- <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 4.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 5.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Detalhes do I/O do painel (1)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 6.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Detalhes do I/O do painel (1)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 7.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Detalhes do CLP do painel (1)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 8.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Detalhes do CLP do painel (2)</h5>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRemota" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -354,50 +282,32 @@
             xs:max-sm:w-11/12 xs:max-sm:h-72">
                 <div id="carouselQDFL" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-white" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 1.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa de um painel QDFL (aço inox)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna de um painel QDFL (aço inox)</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 3.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista interna de um painel QDFL (aço carbono)</h5>
-                            </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 4.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5></h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 5.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Detalhes dos disjuntores do painel</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 6.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>DPS e bloco de distribuição</h5>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQDFL" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -418,28 +328,19 @@
             xs:max-sm:w-11/12 xs:max-sm:h-72">
                 <div id="carouselSubstacao" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 1</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 2</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>descrição do painel 3</h5>
-                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselSubstacao" data-bs-slide="prev">
@@ -457,7 +358,7 @@
                     Subestação unitária
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    As subestações unitárias são instalações elétricas que ajustam a tensão para distribuição em diversos setores de uma planta industrial. Elas são compostas por cubículos de média tensão, transformadores, QGBT e sistemas auxiliares. A empresa oferece soluções completas, desde o projeto até o fornecimento dos equipamentos, incluindo digitalização, monitoramento de umidade e temperatura.
+                    As subestações unitárias são instalações elétricas que ajustam a tensão para distribuição em diversos setores de uma planta industrial. Elas são compostas por cubículos de média tensão, transformadores, QGBTs, Bancos de Capacitores e sistemas auxiliares. A Zettatecck oferece soluções completas para subestações, desde a elaboração de projetos até o fornecimento dos equipamentos que a compõe, incluindo Cubículos de média tensão, transformadores, QGBT’s, Busway, Remotas para digitalização de subestações, equipamentos para monitoramento de umidade e temperatura.
                     <!-- <div class="relative inline-block">
                         <span class="relative z-10 p-1"> 24 kV e 25 kA</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
@@ -501,27 +402,15 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 1.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa frontal do painel</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 2.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa lateral direita do painel</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 3.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa lateral esquerda do painel</h5>
-                            </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5>Vista externa traseira do painel</h5>
-                            </div>
                         </div>
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="prev">

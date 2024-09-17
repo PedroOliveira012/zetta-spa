@@ -88,9 +88,9 @@
     .card-2{
         background-image: url('@/assets/media/projects/projetos-2.jpg');
     }
-    .card-3{
+    /* .card-3{
         background-image: url('@/assets/media/projects/projetos-3.jpg');
-    }
+    } */
     .card-4{
         background-image: url('@/assets/media/projects/projetos-4.jpg');
     }
