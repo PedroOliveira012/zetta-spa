@@ -25,7 +25,7 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1">operação contínua.</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div>  O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores.
+                    </div>  O design otimiza o espaço de instalação e proporciona acesso fácil ao interior do painel, garantindo segurança tanto para a instalação quanto para os operadores. Além disso, nosso CCM está preparado para atender às demandas da Indústria 4.0, integrando soluções de IoT que permitem monitoramento remoto em tempo real, coleta de dados e manutenção preditiva, elevando a eficiência e a automação do processo industrial.
                 </div>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
@@ -126,7 +126,7 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> montagem compartimentada</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div>, desde a forma 1 até 4b, e aceitam componentes de principais marcas, mantendo certificação conforme a norma IEC 61439-1/2. Entre os produtos dessa linha, incluem-se QGBT's, QF's, Bancos de Capacitores, Centros de Controle de Motores (CCM's) e CCM's Inteligentes, oferecendo versatilidade e alta qualidade para diferentes necessidades.
+                    </div>, desde a forma 1 até 4b, e aceitam componentes de principais marcas, mantendo certificação conforme a norma IEC 61439-1/2. Entre os produtos dessa linha, incluem-se QGBT's, QF's, Bancos de Capacitores, Centros de Controle de Motores (CCM's) e CCM's Inteligentes, oferecendo versatilidade e alta qualidade para diferentes necessidades.  Além disso, nosso QGBT está preparado para atender às demandas da Indústria 4.0, integrando soluções de IoT que permitem monitoramento remoto em tempo real, coleta de dados e manutenção preditiva, elevando a eficiência e a automação do processo industrial.
                 </div>
             </div>
         </section>
@@ -145,7 +145,7 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1">reduzem o tempo de intervenção</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div>, e o design otimiza o espaço e facilita o acesso, assegurando confiabilidade e segurança para instalações e operadores.
+                    </div>, e o design otimiza o espaço e facilita o acesso, assegurando confiabilidade e segurança para instalações e operadores. Além disso, nossa Subestação unitária está preparada para atender às demandas da Indústria 4.0, integrando soluções de IoT que permitem monitoramento remoto em tempo real, coleta de dados e manutenção preditiva, elevando a eficiência e a automação do processo industrial.
                 </div>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
@@ -162,13 +162,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/banco de capacitores/bc 1.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/banco de capacitores/bc 3.webp" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 2.webp" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/banco de capacitores/bc 3.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/banco de capacitores/bc 1.webp" class="d-block w-100" alt="...">
                         </div>
                         <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 4.webp" class="d-block w-100" alt="...">
@@ -254,7 +254,7 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> otimização de espaço</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
+                    </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários. Além disso, nossas Remotas estão preparadas para atender às demandas da Indústria 4.0, integrando soluções de IoT que permitem monitoramento remoto em tempo real, coleta de dados e manutenção preditiva, elevando a eficiência e a automação do processo industrial.
                 </div>
             </div>
         </section>
@@ -357,8 +357,27 @@
                 <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
                     Subestação unitária
                 </h3>
+                <!-- <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
+                    O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> rápida intervenção</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer   
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> fácil acessibilidade</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.
+                </div> -->
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    As subestações unitárias são instalações elétricas que ajustam a tensão para distribuição em diversos setores de uma planta industrial. Elas são compostas por cubículos de média tensão, transformadores, QGBTs, Bancos de Capacitores e sistemas auxiliares. A Zettatecck oferece soluções completas para subestações, desde a elaboração de projetos até o fornecimento dos equipamentos que a compõe, incluindo Cubículos de média tensão, transformadores, QGBT’s, Busway, Remotas para digitalização de subestações, equipamentos para monitoramento de umidade e temperatura.
+                    As subestações unitárias são instalações elétricas que ajustam a tensão para 
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> distribuição em diversos setores</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> de uma planta industrial. Elas são compostas por cubículos de média tensão, transformadores, QGBTs, Bancos de Capacitores e sistemas auxiliares. A Zettatecck oferece
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> soluções completas </span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div>para subestações, desde a elaboração de projetos até o fornecimento dos equipamentos que a compõe, incluindo Cubículos de média tensão, transformadores, QGBT’s, Busway, Remotas para digitalização de subestações, equipamentos para monitoramento de umidade e temperatura. Além disso, nossa Subestação unitária está preparada para atender às demandas da Indústria 4.0, integrando soluções de IoT que permitem monitoramento remoto em tempo real, coleta de dados e manutenção preditiva, elevando a eficiência e a automação do processo industrial.
                     <!-- <div class="relative inline-block">
                         <span class="relative z-10 p-1"> 24 kV e 25 kA</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
@@ -424,6 +443,69 @@
                 </div>
             </div>
         </section> -->
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
+        xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
+            <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-4 xs:max-sm:w-11/12">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
+                    Quadros Eletropneumático
+                </h3>
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
+                    <!-- O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> rápida intervenção</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer   
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> fácil acessibilidade</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas. -->
+                    Os painéis eletropneumáticos são projetados para garantir continuidade de serviço, com todas as conexões acessíveis pela frente do painel, o que reduz significativamente o tempo de intervenção e manutenção. Seu design compacto contribui para a otimização de espaço na instalação, sem comprometer a funcionalidade. Além disso, a acessibilidade ao interior do painel é facilitada, proporcionando intervenções mais rápidas e seguras. A confiabilidade desses sistemas garante uma operação estável e contínua, ao mesmo tempo que a segurança da instalação e das pessoas é priorizada. Integrados à tecnologia IoT e às demandas da Indústria 4.0, esses painéis permitem o monitoramento remoto, coleta de dados em tempo real e manutenção preditiva, aumentando a eficiência e a automação dos processos industriais.
+                </div>
+            </div>
+            <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselPneumatico" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselPneumatico" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <!-- <button type="button" data-bs-target="#carouselPneumatico" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselPneumatico" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button> -->
+                        <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/pneumatico/pneumatico.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/qdfl/qdfl 3.webp" class="d-block w-100" alt="...">
+                        </div> -->
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/qdfl/qdfl 4.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/qdfl/qdfl 5.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/qdfl/qdfl 6.webp" class="d-block w-100" alt="...">
+                        </div> -->
+                    </div>
+                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPneumatico" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPneumatico" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 <script setup>

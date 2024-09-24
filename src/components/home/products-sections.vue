@@ -60,43 +60,43 @@
                         <!-- <button type="button" data-bs-target="#carouselPainel" data-bs-slide-to="6" class="bg-white" aria-label="Slide 7"></button> -->
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="2000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5> obras</h5>
@@ -136,61 +136,61 @@
                         <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="9" class="bg-white" aria-label="Slide 10"></button> -->
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 1.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 2.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 3.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 4.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 5.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="2000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 6.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div> -->
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 7.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 8.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto silk 1.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto silk 2.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
@@ -294,19 +294,19 @@
                         <!-- <button type="button" data-bs-target="#carouselRobo" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button> -->
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/robots/slide robo 1.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/robots/slide robo 2.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="2000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
