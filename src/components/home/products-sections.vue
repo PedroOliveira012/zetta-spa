@@ -91,7 +91,7 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/subestacao/subestacao 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
@@ -137,61 +137,61 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 1.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 2.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 3.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 3.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 4.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 4.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 5.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 5.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <!-- <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 6.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 6.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div> -->
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 7.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 7.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 8.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 8.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto silk 1.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto silk 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto silk 2.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto silk 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
@@ -223,7 +223,7 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> tecnologia avançada </span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> estrita conformidade com normas de segurança, oferecemos soluções que proporcionam alta
+                    </div>e estrita conformidade com normas de segurança, oferecemos soluções que proporcionam alta
                     performance e confiabilidade. Descubra como podemos otimizar seus processos industriais com nossos
                     serviços especializados em projetos elétricos.
                 </div>

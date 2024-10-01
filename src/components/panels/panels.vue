@@ -37,25 +37,26 @@
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
-                        <!-- <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button> -->
+                        <!-- <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                        <!-- <div class="carousel-item active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 1.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        </div> -->
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 2.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="...">
+                        </div> -->
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="..."> 
+                            <!-- editar o pallet -->
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 4.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 5.webp" class="d-block w-100" alt="...">
-                        </div> -->
+                        </div>
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCCM" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -81,7 +82,7 @@
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button>
+                        <!-- <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -99,9 +100,9 @@
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 5.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 6.webp" class="d-block w-100" alt="...">
-                        </div>
+                        </div> -->
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQGBT" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -202,8 +203,8 @@
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class=" active bg-black" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
-                        <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
+                        <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button> -->
+                        <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -212,22 +213,22 @@
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 3.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <!-- <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/remota/remota 4.webp" class="d-block w-100" alt="...">
-                        </div>
+                        </div> -->
                         <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/remota/mesa comando.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 5.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        </div> -->
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 6.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        </div> -->
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 7.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        </div> -->
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 8.webp" class="d-block w-100" alt="...">
                         </div> -->
                     </div>
@@ -285,9 +286,9 @@
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
-                        <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
+                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                        <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
+                        <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -299,13 +300,13 @@
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 3.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 4.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 5.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        </div> -->
+                        <!-- <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 6.webp" class="d-block w-100" alt="...">
                         </div> -->
                     </div>
@@ -331,16 +332,20 @@
                         <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/home/1.png" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/subestacao/subestacao 1.webp" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/home/2.png" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/subestacao/subestacao 2.webp" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/subestacao/subestacao 3.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/subestacao/subestacao 4.webp" class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselSubstacao" data-bs-slide="prev">
@@ -377,7 +382,15 @@
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> soluções completas </span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div>para subestações, desde a elaboração de projetos até o fornecimento dos equipamentos que a compõe, incluindo Cubículos de média tensão, transformadores, QGBT’s, Busway, Remotas para digitalização de subestações, equipamentos para monitoramento de umidade e temperatura. Além disso, nossa Subestação unitária está preparada para atender às demandas da Indústria 4.0, integrando soluções de IoT que permitem monitoramento remoto em tempo real, coleta de dados e manutenção preditiva, elevando a eficiência e a automação do processo industrial.
+                    </div>para subestações, desde a elaboração de projetos até o fornecimento dos equipamentos que a compõe, incluindo Cubículos de média tensão, transformadores, QGBT’s, Busway, Remotas para
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> digitalização de subestações</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div>, equipamentos para monitoramento de umidade e temperatura. Além disso, nossa Subestação unitária está preparada para atender às demandas da Indústria 4.0, integrando soluções de IoT que permitem 
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> monitoramento remoto</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> em tempo real, coleta de dados e manutenção preditiva, elevando a eficiência e a automação do processo industrial.
                     <!-- <div class="relative inline-block">
                         <span class="relative z-10 p-1"> 24 kV e 25 kA</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
@@ -447,7 +460,7 @@
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-4 xs:max-sm:w-11/12">
                 <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
-                    Quadros Eletropneumático
+                    Painéis Eletropneumáticos
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     <!-- O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona
@@ -459,7 +472,15 @@
                         <span class="relative z-10 p-1"> fácil acessibilidade</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas. -->
-                    Os painéis eletropneumáticos são projetados para garantir continuidade de serviço, com todas as conexões acessíveis pela frente do painel, o que reduz significativamente o tempo de intervenção e manutenção. Seu design compacto contribui para a otimização de espaço na instalação, sem comprometer a funcionalidade. Além disso, a acessibilidade ao interior do painel é facilitada, proporcionando intervenções mais rápidas e seguras. A confiabilidade desses sistemas garante uma operação estável e contínua, ao mesmo tempo que a segurança da instalação e das pessoas é priorizada. Integrados à tecnologia IoT e às demandas da Indústria 4.0, esses painéis permitem o monitoramento remoto, coleta de dados em tempo real e manutenção preditiva, aumentando a eficiência e a automação dos processos industriais.
+                    Os painéis eletropneumáticos são projetados para garantir continuidade de serviço, com todas as conexões de operação e controle acessíveis pela parte frontal do painel, o que reduz significativamente o tempo de intervenção e manutenção. O 
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1">design compacto</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> contribui para a otimização de espaço na instalação, sem comprometer a funcionalidade. Além disso, a estrutura do painel permite fácil acesso ao seu interior para inspeção e reparos internos, proporcionando intervenções mais rápidas e seguras quando necessário. A confiabilidade desses sistemas garante uma operação 
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1">estável e contínua</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div>, enquanto a segurança da instalação e das pessoas é sempre priorizada.
                 </div>
             </div>
             <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
