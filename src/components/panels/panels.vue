@@ -402,60 +402,6 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
-        xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
-            <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
-                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
-                    Painel robô canteiro de obras
-                </h3>
-                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    Os paineis robô para canteiros de obras são pensados e desenvolvidos para assegurar o fornecimento de energia em obras de diversos seguimentos. Contam com sistemas de bloqueio de segurança para a proteção dos profissionais, circuitos dimensionados e preparados para a correta distribuição de energia elétrica evitando improvisos, riscos de acidentes e incêndios. São de fácil locomoção e instalação. Construídos conforme normas ABNT NBR IEC 61439-1&2, NR-10 e NBR-5410 para garantir alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.  -->
-                    <!-- <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> conexões acessíveis</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
-                    <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> otimização de espaço</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários. -->
-                <!-- </div>
-            </div>
-            <div v-motion-slide-visible-once-right :duration="1000" class="h-fit 
-            lg:w-6/12
-            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
-            xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselCanteiro" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/painel canteiro/canteiro 1.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/painel canteiro/canteiro 2.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/painel canteiro/canteiro 3.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="prev">
-                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="next">
-                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </section> -->
         <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
         xs:max-lg:flex-col xs:max-lg:pb-8 xs:max-sm:px-0">
             <div v-motion-slide-visible-once-left :duration="1000" class="lg:w-6/12 relative py-4 xs:max-sm:w-11/12">
@@ -524,6 +470,60 @@
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
+                </div>
+            </div>
+        </section>
+        <section class="flex items-center justify-center gap-4 m-auto px-12 pb-24
+        xs:max-lg:flex-col-reverse xs:max-lg:mt-12 xs:max-lg:pb-8 xs:max-sm:px-0">
+            <div v-motion-slide-visible-once-left :duration="1000" class="h-fit 
+            lg:w-6/12
+            sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
+            xs:max-sm:w-11/12 xs:max-sm:h-72">
+                <div id="carouselCanteiro" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/painel canteiro/canteiro 1.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/painel canteiro/canteiro 2.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/painel canteiro/canteiro 3.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div v-motion-slide-visible-once-right :duration="1000" class="lg:w-6/12 relative py-8 xs:max-sm:w-11/12">
+                <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
+                    Painel robô canteiro de obras
+                </h3>
+                <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
+                    Os paineis robô para canteiros de obras são pensados e desenvolvidos para assegurar o fornecimento de energia em obras de diversos seguimentos. Contam com sistemas de bloqueio de segurança para a proteção dos profissionais, circuitos dimensionados e preparados para a correta distribuição de energia elétrica evitando improvisos, riscos de acidentes e incêndios. São de fácil locomoção e instalação. Construídos conforme normas ABNT NBR IEC 61439-1&2, NR-10 e NBR-5410 para garantir alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários. 
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> conexões acessíveis</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
+                    <div class="relative inline-block">
+                        <span class="relative z-10 p-1"> otimização de espaço</span>
+                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
+                    </div> na instalação, fácil acessibilidade ao interior do painel, alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários.
                 </div>
             </div>
         </section>
