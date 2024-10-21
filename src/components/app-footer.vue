@@ -18,7 +18,7 @@
                 xs:w-full xs:h-3/6 xs:px-4 xs:max-sm:border-b xs:max-sm: border-[#656567]">
                     <div>
                         <h3>Onde estamos:</h3>
-                        <a href="https://www.google.com.br/maps/place/Zettatecck+Projetos+Industriais+e+Automação/@-22.3694158,-47.4025012,17z/data=!3m1!4b1!4m6!3m5!1s0x94c877f989814a41:0x7beec8fd34f62c93!8m2!3d-22.3694208!4d-47.3999209!16s%2Fg%2F11v14mh22b?entry=ttu"
+                        <a target="_blank" href="https://www.google.com.br/maps/place/Zettatecck+Projetos+Industriais+e+Automação/@-22.3694158,-47.4025012,17z/data=!3m1!4b1!4m6!3m5!1s0x94c877f989814a41:0x7beec8fd34f62c93!8m2!3d-22.3694208!4d-47.3999209!16s%2Fg%2F11v14mh22b?entry=ttu"
                         class="hover:text-[#cbcbce] duration-300">
                             <i class="fa-solid fa-location-dot mr-2"></i>
                             <span>R. João Sierra, 245 - Distrito Industrial II, Araras-SP</span>
