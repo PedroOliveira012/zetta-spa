@@ -8,7 +8,7 @@
                 <div class="flex justify-center items-center px-6 w-full
                 md:h-full md:border-r md:border-[#656567]
                 xs:max-sm:w-fit xs:h-2/6 xs:max-md:border-b xs:border-[#656567]">
-                    <img src="../assets/logos/logo zetta.png" alt="" class="
+                    <img src="../assets/logos/logo zetta.webp" alt="" class="
                     xs:max-md:h-full xs:max-lg:pb-3">
                 </div>
                 <div class="flex justify-center items-center m-auto md:h-full 

@@ -328,15 +328,15 @@ export default {
 }
 
 .bg-1 {
-    background-image: url('@/assets/media/projects/projetos.jpg');
+    background-image: url('@/assets/media/projects/projetos.webp');
 }
 
 .bg-2 {
-    background-image: url('@/assets/media/projects/spda 1.jpg');
+    background-image: url('@/assets/media/projects/spda 1.webp');
 }
 
 .bg-3 {
-    background-image: url('@/assets/media/projects/projetos-3.jpg');
+    background-image: url('@/assets/media/projects/projetos-3.webp');
 }
 
 .bg-4 {

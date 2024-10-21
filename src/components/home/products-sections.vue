@@ -295,13 +295,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/robots/slide robo 1.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/robots/slide robo 1.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/robots/slide robo 2.jpg" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/robots/slide robo 2.webp" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
@@ -346,18 +346,6 @@
 </script>
 <style>
     .banner {
-        background-image: url('@/assets/media/fachada.jpg');
-    }
-
-    .item-1 {
-        background-image: url('@/assets/media/home/paineis.jpg');
-    }
-
-    .item-2 {
-        background-image: url('@/assets/media/projects/projetos.jpg');
-    }
-
-    .item-3 {
-        background-image: url('@/assets/media/home/robo.webp');
+        background-image: url('@/assets/media/fachada.webp');
     }
 </style>

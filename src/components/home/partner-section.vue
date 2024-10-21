@@ -153,19 +153,19 @@
             return{
                 partners:[
                     {   
-                        name: 'Rittal', logo: require('@/assets/logos/rittal.png'), alt: 'Logo de Rittal'
+                        name: 'Rittal', logo: require('@/assets/logos/rittal.webp'), alt: 'Logo de Rittal'
                     },
                     {
-                        name: 'Siemens', logo: require('@/assets/logos/siemens.png'), alt: 'Logo de Siemens'
+                        name: 'Siemens', logo: require('@/assets/logos/siemens.webp'), alt: 'Logo de Siemens'
                     },
                     {
-                        name: 'Wago', logo: require('@/assets/logos/wago.png'), alt: 'Logo de Wago'
+                        name: 'Wago', logo: require('@/assets/logos/wago.webp'), alt: 'Logo de Wago'
                     },
                     {
-                        name: 'Cosmo', logo: require('@/assets/logos/cosmo.png'), alt: 'Logo de Cosmo'
+                        name: 'Cosmo', logo: require('@/assets/logos/cosmo.webp'), alt: 'Logo de Cosmo'
                     },
                     {
-                        name: 'Finder', logo: require('@/assets/logos/finder.png'), alt: 'Logo de Finder'
+                        name: 'Finder', logo: require('@/assets/logos/finder.webp'), alt: 'Logo de Finder'
                     },
                     {
                         name: 'Weg', logo: require('@/assets/logos/weg.svg'), alt: 'Logo de Weg'
@@ -174,19 +174,19 @@
                         name: 'Condumax', logo: require('@/assets/logos/condumax.svg'), alt: 'Logo de Condumax'
                     },
                     {
-                        name: 'Phoenix Contact', logo: require('@/assets/logos/phoenix.png'), alt: 'Logo de Phoenix'
+                        name: 'Phoenix Contact', logo: require('@/assets/logos/phoenix.webp'), alt: 'Logo de Phoenix'
                     },
                     {
                         name: 'Intereng', logo: require('@/assets/logos/intereng.webp'), alt: 'Logo de Intereng'
                     },
                     {
-                        name: 'Muli inst', logo: require('@/assets/logos/multi-inst.jpg'), alt: 'Logo de Multi inst'
+                        name: 'Muli inst', logo: require('@/assets/logos/multi-inst.webp'), alt: 'Logo de Multi inst'
                     },
                     {
                         name: 'Woehner', logo: require('@/assets/logos/woehner.svg'), alt: 'Logo de Holec'
                     },
                     {
-                        name: 'Weidmuller', logo: require('@/assets/logos/weidmuller.png'), alt: 'Logo de Weidmuller'
+                        name: 'Weidmuller', logo: require('@/assets/logos/weidmuller.webp'), alt: 'Logo de Weidmuller'
                     },
                 ]
             }

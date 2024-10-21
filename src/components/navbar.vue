@@ -3,7 +3,7 @@
         <div class="container-fluid flex items-center justify-between w-full py-4 px-4">
             <a class="navbar-brand" href="/">
                 <div class="w-64 xs:max-sm:w-44">
-                    <img src="../assets/logos/logo zetta.png" alt="Logo">
+                    <img src="../assets/logos/logo zetta.webp" alt="Logo">
                 </div>
             </a>
             <button class="block lg:hidden mr-6 xs:max-sm:mr-2" type="button" data-bs-toggle="offcanvas"
