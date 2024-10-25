@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center items-center h-72 mb-8 border-[#a1dfe7] border-b banner bg-cover bg-center
+    <div class="flex justify-center items-center h-72 mb-8 border-[#a1dfe7] border-b banner bg-cover
             lg:max-xl:h-56
             xs:max-lg:h-32">
     </div>
@@ -49,7 +49,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72">
-                <div id="carouselPainel" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselPainel" class="carousel slide h-fit border-2 rounded-2xl border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselPainel" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselPainel" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
@@ -57,57 +57,57 @@
                         <button type="button" data-bs-target="#carouselPainel" data-bs-slide-to="3" class="bg-white" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselPainel" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button>
                         <button type="button" data-bs-target="#carouselPainel" data-bs-slide-to="5" class="bg-white" aria-label="Slide 6"></button>
-                        <!-- <button type="button" data-bs-target="#carouselPainel" data-bs-slide-to="6" class="bg-white" aria-label="Slide 7"></button> -->
+                        <button type="button" data-bs-target="#carouselPainel" data-bs-slide-to="6" class="bg-white" aria-label="Slide 7"></button>
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qgbt/qgbt 3.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/qgbt/qgbt 3.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/banco de capacitores/bc 3.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/banco de capacitores/bc 3.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/remota/remota 1.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/remota/remota 1.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/subestacao/subestacao 1.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/panels/subestacao/subestacao 1.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5> obras</h5>
+                                <h5></h5>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPainel" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPainel" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPainel" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPainel" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -122,7 +122,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72">
-                <div id="carouselProjeto" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselProjeto" class="carousel slide h-fit border-2 rounded-2xl border-cyan-500" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
@@ -135,73 +135,73 @@
                         <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="8" class="bg-white" aria-label="Slide 9"></button>
                         <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="9" class="bg-white" aria-label="Slide 10"></button> -->
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 1.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 1.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 2.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 2.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 3.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 3.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 4.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 4.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 5.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 5.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <!-- <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 6.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 6.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div> -->
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 7.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 7.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 8.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto geradores 8.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto silk 1.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto silk 1.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto silk 2.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/projects/projeto silk 2.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -284,7 +284,7 @@
                     </button>
                 </router-link>
             </div>
-            <div v-motion-slide-visible-once-right :duration="1000" id="carouselRobo" class="border-2 border-cyan-500 carousel slide h-fit
+            <div v-motion-slide-visible-once-right :duration="1000" id="carouselRobo" class="border-2 border-cyan-500 carousel slide h-fit rounded-2xl
             lg:w-6/12
             sm:max-lg:h-80 sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-full xs:max-sm:h-72" data-bs-ride="carousel">
@@ -293,31 +293,31 @@
                         <button type="button" data-bs-target="#carouselRobo" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
                         <!-- <button type="button" data-bs-target="#carouselRobo" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button> -->
                     </div>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item active" data-bs-interval="5000">
-                            <img src="@/assets/media/robots/slide robo 1.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/robots/slide robo 1.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/robots/slide robo 2.webp" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/robots/slide robo 2.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div>
                         <!-- <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/home/3.png" class="d-block w-100" alt="...">
+                            <img src="@/assets/media/home/3.png" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
                         </div> -->
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRobo" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRobo" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRobo" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRobo" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>

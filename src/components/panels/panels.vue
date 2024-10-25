@@ -32,7 +32,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselCCM" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselCCM" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
@@ -40,29 +40,29 @@
                         <!-- <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button> -->
                     </div>
-                    <div class="carousel-inner">
-                        <!-- <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-inner rounded-2xl">
+                        <!-- <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 1.webp" class="d-block w-100" alt="...">
                         </div> -->
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 2.webp" class="d-block w-100" alt="...">
                         </div> -->
-                        <div class="carousel-item active" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="..."> 
                             <!-- editar o pallet -->
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 4.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 5.webp" class="d-block w-100" alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCCM" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCCM" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCCM" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCCM" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -75,7 +75,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselQGBT" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselQGBT" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
@@ -84,31 +84,31 @@
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
                         <!-- <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-inner rounded-2xl">
+                        <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 1.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 3.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 4.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 5.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 6.webp" class="d-block w-100" alt="...">
                         </div> -->
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQGBT" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQGBT" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQGBT" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQGBT" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -153,7 +153,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselBC" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselBC" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
@@ -161,28 +161,28 @@
                         <!-- <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-inner rounded-2xl">
+                        <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 3.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 1.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 4.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 5.webp" class="d-block w-100" alt="...">
                         </div> -->
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselBC" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselBC" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselBC" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselBC" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -195,7 +195,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselRemota" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselRemota" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
@@ -206,37 +206,37 @@
                         <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button> -->
                         <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-inner rounded-2xl">
+                        <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 1.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 3.webp" class="d-block w-100" alt="...">
                         </div> -->
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/mesa comando.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 5.webp" class="d-block w-100" alt="...">
                         </div> -->
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 6.webp" class="d-block w-100" alt="...">
                         </div> -->
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 7.webp" class="d-block w-100" alt="...">
                         </div> -->
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 8.webp" class="d-block w-100" alt="...">
                         </div> -->
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRemota" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRemota" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRemota" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRemota" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -281,7 +281,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselQDFL" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselQDFL" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
@@ -290,31 +290,31 @@
                         <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
                         <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-inner rounded-2xl">
+                        <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 1.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 3.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 4.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 5.webp" class="d-block w-100" alt="...">
                         </div> -->
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 6.webp" class="d-block w-100" alt="...">
                         </div> -->
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQDFL" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQDFL" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQDFL" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQDFL" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -327,32 +327,32 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselSubstacao" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselSubstacao" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselSubstacao" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-inner rounded-2xl">
+                        <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/subestacao/subestacao 1.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/subestacao/subestacao 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/subestacao/subestacao 3.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/subestacao/subestacao 4.webp" class="d-block w-100" alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselSubstacao" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselSubstacao" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselSubstacao" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselSubstacao" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -433,7 +433,7 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselPneumatico" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselPneumatico" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselPneumatico" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <!-- <button type="button" data-bs-target="#carouselPneumatico" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
@@ -442,31 +442,31 @@
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-inner rounded-2xl">
+                        <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/pneumatico/pneumatico.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 3.webp" class="d-block w-100" alt="...">
                         </div> -->
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
+                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 4.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 5.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 6.webp" class="d-block w-100" alt="...">
                         </div> -->
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPneumatico" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPneumatico" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPneumatico" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPneumatico" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -479,32 +479,32 @@
             lg:w-6/12
             sm:max-lg:h-80 xs:max-lg:rounded-2xl sm:max-lg:w-8/12 sm:max-lg:mx-auto
             xs:max-sm:w-11/12 xs:max-sm:h-72">
-                <div id="carouselCanteiro" class="carousel slide h-fit border-2 border-cyan-500" data-bs-ride="carousel">
+                <div id="carouselCanteiro" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselCanteiro" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-inner rounded-2xl">
+                        <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 1.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 3.webp" class="d-block w-100" alt="...">
                         </div>
-                        <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100" alt="...">
                         </div>
                     </div>
-                    <button class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="prev">
+                    <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="next">
+                    <button class="carousel-control-next rounded-r-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselCanteiro" data-bs-slide="next">
                         <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -517,9 +517,9 @@
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     Os paineis robô para canteiros de obras são pensados e desenvolvidos para assegurar o fornecimento de energia em obras de diversos seguimentos. Contam com sistemas de bloqueio de segurança para a proteção dos profissionais, circuitos dimensionados e preparados para a correta distribuição de energia elétrica evitando improvisos, riscos de acidentes e incêndios. São de fácil locomoção e instalação. Construídos conforme normas ABNT NBR IEC 61439-1&2, NR-10 e NBR-5410 para garantir alta confiabilidade e máxima segurança tanto para a instalação quanto para os usuários. 
                     <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> conexões acessíveis</span>
+                        <span class="relative z-10 p-1"> Conexões acessíveis</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> pela frente do painel, reduzindo o tempo de intervenção. Além disso, proporcionam    
+                    </div> pela frente do painel, reduzem o tempo de intervenção. Além disso, proporcionam    
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> otimização de espaço</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
