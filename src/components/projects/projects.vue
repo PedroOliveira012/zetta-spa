@@ -9,299 +9,284 @@
                 </h2>
             </div>
         </div>
-        <div class="grid grid-cols-2 px-12 content-evenly
-        xs:max-xl:grid-cols-1 xs:max-xl:px-12">
-            <div v-motion-slide-left :duration="1000" class="flex flex-col justify-between h-full my-auto rounded-2xl
-                xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
-                <div class="bg-[#e8e8e8] m-4 h-fit rounded-2xl
-                xs:max-xl:hidden">
-                    <div id="carouselTeste" class="carousel slide carousel-fade h-fit border-2 xl:size-full rounded-2xl"
+        <div class="flex flex-col px-12 mx-auto
+            xs:max-xl:px-0 xs:max-xl:justify-center xs:max-lg:w-12/12 lg:max-xl:w-8/12">
+            <div class="flex justify-evenly h-full xs:max-xl:flex-col">
+                <div v-motion-slide-left :duration="1000" class="flex flex-col justify-between size-full mx-4 bg-[#e8e8e8] rounded-2xl hover:shadow-2xl duration-500 
+                    xs:max-md:h-fit xs:max-md:mx-auto xs:max-md:mb-6 xs:max-md:size-fit
+                    md:max-lg:mb-12 md:max-lg:mx-auto
+                    lg:max-xl:m-16">
+                    <div id="carouselInfraMD" class="carousel slide xl:size-full rounded-t-2xl xs:max-md:hidden"
                         data-bs-ride="carousel">
-                        <div class="carousel-inner rounded-t-2xl">
-                            <div class="carousel-item rounded-2xl active bg-1 bg-cover bg-center h-72"
-                                data-bs-interval="2500"></div>
-                            <div class="carousel-item rounded-2xl bg-4 bg-cover bg-center h-72" data-bs-interval="2500"></div>
-                            <div class="carousel-item rounded-2xl bg-7 bg-cover bg-center h-72" data-bs-interval="2500"></div>
+                        <div class="carousel-indicators rounded-t-2xl">
+                            <button type="button" data-bs-target="#carouselInfra" data-bs-slide-to="0"
+                                class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselInfra" data-bs-slide-to="1" class="bg-white"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselInfra" data-bs-slide-to="2" class="bg-white"
+                                aria-label="Slide 3"></button>
                         </div>
-                    </div>
-                </div>
-                <div class="flex flex-col justify-between h-fit mx-4 bg-[#e8e8e8] rounded-2xl hover:shadow-2xl duration-500 
-                xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-12/12 xs:max-md:mx-auto">
-                    <div class="flex h-full justify-center items-center flex-col">
-                        <!-- <div class="w-4/12 h-full bg-1 bg-center
-                        xl:bg-cover xl:size-full xl:rounded-t-2xl
-                        md:max-xl:rounded-l-2xl
-                        xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"></div> -->
-                        <div id="carouselProjeto" class="carousel slide h-fit border-2 xl:size-full rounded-t-2xl"
-                            data-bs-ride="carousel">
-                            <div class="carousel-indicators rounded-t-2xl">
-                                <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="0"
-                                    class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="1"
-                                    class="bg-white" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="2"
-                                    class="bg-white" aria-label="Slide 3"></button>
-                                <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="3"
-                                    class="bg-white" aria-label="Slide 4"></button> -->
-                                <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="4"
-                                    class="bg-white" aria-label="Slide 5"></button> -->
-                                <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="5"
-                                    class="bg-white" aria-label="Slide 6"></button> -->
-                                <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="6"
-                                    class="bg-white" aria-label="Slide 7"></button> -->
-                                <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="7"
-                                    class="bg-white" aria-label="Slide 8"></button> -->
-                                <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="8"
-                                    class="bg-white" aria-label="Slide 9"></button> -->
-                                <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="9" class="bg-white" aria-label="Slide 10"></button> -->
-                            </div>
-                            <div class="carousel-inner rounded-t-2xl">
-                                <div class="carousel-item active" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto geradores 1.webp"
-                                        class="d-block w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto geradores 2.webp"
-                                        class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto geradores 3.webp"
-                                        class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div>
-                                <!-- <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto geradores 4.webp"
-                                        class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto geradores 5.webp"
-                                        class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="carousel-item" data-bs-interval="5000">
-                                <img src="@/assets/media/projects/projeto geradores 6.webp" class="d-block m-auto w-100 rounded-t-2xl" alt="...">
+                        <div class="carousel-inner rounded-t-2xl xs:max-md:hidden">
+                            <div class="carousel-item active h-80 md:rounded-t-2xl bg-11 bg-cover" data-bs-interval="5000">
                                 <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                     <h5></h5>
                                 </div>
-                            </div> -->
-                                <!-- <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto geradores 7.webp"
-                                        class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto geradores 8.webp"
-                                        class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto silk 1.webp"
-                                        class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div> -->
-                                <!-- <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="@/assets/media/projects/projeto silk 2.webp"
-                                        class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                    <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                        <h5></h5>
-                                    </div>
-                                </div> -->
                             </div>
-                            <button
-                                class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-tl-2xl"
-                                type="button" data-bs-target="#carouselProjeto" data-bs-slide="prev">
-                                <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button
-                                class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-tr-2xl"
-                                type="button" data-bs-target="#carouselProjeto" data-bs-slide="next">
-                                <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                            <div class="carousel-item h-80 md:rounded-t-2xl bg-12 bg-cover" data-bs-interval="5000">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-80 md:rounded-t-2xl bg-13 bg-cover" data-bs-interval="5000">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="flex flex-col justify-center items-center text-justify size-full p-8 py-12
-                        md:max-xl:w-11/12
-                        xs:max-md:w-fit xs:max-md:py-6">
-                            <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
-                            xs:max-xl:text-2xl xs:max-md:mb-4 
-                            xl:max-2xl:text-xl xl:mb-5">infraestrutura de potência, controle e rede</h3>
-                            <p class="text-base 
-                            xs:max-md:text-sm 
-                            xl:max-2xl:text-sm">Nossos sistemas de Encaminhamento de Rede, Potência e Comando são
-                                projetados com detalhamento mecânico (eletroduto, eletrocalha, perfilados etc.) e
-                                elétrico
-                                (bolhas para orientação do instalador) precisos para atender às necessidades específicas
-                                de
-                                cada cliente. Garantindo alta qualidade e eficiência, esses sistemas otimizam o espaço
-                                de
-                                instalação e facilitam o acesso para manutenção, assegurado assim confiabilidade e
-                                segurança
-                                tanto para a instalação quanto para os operadores.</p><br>
-                            <p class="text-base 
-                            xs:max-md:text-sm 
-                            xl:max-2xl:text-sm">Os cálculos de infraestrutura englobam eletrodutos, eletrocalhas e
-                                perfilados, garantindo uma instalação eficiente e segura. Com dimensionamento preciso,
-                                esses
-                                cálculos asseguram a correta distribuição de cabos, otimização do espaço e facilidade de
-                                manutenção. A conformidade com as normas técnicas garante a confiabilidade e a segurança
-                                das
-                                instalações, proporcionando um sistema robusto e bem estruturado.</p>
-                        </div>
+                        <button
+                            class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 rounded-tl-2xl"
+                            type="button" data-bs-target="#carouselInfraMD" data-bs-slide="prev">
+                            <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 rounded-tr-2xl"
+                            type="button" data-bs-target="#carouselInfraMD" data-bs-slide="next">
+                            <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                </div>
-                <div class="bg-[#e8e8e8] m-4 h-fit rounded-2xl
-                xs:max-xl:hidden">
-                    <div id="carouselTeste" class="carousel slide carousel-fade h-fit border-2 xl:size-full rounded-2xl"
+                    <div id="carouselInfraXS" class="carousel slide xl:size-full rounded-t-2xl md:hidden"
                         data-bs-ride="carousel">
-                        <div class="carousel-inner rounded-t-2xl">
-                            <div class="carousel-item rounded-2xl active bg-10 bg-cover bg-center h-72" data-bs-interval="2500">
-                            </div>
-                            <div class="carousel-item rounded-2xl bg-5 bg-cover bg-center h-72" data-bs-interval="2500"></div>
-                            <div class="carousel-item rounded-2xl bg-8 bg-cover bg-center h-72" data-bs-interval="2500"></div>
+                        <div class="carousel-indicators rounded-t-2xl">
+                            <button type="button" data-bs-target="#carouselInfra" data-bs-slide-to="0"
+                                class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselInfra" data-bs-slide-to="1" class="bg-white"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselInfra" data-bs-slide-to="2" class="bg-white"
+                                aria-label="Slide 3"></button>
                         </div>
+                        <div class="carousel-inner rounded-t-2xl md:hidden">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="@/assets/media/projects/projeto geradores 1.webp"
+                                    class="d-block w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="@/assets/media/projects/projeto geradores 2.webp"
+                                    class="d-block w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="@/assets/media/projects/projeto geradores 3.webp"
+                                    class="d-block w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
+                            </div>                            
+                        </div>
+                        <button
+                            class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 rounded-tl-2xl"
+                            type="button" data-bs-target="#carouselInfraXS" data-bs-slide="prev">
+                            <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 rounded-tr-2xl"
+                            type="button" data-bs-target="#carouselInfraXS" data-bs-slide="next">
+                            <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="flex flex-col justify-center items-center text-justify size-full p-6 py-12
+                            md:max-xl:w-11/12
+                            xs:max-md:w-fit xs:max-md:py-6">
+                        <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
+                            xs:max-xl:text-2xl xs:max-md:mb-4 
+                            xl:max-2xl:text-xl xl:mb-5">Infraestrutura de potência, controle e rede</h3>
+                        <p class="text-base 
+                                xs:max-md:text-sm 
+                                xl:max-2xl:text-sm">Nossos sistemas de Encaminhamento de Rede, Potência e Comando são
+                            projetados com detalhamento mecânico (eletroduto, eletrocalha, perfilados etc.) e
+                            elétrico
+                            (bolhas para orientação do instalador) precisos para atender às necessidades específicas
+                            de
+                            cada cliente. Garantindo alta qualidade e eficiência, esses sistemas otimizam o espaço
+                            de
+                            instalação e facilitam o acesso para manutenção, assegurado assim confiabilidade e
+                            segurança
+                            tanto para a instalação quanto para os operadores.</p><br>
+                        <p class="text-base 
+                                xs:max-md:text-sm 
+                                xl:max-2xl:text-sm">Os cálculos de infraestrutura englobam eletrodutos, eletrocalhas e
+                            perfilados, garantindo uma instalação eficiente e segura. Com dimensionamento preciso,
+                            esses
+                            cálculos asseguram a correta distribuição de cabos, otimização do espaço e facilidade de
+                            manutenção. A conformidade com as normas técnicas garante a confiabilidade e a segurança
+                            das
+                            instalações, proporcionando um sistema robusto e bem estruturado.</p>
                     </div>
                 </div>
-            </div>
-            <div v-motion-slide-right :duration="1000" class="flex flex-col h-full">
-                <div class="flex h-fit bg-[#e8e8e8] m-4 rounded-2xl hover:shadow-2xl duration-500
-                flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
-                    <div class="w-12/12 h-72 md:rounded-t-xl bg-2 bg-cover
-                    xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"></div>
+                <div v-motion-slide-right :duration="1000" class="flex flex-col justify-between size-full mx-4 bg-[#e8e8e8] rounded-2xl hover:shadow-2xl duration-500 
+                    xs:max-md:h-fit xs:max-md:mx-auto xs:max-md:mb-6 xs:max-md:size-fit
+                    md:max-lg:mb-12 md:max-lg:mx-auto
+                    lg:max-xl:m-16">
+                    <!-- <div class="w-12/12 h-80 md:rounded-t-2xl bg-2 bg-cover
+                        size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"> -->
+                    <div id="carouselSPDAMD" class="carousel slide xl:size-full rounded-t-2xl xs:max-md:hidden">
+                        <div class="carousel-inner rounded-t-2xl">
+                            <div class="carousel-item active h-80 md:rounded-t-2xl bg-2 bg-cover" data-bs-interval="5000">
+                                <!-- <img src="@/assets/media/projects/spda 1.webp"
+                                    class="d-block w-100 rounded-t-2xl h-80" alt="..."> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div id="carouselSPDAXS" class="carousel slide xl:size-full rounded-t-2xl md:hidden">
+                        <div class="carousel-inner rounded-t-2xl">
+                            <div class="carousel-item active md:rounded-t-2xl" data-bs-interval="5000">
+                                <img src="@/assets/media/projects/spda 1.webp"
+                                    class="d-block w-100 rounded-t-2xl" alt="...">
+                            </div>
+                        </div>
+                    </div>
                     <div
-                        class="flex flex-col justify-center items-center text-justify w-12/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
+                        class="flex flex-col justify-center items-center py-12 text-justify w-12/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
                         <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
-                        xs:max-xl:text-2xl xs:max-md:mb-4 
-                        xl:max-2xl:text-xl xl:mb-5">SPDA</h3>
+                            xs:max-xl:text-2xl xs:max-md:mb-4
+                            xl:max-2xl:text-xl xl:mb-5">SPDA</h3>
                         <p class="text-base 
-                        xs:max-md:text-sm 
-                        xl:max-2xl:text-sm">O Sistema de Proteção contra Descargas Atmosféricas (SPDA) é cuidadosamente
+                            xs:max-md:text-sm
+                            xl:max-2xl:text-sm">O Sistema de Proteção contra Descargas Atmosféricas (SPDA) é
+                            cuidadosamente
                             dimensionado com uma malha precisa, distância adequada entre descidas e equipotencialização
                             eficaz. Essas características garantem uma proteção robusta contra raios, aumentando a
                             segurança
                             das instalações e reduzindo riscos. Conforme as normas rigorosas, o SPDA assegura alta
                             confiabilidade e segurança para as instalações e seus operadores.</p>
                     </div>
-                </div>
-                <div class="bg-[#e8e8e8] h-full rounded-2xl m-4 
-                    xs:max-xl:hidden">
-                    <div id="carouselTeste" class="carousel slide carousel-fade h-fit border-2 xl:size-full rounded-2xl"
-                        data-bs-ride="carousel">
-                        <div class="carousel-inner rounded-t-2xl">
-                            <div class="carousel-item rounded-2xl active bg-3 bg-cover bg-center h-72" data-bs-interval="2500">
+                    <div class="bg-[#e8e8e8] h-fit rounded-2xl mt-10 mx-4 
+                        xs:max-xl:hidden">
+                        <!-- <div id="carouselFotos" class="carousel slide carousel-fade h-fit border-2 xl:size-full rounded-2xl"
+                            data-bs-ride="carousel">
+                            <div class="carousel-inner rounded-t-2xl">
+                                <div class="carousel-item rounded-2xl active bg-9 bg-cover bg-center h-72"
+                                    data-bs-interval="2500"></div>
+                                <div class="carousel-item rounded-2xl bg-1 bg-cover bg-center h-72" data-bs-interval="2500">
+                                </div>
+                                <div class="carousel-item rounded-2xl bg-4 bg-cover bg-center h-72" data-bs-interval="2500">
+                                </div>
+                                <div class="carousel-item rounded-2xl bg-7 bg-cover bg-center h-72" data-bs-interval="2500">
+                                </div>
+                                <div class="carousel-item rounded-2xl bg-10 bg-cover bg-center h-72"
+                                    data-bs-interval="2500"></div>
+                                <div class="carousel-item rounded-2xl bg-5 bg-cover bg-center h-72" data-bs-interval="2500">
+                                </div>
+                                <div class="carousel-item rounded-2xl bg-8 bg-cover bg-center h-72" data-bs-interval="2500">
+                                </div>
                             </div>
-                            <div class="carousel-item rounded-2xl bg-6 bg-cover bg-center h-72" data-bs-interval="2500"></div>
-                            <div class="carousel-item rounded-2xl bg-9 bg-cover bg-center h-72" data-bs-interval="2500"></div>
-                        </div>
+                            <button
+                                class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-l-2xl"
+                                type="button" data-bs-target="#carouselFotos" data-bs-slide="prev">
+                                <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button
+                                class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 "
+                                type="button" data-bs-target="#carouselFotos" data-bs-slide="next">
+                                <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div> -->
                     </div>
                 </div>
-                <div class="flex h-fit bg-[#e8e8e8] m-4 rounded-2xl hover:shadow-2xl duration-500
-                 flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
-
-                    <!-- <div class="w-12/12 h-full md:rounded-l-xl bg-4 bg-center
-                     xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 ">
-                    
-                    </div> -->
-                    <div id="carouselLumi" class="carousel slide h-fit border-2 xl:size-full rounded-t-2xl"
-                        data-bs-ride="carousel">
-                        <div class="carousel-indicators rounded-t-2xl">
-                            <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="0"
-                                class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="1" class="bg-white"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="2" class="bg-white"
-                                aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="3" class="bg-white"
-                                aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="4" class="bg-white"
-                                aria-label="Slide 5"></button>
-                        </div>
-                        <div class="carousel-inner rounded-t-2xl">
-                            <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="@/assets/media/projects/lumi 1.webp" class="d-block w-100 rounded-t-2xl"
-                                    alt="...">
-                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                    <h5></h5>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <img src="@/assets/media/projects/lumi 2.webp"
-                                    class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                    <h5></h5>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <img src="@/assets/media/projects/lumi 3.webp"
-                                    class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                    <h5></h5>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <img src="@/assets/media/projects/lumi 4.webp"
-                                    class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                    <h5></h5>
-                                </div>
-                            </div>
-                            <div class="carousel-item" data-bs-interval="5000">
-                                <img src="@/assets/media/projects/lumi 5.webp"
-                                    class="d-block m-auto w-100 rounded-t-2xl" alt="...">
-                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                    <h5></h5>
-                                </div>
-                            </div>
-
-                        </div>
-                        <button
-                            class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-tl-2xl"
-                            type="button" data-bs-target="#carouselLumi" data-bs-slide="prev">
-                            <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button
-                            class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-tr-2xl"
-                            type="button" data-bs-target="#carouselLumi" data-bs-slide="next">
-                            <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+            </div>
+            <div class="flex h-full w-fit col-span-2 bg-[#e8e8e8] m-4 rounded-2xl hover:shadow-2xl duration-500
+            xs:max-md:mx-auto xs:max-xl:flex-col xs:max-xl:rounded-t-2xl">
+                <div id="carouselLumi"
+                    class="carousel slide size-full mr-4 border-2 xs:size-full xl:rounded-l-2xl xs:max-xl:rounded-t-2xl"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators rounded-t-2xl">
+                        <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="0"
+                            class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="1" class="bg-white"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="2" class="bg-white"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="3" class="bg-white"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselLumi" data-bs-slide-to="4" class="bg-white"
+                            aria-label="Slide 5"></button>
                     </div>
-                    <div
-                        class="flex flex-col justify-center items-center text-justify w-12/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
-                        <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
-                        xs:max-xl:text-2xl xs:max-md:mb-4 
-                        xl:max-2xl:text-xl xl:mb-5">Luminotécnico</h3>
-                        <p class="text-base 
-                        xs:max-md:text-sm 
-                        xl:max-2xl:text-sm">Na Luminotécnica, o dimensionamento de área, o cálculo de lumens e o
-                            cálculo de
-                            potência das luminárias são essenciais para criar ambientes bem iluminados e eficientes. Com
-                            precisão nos cálculos, garantimos a quantidade ideal de luz para cada espaço, otimizando o
-                            consumo de energia e melhorando a qualidade da iluminação. A conformidade com as normas
-                            técnicas
-                            assegura um projeto seguro e eficaz, adaptado às necessidades específicas de cada ambiente.
-                        </p>
+                    <div class="carousel-inner xl:rounded-l-2xl xs:max-xl:rounded-t-2xl">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="@/assets/media/projects/lumi 1.webp"
+                                class="d-block w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/projects/lumi 2.webp"
+                                class="d-block m-auto w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/projects/lumi 3.webp"
+                                class="d-block m-auto w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/projects/lumi 4.webp"
+                                class="d-block m-auto w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                <h5></h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="@/assets/media/projects/lumi 5.webp"
+                                class="d-block m-auto w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                <h5></h5>
+                            </div>
+                        </div>
+
                     </div>
+                    <button
+                        class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-l-2xl xs:max-xl:rounded-tl-2xl"
+                        type="button" data-bs-target="#carouselLumi" data-bs-slide="prev">
+                        <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xs:max-xl:rounded-tr-2xl"
+                        type="button" data-bs-target="#carouselLumi" data-bs-slide="next">
+                        <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div
+                    class="flex flex-col justify-center items-center text-justify w-11/12 px-8 xs:max-md:w-fit xs:max-md:py-6">
+                    <h3 class="text-3xl text-center text-[#012a62] font-bold uppercase
+                    xs:max-xl:text-2xl xs:max-md:mb-4 
+                    xl:max-2xl:text-xl xl:mb-5">Luminotécnico</h3>
+                    <p class="text-base 
+                    xs:max-md:text-sm 
+                    xl:max-2xl:text-sm">No Luminotécnico, o dimensionamento de área, o cálculo de lumens e o
+                        cálculo de
+                        potência das luminárias são essenciais para criar ambientes bem iluminados e eficientes. Com
+                        precisão nos cálculos, garantimos a quantidade ideal de luz para cada espaço, otimizando o
+                        consumo de energia e melhorando a qualidade da iluminação. A conformidade com as normas
+                        técnicas
+                        assegura um projeto seguro e eficaz, adaptado às necessidades específicas de cada ambiente.
+                    </p>
                 </div>
             </div>
         </div>
@@ -367,4 +352,15 @@ export default {
     background-image: url('@/assets/media/projects/projeto silk 2.webp');
 }
 
+.bg-11 {
+    background-image: url('@/assets/media/projects/projeto geradores 1.webp');
+}
+
+.bg-12 {
+    background-image: url('@/assets/media/projects/projeto geradores 2.webp');
+}
+
+.bg-13 {
+    background-image: url('@/assets/media/projects/projeto geradores 3.webp');
+}
 </style>

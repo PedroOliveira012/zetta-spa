@@ -27,7 +27,7 @@
                 </div>
                 <div class="flex flex-col justify-center relative
                 md:items-center md:h-full
-                sm:max-lg:justify-evenly sm:px-4
+                sm:max-lg:justify-evenly sm:px-3.5
                 xs:w-full xs:max-sm:mx-auto xs:h-3/6 xs:px-4 xs:max-sm:justify-evenly">
                     <div class="flex items-start
                     2xl:w-10/12 2xl:mx-auto
