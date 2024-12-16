@@ -3,7 +3,6 @@
         <div class="flex justify-center items-center h-72 mb-8 border-[#a1dfe7] border-b banner-about
             lg:max-xl:h-56
             xs:max-lg:h-36">
-            <!-- <img src="@/assets/banner/endless-constellation.svg" class="opacity-60 h-full w-full -z-10" alt=""> -->
             <div class="absolute text-6xl flex justify-center mb-6">
                 <h2 class="text-6xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center">Sobre nós</h2>
             </div>
@@ -41,14 +40,6 @@
         <!-- div que compreende as outras divs -->
         <div class="flex flex-row justify-evenly
         xs:max-xl:flex-wrap">
-            <!-- 
-                formatação dos cards:
-                2xl: as tres alinhadas numa linha com espaçamento igual
-                xl: as tres alinhadas numa linha com espaçamento igual
-                lg: missao em cima e visao e valore em baixo 
-                md ~ xs: as tres empilhadas com w-6/12
-            -->
-
             <!-- div da missao -->
             <div class="flex justify-center items-center w-3/12
             xl:w-fit

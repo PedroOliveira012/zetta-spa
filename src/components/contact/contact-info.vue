@@ -36,10 +36,6 @@
                         </span>
                     </div>
                 </div>
-                <!-- <div class="flex w-fit mx-auto items-center">
-                    <i class="fa-solid fa-phone mr-2 my-auto lg:text-xl xl:text-sxl"></i>
-                            <a href="tel:+551933218400" class="lg:text-base xl:text-xl">(19) 3321-8400</a>
-                </div> -->
                 <div class="flex justify-center items-center">
                     <div class="group relative inline-block">
                         <button class="focus:outline-none">
@@ -50,10 +46,6 @@
                             class="absolute -top-10 left-1/2 transform -translate-x-1/2 z-20 px-4 py-2 text-sm font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Whatsapp</span>
                     </div>
                 </div>
-                <!-- <div class="flex w-fit mx-auto items-center">
-                    <i class="fa-brands fa-square-whatsapp mr-2 lg:text-2xl"></i>
-                            <a href="https://wa.me/5519989394227" class="lg:text-base xl:text-xl">(19) 98939-4227</a>
-                </div> -->
                 <div class="flex justify-center items-center">
                     <div class="group relative inline-block">
                         <button class="focus:outline-none">
@@ -66,11 +58,6 @@
                             com Comercial</span>
                     </div>
                 </div>
-                <!-- <div class="flex w-fit mx-auto items-center">
-                    <i class="fa-solid fa-envelope mr-2 lg:text-xl xl:text-sxl"></i>
-                            <a href="mailto:comercial@zettatecck.com.br"
-                                class="lg:text-base xl:text-xl">comercial@zettatecck.com.br</a>
-                </div> -->
                 <div class="flex justify-center items-center">
                     <div class="group relative inline-block">
                         <button class="focus:outline-none">
@@ -83,11 +70,6 @@
                             com Engenharia</span>
                     </div>
                 </div>
-                <!-- <div class="flex w-fit mx-auto items-center">
-                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
-                            <a href="mailto:engenharia@zettatecck.com.br"
-                                class="lg:text-base xl:text-xl">engenharia@zettatecck.com.br</a>
-                </div> -->
                 <div class="flex justify-center items-center">
                     <div class="group relative inline-block">
                         <button class="focus:outline-none">
@@ -100,11 +82,6 @@
                             com Financeiro</span>
                     </div>
                 </div>
-                <!-- <div class="flex w-fit mx-auto items-center">
-                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
-                    <a href="mailto:financeiro@zettatecck.com.br"
-                        class="lg:text-base xl:text-xl">financeiro@zettatecck.com.br</a>
-                </div> -->
                 <div class="flex justify-center items-center">
                     <div class="group relative inline-block">
                         <button class="focus:outline-none">
@@ -117,10 +94,6 @@
                             com RH</span>
                     </div>
                 </div>
-                <!-- <div class="flex w-fit mx-auto items-center">
-                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
-                    <a href="mailto:rh@zettatecck.com.br" class="lg:text-base xl:text-xl">rh@zettatecck.com.br</a>
-                </div> -->
                 <div class="flex w-fit mx-auto items-center col-span-2">
                     <div class="group relative inline-block">
                         <button class="focus:outline-none">
@@ -133,11 +106,6 @@
                             com Suprimentos</span>
                     </div>
                 </div>
-                <!-- <div class="flex w-fit mx-auto items-center col-span-2">
-                    <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
-                    <a href="mailto:suprimentos@zettatecck.com.br"
-                        class="lg:text-base xl:text-xl">suprimentos@zettatecck.com.br</a>
-                </div> -->
             </div>
             <div class="flex flex-col w-full mx-auto text-center justify-evenly border-t p-8">
                 <h3>Fique ligado em nossa rede</h3>

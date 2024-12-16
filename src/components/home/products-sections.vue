@@ -97,7 +97,7 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/painel canteiro/canteiro 4.webp" class="d-block w-100 rounded-2xl" alt="...">
+                            <img src="@/assets/media/panels/painel canteiro/canteiro 1.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
@@ -133,7 +133,6 @@
                         <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="6" class="bg-white" aria-label="Slide 7"></button>
                         <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="7" class="bg-white" aria-label="Slide 8"></button>
                         <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="8" class="bg-white" aria-label="Slide 9"></button>
-                        <!-- <button type="button" data-bs-target="#carouselProjeto" data-bs-slide-to="9" class="bg-white" aria-label="Slide 10"></button> -->
                     </div>
                     <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -166,12 +165,6 @@
                                 <h5></h5>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/projects/projeto geradores 6.webp" class="d-block w-100 rounded-2xl" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5></h5>
-                            </div>
-                        </div> -->
                         <div class="carousel-item" data-bs-interval="5000">
                             <img src="@/assets/media/projects/projeto geradores 7.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
@@ -291,7 +284,6 @@
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselRobo" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselRobo" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <!-- <button type="button" data-bs-target="#carouselRobo" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button> -->
                     </div>
                     <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item active" data-bs-interval="5000">
@@ -306,12 +298,6 @@
                                 <h5></h5>
                             </div>
                         </div>
-                        <!-- <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/home/3.png" class="d-block w-100 rounded-2xl" alt="...">
-                            <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
-                                <h5></h5>
-                            </div>
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRobo" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>

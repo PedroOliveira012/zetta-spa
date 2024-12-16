@@ -19,8 +19,9 @@
                     xs:max-xl:text-2xl xs:max-md:mb-4 
                     xl:max-2xl:text-xl xl:mb-5">O que é o robô sinalizador</h3>
                     <p class="text-sm 
-                    xs:max-md:text-sm 
-                    xl:max-2xl:text-sm">O Robô sinalizador DISCOMPLESIN é um Dispositivo Complementar de Sinalização, equipado com bandeira e luz intermitente laranja, destinado a complementar a sinalização em rodovias, alertando motoristas sobre condições inseguras à frente. Projetado para operar em condições climáticas adversas, possui sistemas manuais e automáticos para controle de iluminação e sinalização, garantindo operação segura em baixa visibilidade. Com autonomia de até 40 horas, supera significativamente a capacidade de operadores humanos. O DISCOMPLESIN está disponível tanto para locação quanto para venda, oferecendo flexibilidade conforme a necessidade do cliente.</p>
+                    xs:max-md:text-sm
+                    xl:text-xs
+                    2xl:text-sm">O Robô sinalizador DISCOMPLESIN é um Dispositivo Complementar de Sinalização, equipado com bandeira e luz intermitente laranja, destinado a complementar a sinalização em rodovias, alertando motoristas sobre condições inseguras à frente. Projetado para operar em condições climáticas adversas, possui sistemas manuais e automáticos para controle de iluminação e sinalização, garantindo operação segura em baixa visibilidade. Com autonomia de até 40 horas, supera significativamente a capacidade de operadores humanos. O DISCOMPLESIN está disponível tanto para locação quanto para venda, oferecendo flexibilidade conforme a necessidade do cliente.</p>
                 </div>
             </div>
             <div v-motion-slide-right :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500

@@ -37,19 +37,10 @@
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
-                        <!-- <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselCCM" data-bs-slide-to="4" class="bg-white" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner rounded-2xl">
-                        <!-- <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/ccm/ccm 1.webp" class="d-block w-100" alt="...">
-                        </div> -->
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/ccm/ccm 2.webp" class="d-block w-100" alt="...">
-                        </div> -->
                         <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="..."> 
-                            <!-- editar o pallet -->
+                            <img src="@/assets/media/panels/ccm/ccm 3.webp" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/ccm/ccm 4.webp" class="d-block w-100" alt="...">
@@ -82,7 +73,6 @@
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
-                        <!-- <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
                     <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
@@ -100,9 +90,6 @@
                         <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 5.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qgbt/qgbt 6.webp" class="d-block w-100" alt="...">
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQGBT" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -158,8 +145,6 @@
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
-                        <!-- <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselBC" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
@@ -171,12 +156,6 @@
                         <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/banco de capacitores/bc 1.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/banco de capacitores/bc 4.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/banco de capacitores/bc 5.webp" class="d-block w-100" alt="...">
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselBC" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -197,14 +176,9 @@
             xs:max-sm:w-11/12 xs:max-sm:h-72">
                 <div id="carouselRemota" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-white" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-white" aria-label="Slide 3"></button> -->
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="0" class=" active bg-black" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
-                        <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button> -->
-                        <!-- <button type="button" data-bs-target="#carouselRemota" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
                     </div>
                     <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
@@ -213,24 +187,9 @@
                         <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/remota 2.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/remota/remota 3.webp" class="d-block w-100" alt="...">
-                        </div> -->
                         <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/remota/mesa comando.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/remota/remota 5.webp" class="d-block w-100" alt="...">
-                        </div> -->
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/remota/remota 6.webp" class="d-block w-100" alt="...">
-                        </div> -->
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/remota/remota 7.webp" class="d-block w-100" alt="...">
-                        </div> -->
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/remota/remota 8.webp" class="d-block w-100" alt="...">
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselRemota" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -287,8 +246,6 @@
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
-                        <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button> -->
-                        <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
                     <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
@@ -303,12 +260,6 @@
                         <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qdfl/qdfl 4.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qdfl/qdfl 5.webp" class="d-block w-100" alt="...">
-                        </div> -->
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qdfl/qdfl 6.webp" class="d-block w-100" alt="...">
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQDFL" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
@@ -362,17 +313,6 @@
                 <h3 class="mb-6 text-[#012a62] uppercase font-bold sm:text-4xl xs:max-xl:text-2xl xs:max-sm:text-center">
                     Subestação unitária
                 </h3>
-                <!-- <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona
-                    <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> rápida intervenção</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer   
-                    <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> fácil acessibilidade</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas.
-                </div> -->
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
                     As subestações unitárias são instalações elétricas que ajustam a tensão para 
                     <div class="relative inline-block">
@@ -391,14 +331,6 @@
                         <span class="relative z-10 p-1"> monitoramento remoto</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
                     </div> em tempo real, coleta de dados e manutenção preditiva, elevando a eficiência e a automação do processo industrial.
-                    <!-- <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> 24 kV e 25 kA</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div>, utilizando tecnologia de isolamento a ar e comutação com isolamento a gás. Com um 
-                    <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> design compacto</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div>, oferece segurança operacional, confiabilidade, baixa manutenção e segurança pessoal. Além de ser econômico e ecológico, é uma solução robusta para instalações elétricas de média tensão. -->
                 </div>
             </div>
         </section>
@@ -409,15 +341,6 @@
                     Painéis Eletropneumáticos
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    <!-- O Quadro de Iluminação e Tomadas atende aos rigorosos requisitos da norma ABNT NBR IEC 61439-1&2, garantindo desempenho certificado em projeto, construção e operação. Com acesso frontal para todas as conexões, proporciona
-                    <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> rápida intervenção</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> e mantém a continuidade do serviço. O design é otimizado para economizar espaço na instalação e oferecer   
-                    <div class="relative inline-block">
-                        <span class="relative z-10 p-1"> fácil acessibilidade</span>
-                        <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>
-                    </div> ao interior do painel, priorizando a confiabilidade e a segurança tanto da instalação quanto das pessoas envolvidas. -->
                     Os painéis eletropneumáticos são projetados para garantir continuidade de serviço, com todas as conexões de operação e controle acessíveis pela parte frontal do painel, o que reduz significativamente o tempo de intervenção e manutenção. O 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1">design compacto</span>
@@ -436,31 +359,11 @@
                 <div id="carouselPneumatico" class="carousel slide h-fit border-2 border-cyan-500 rounded-2xl" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselPneumatico" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
-                        <!-- <button type="button" data-bs-target="#carouselPneumatico" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselPneumatico" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button> -->
-                        <!-- <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
-                        <button type="button" data-bs-target="#carouselQDFL" data-bs-slide-to="5" class="bg-black" aria-label="Slide 6"></button> -->
                     </div>
                     <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
                             <img src="@/assets/media/panels/pneumatico/pneumatico.webp" class="d-block w-100" alt="...">
                         </div>
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qdfl/qdfl 2.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qdfl/qdfl 3.webp" class="d-block w-100" alt="...">
-                        </div> -->
-                        <!-- <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qdfl/qdfl 4.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qdfl/qdfl 5.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qdfl/qdfl 6.webp" class="d-block w-100" alt="...">
-                        </div> -->
                     </div>
                     <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselPneumatico" data-bs-slide="prev">
                         <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>

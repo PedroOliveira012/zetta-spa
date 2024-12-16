@@ -27,7 +27,8 @@
                                 aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner rounded-t-2xl xs:max-md:hidden">
-                            <div class="carousel-item active h-80 md:rounded-t-2xl bg-11 bg-cover" data-bs-interval="5000">
+                            <div class="carousel-item active h-80 md:rounded-t-2xl bg-11 bg-cover"
+                                data-bs-interval="5000">
                                 <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                     <h5></h5>
                                 </div>
@@ -87,7 +88,7 @@
                                 <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                     <h5></h5>
                                 </div>
-                            </div>                            
+                            </div>
                         </div>
                         <button
                             class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 rounded-tl-2xl"
@@ -135,23 +136,69 @@
                     xs:max-md:h-fit xs:max-md:mx-auto xs:max-md:mb-6 xs:max-md:size-fit
                     md:max-lg:mb-12 md:max-lg:mx-auto
                     lg:max-xl:m-16">
-                    <!-- <div class="w-12/12 h-80 md:rounded-t-2xl bg-2 bg-cover
-                        size-full xs:max-md:rounded-t-2xl xs:max-md:h-40 xs:max-md:bg-cover"> -->
-                    <div id="carouselSPDAMD" class="carousel slide xl:size-full rounded-t-2xl xs:max-md:hidden">
+                    <div id="carouselSPDAMD" class="carousel slide xl:size-full border-2 rounded-t-2xl xs:max-md:hidden">
+                        <div class="carousel-indicators rounded-t-2xl">
+                            <button type="button" data-bs-target="#carouselInfra" data-bs-slide-to="0"
+                                class="active bg-white" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselInfra" data-bs-slide-to="1" class="bg-white"
+                                aria-label="Slide 2"></button>
+                        </div>
                         <div class="carousel-inner rounded-t-2xl">
-                            <div class="carousel-item active h-80 md:rounded-t-2xl bg-2 bg-cover" data-bs-interval="5000">
-                                <!-- <img src="@/assets/media/projects/spda 1.webp"
-                                    class="d-block w-100 rounded-t-2xl h-80" alt="..."> -->
+                            <div class="carousel-item active h-80 md:rounded-t-2xl bg-2 bg-cover"
+                                data-bs-interval="5000">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-80 md:rounded-t-2xl bg-14 bg-cover"
+                                data-bs-interval="5000">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
                             </div>
                         </div>
+                        <button
+                            class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-tl-2xl xs:max-xl:rounded-tl-2xl"
+                            type="button" data-bs-target="#carouselSPDAMD" data-bs-slide="prev">
+                            <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-tr-2xl xs:max-xl:rounded-tr-2xl"
+                            type="button" data-bs-target="#carouselSPDAMD" data-bs-slide="next">
+                            <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <div id="carouselSPDAXS" class="carousel slide xl:size-full rounded-t-2xl md:hidden">
+                    <div id="carouselSPDAXS" class="carousel slide xl:size-full border-2 rounded-t-2xl md:hidden">
                         <div class="carousel-inner rounded-t-2xl">
-                            <div class="carousel-item active md:rounded-t-2xl" data-bs-interval="5000">
+                            <div class="carousel-item active" data-bs-interval="5000">
                                 <img src="@/assets/media/projects/spda 1.webp"
-                                    class="d-block w-100 rounded-t-2xl" alt="...">
+                                    class="d-block w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="5000">
+                                <img src="@/assets/media/projects/spda 2.webp"
+                                    class="d-block w-100 xs:max-xl:rounded-t-2xl xl:rounded-l-2xl" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
+                                    <h5></h5>
+                                </div>
                             </div>
                         </div>
+                        <button
+                            class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-tl-2xl xs:max-xl:rounded-tl-2xl"
+                            type="button" data-bs-target="#carouselSPDAXS" data-bs-slide="prev">
+                            <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-tr-2xl xs:max-xl:rounded-tr-2xl"
+                            type="button" data-bs-target="#carouselSPDAXS" data-bs-slide="next">
+                            <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                     <div
                         class="flex flex-col justify-center items-center py-12 text-justify w-12/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
@@ -167,40 +214,6 @@
                             segurança
                             das instalações e reduzindo riscos. Conforme as normas rigorosas, o SPDA assegura alta
                             confiabilidade e segurança para as instalações e seus operadores.</p>
-                    </div>
-                    <div class="bg-[#e8e8e8] h-fit rounded-2xl mt-10 mx-4 
-                        xs:max-xl:hidden">
-                        <!-- <div id="carouselFotos" class="carousel slide carousel-fade h-fit border-2 xl:size-full rounded-2xl"
-                            data-bs-ride="carousel">
-                            <div class="carousel-inner rounded-t-2xl">
-                                <div class="carousel-item rounded-2xl active bg-9 bg-cover bg-center h-72"
-                                    data-bs-interval="2500"></div>
-                                <div class="carousel-item rounded-2xl bg-1 bg-cover bg-center h-72" data-bs-interval="2500">
-                                </div>
-                                <div class="carousel-item rounded-2xl bg-4 bg-cover bg-center h-72" data-bs-interval="2500">
-                                </div>
-                                <div class="carousel-item rounded-2xl bg-7 bg-cover bg-center h-72" data-bs-interval="2500">
-                                </div>
-                                <div class="carousel-item rounded-2xl bg-10 bg-cover bg-center h-72"
-                                    data-bs-interval="2500"></div>
-                                <div class="carousel-item rounded-2xl bg-5 bg-cover bg-center h-72" data-bs-interval="2500">
-                                </div>
-                                <div class="carousel-item rounded-2xl bg-8 bg-cover bg-center h-72" data-bs-interval="2500">
-                                </div>
-                            </div>
-                            <button
-                                class="carousel-control-prev hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 xl:rounded-l-2xl"
-                                type="button" data-bs-target="#carouselFotos" data-bs-slide="prev">
-                                <i class="fa-solid fa-chevron-left" style="color: #131313;"></i>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button
-                                class="carousel-control-next hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500 "
-                                type="button" data-bs-target="#carouselFotos" data-bs-slide="next">
-                                <i class="fa-solid fa-chevron-right" style="color: #131313;"></i>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -362,5 +375,8 @@ export default {
 
 .bg-13 {
     background-image: url('@/assets/media/projects/projeto geradores 3.webp');
+}
+.bg-14 {
+    background-image: url('@/assets/media/projects/spda 2.webp');
 }
 </style>
