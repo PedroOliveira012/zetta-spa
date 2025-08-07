@@ -28,7 +28,7 @@
             <h3 class="text-4xl text-[#012a62] font-bold uppercase mb-6">Quem somos</h3>
             <p class="text-xl text-justify w-6/12
             xs:max-xl:text-lg xs:max-2xl:w-10/12 xs:max-sm:leading-normal">
-                Fundada em 2011 na cidade de Araras-SP, a ZETTATECCK PROJETOS INDUSTRIAIS E AUTOMAÇÃO LTDA é especializada na fabricação de painéis elétricos de baixa tensão, controle e instrumentação, robôs sinalizadores, e na elaboração de projetos elétricos industriais e automação predial. Buscamos inovar constantemente, desenvolvendo soluções que reduzem custos e aumentam a produtividade e a qualidade. Comprometemo-nos a mitigar riscos de segurança do trabalho, garantindo um ambiente mais seguro para todos.
+                Fundada em 2011 na cidade de Araras-SP, a ZETTATECCK PROJETOS INDUSTRIAIS E AUTOMAÇÃO LTDA é especializada na fabricação de painéis elétricos de baixa e média tensão, controle e instrumentação, robôs sinalizadores e na elaboração de projetos elétricos industriais. Buscamos inovar constantemente, desenvolvendo soluções que reduzem custos e aumentam a produtividade e a qualidade. Comprometemo-nos a mitigar riscos de segurança do trabalho, garantindo um ambiente mais seguro para todos.
             </p>
         </div>
     </section>

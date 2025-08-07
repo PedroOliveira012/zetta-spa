@@ -7,24 +7,24 @@
                 <h2 class="text-6xl text-[#012a62] font-bold uppercase xs:max-md:text-4xl text-center mb-6">Robô sinalizador</h2>
             </div>
         </div>
-        <div class="grid grid-cols-2 px-12
-        xs:max-xl:grid-cols-1 xs:max-xl:px-2">
-            <div v-motion-slide-left :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500
-            xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
-                <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-1 bg-cover bg-center
-                xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
-                <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
-                    <h3 class="text-xl text-center text-[#012a62] font-bold uppercase
-                    xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
-                    xs:max-xl:text-2xl xs:max-md:mb-4 
-                    xl:max-2xl:text-xl xl:mb-5">O que é o robô sinalizador</h3>
-                    <p class="text-sm 
-                    xs:max-md:text-sm
-                    xl:text-xs
-                    2xl:text-sm">O Robô sinalizador DISCOMPLESIN é um Dispositivo Complementar de Sinalização, equipado com bandeira e luz intermitente laranja, destinado a complementar a sinalização em rodovias, alertando motoristas sobre condições inseguras à frente. Projetado para operar em condições climáticas adversas, possui sistemas manuais e automáticos para controle de iluminação e sinalização, garantindo operação segura em baixa visibilidade. Com autonomia de até 40 horas, supera significativamente a capacidade de operadores humanos. O DISCOMPLESIN está disponível tanto para locação quanto para venda, oferecendo flexibilidade conforme a necessidade do cliente.</p>
-                </div>
+        <div v-motion-slide-top :duration="1000" class="flex h-96 bg-[#e8e8e8] mx-24 my-12 rounded-2xl hover:shadow-2xl duration-500
+        xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto
+        md:max-xl:mx-14">
+            <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-1 bg-cover bg-center
+            xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
+            <div class="flex flex-col justify-center items-center text-justify w-8/12 p-8 xs:max-md:w-fit xs:max-md:py-6">
+                <h3 class="text-xl text-center text-[#012a62] font-bold uppercase
+                xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
+                xs:max-xl:text-2xl xs:max-md:mb-4 
+                xl:max-2xl:text-xl xl:mb-5">O que é o robô sinalizador</h3>
+                <p class="text-md 
+                xs:max-md:text-sm
+                xl:text-base
+                2xl:text-base">O Robô sinalizador DISCOMPLESIN é um Dispositivo Complementar de Sinalização, equipado com bandeira e luz intermitente laranja, destinado a complementar a sinalização em rodovias, alertando motoristas sobre condições inseguras à frente. Projetado para operar em condições climáticas adversas, possui sistemas manuais e automáticos para controle de iluminação e sinalização, garantindo operação segura em baixa visibilidade. Com autonomia de até 40 horas, supera significativamente a capacidade de operadores humanos. O DISCOMPLESIN está disponível tanto para locação quanto para venda, oferecendo flexibilidade conforme a necessidade do cliente.</p>
             </div>
-            <div v-motion-slide-right :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500
+        </div>
+        <div class="grid grid-cols-2 px-12 xs:max-xl:grid-cols-1 xs:max-xl:px-2">
+            <div v-motion-slide-left :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500
             xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-2 bg-cover bg-top
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
@@ -43,7 +43,7 @@
                     </ul>
                 </div>
             </div>
-            <div v-motion-slide-left :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500
+            <div v-motion-slide-right :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500
             xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
                 <div class="w-4/12 h-full bg-[#777777] md:rounded-l-xl robo-3 bg-cover bg-center
                 xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
@@ -55,27 +55,6 @@
                     <p class="text-lg 
                     xs:max-md:text-sm 
                     xl:max-2xl:text-sm">Para garantir eficiência e segurança durante operações noturnas, nosso robô será equipado com:</p>
-                    <ul class="text-lg 
-                    xl:max-2xl:text-sm
-                    xs:max-md:text-sm xs:max-md:mt-6">
-                        <li class="list-disc">Holofote</li>
-                        <li class="list-disc">Luz laranja</li>
-                        <li class="list-disc">Luz na caixa</li>
-                    </ul>
-                </div>
-            </div>
-            <div v-motion-slide-right :duration="1000" class="flex h-96 bg-[#e8e8e8] m-12 rounded-2xl hover:shadow-2xl duration-500
-            xs:max-md:flex-col xs:max-md:h-fit xs:max-md:w-11/12 xs:max-md:mx-auto">
-                <div class="w-4/12 h-full border border-[#777777] md:rounded-l-xl robo-4 bg-cover bg-top
-                xs:max-md:size-full xs:max-md:rounded-t-2xl xs:max-md:h-96 xs:max-md:bg-cover"></div>
-                <div class="flex flex-col justify-evenly items-center w-8/12 p-8 xs:max-md:w-full">
-                    <h3 class="text-2xl text-center text-[#012a62] font-bold uppercase
-                    xs:max-lg:text-xl lg:max-xl:text-xl lg:mb-6
-                    xs:max-xl:text-2xl xs:max-md:mb-4 
-                    xl:max-2xl:text-xl xl:mb-5">Diurno / Noturno</h3>
-                    <p class="text-lg 
-                    xs:max-md:text-sm 
-                    xl:max-2xl:text-sm">Para garantir eficiência e segurança em ambas as operações (diurnas e noturnas), nosso robô será equipado com:</p>
                     <ul class="text-lg 
                     xl:max-2xl:text-sm
                     xs:max-md:text-sm xs:max-md:mt-6">

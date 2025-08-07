@@ -17,93 +17,88 @@
             <div class="text-center">
                 <div class="relative inline-block">
                     <span class="relative z-10 p-1">Clique</span>
-                    <span
-                        class="absolute inset-0 bg-cyan-400 opacity-60 h-full w-0 animate-slide group rounded-lg"></span>
+                    <span class="absolute inset-0 bg-cyan-400 opacity-60 h-full w-0 animate-slide group rounded-lg"></span>
                 </div>
                 <span> em uma das opções abaixo para<br> conversar com a nossa equipe</span>
             </div>
-            <div class="grid grid-cols-2 gap-x-6 gap-y-12 border-t pt-8
+            <div class="grid gap-x-6 gap-y-2 border-t pt-4
             xs:max-lg:flex xs:max-lg:flex-col xs:max-lg:gap-y-6">
-                <div class="flex justify-center items-center">
-                    <div class="group relative inline-block">
+                <h1 class="tracking-widest m-auto py-2">Comercial</h1>
+                <div class="grid grid-cols-3 gap-4 justify-center items-center border-b py-4
+                xs:max-lg:grid-cols-1 lg:max-2xl:grid-cols-2">
+                    <div class="group relative inline-block m-auto">
                         <button class="focus:outline-none">
                             <i class="fa-solid fa-phone mr-2 my-auto lg:text-xl xl:text-sxl"></i>
                             <a href="tel:+551933218400" class="lg:text-base xl:text-xl">(19) 3321-8400</a>
                         </button>
-                        <span
-                            class="absolute -top-10 left-1/2 transform -translate-x-1/2 z-20 px-4 py-2 text-sm font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">
+                        <span class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">
                             Telefone
                         </span>
                     </div>
-                </div>
-                <div class="flex justify-center items-center">
-                    <div class="group relative inline-block">
+                    <div class="group relative inline-block m-auto lg:max-2xl:col-span-2 lg:max-2xl:order-last">
+                        <button class="focus:outline-none">
+                            <i class="fa-solid fa-envelope mr-2 lg:text-xl xl:text-sxl"></i>
+                            <a href="mailto:comercial@zettatecck.com.br" class="lg:text-base xl:text-xl">comercial@zettatecck.com.br</a>
+                        </button>
+                        <span class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar com Comercial</span>
+                    </div>
+                    <div class="group relative inline-block m-auto">
                         <button class="focus:outline-none">
                             <i class="fa-brands fa-square-whatsapp mr-2 lg:text-2xl"></i>
                             <a href="https://wa.me/5519989394227" class="lg:text-base xl:text-xl">(19) 98939-4227</a>
                         </button>
-                        <span
-                            class="absolute -top-10 left-1/2 transform -translate-x-1/2 z-20 px-4 py-2 text-sm font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Whatsapp</span>
+                        <span class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Whatsapp</span>
                     </div>
                 </div>
-                <div class="flex justify-center items-center">
-                    <div class="group relative inline-block">
-                        <button class="focus:outline-none">
-                            <i class="fa-solid fa-envelope mr-2 lg:text-xl xl:text-sxl"></i>
-                            <a href="mailto:comercial@zettatecck.com.br"
-                                class="lg:text-base xl:text-xl">comercial@zettatecck.com.br</a>
-                        </button>
-                        <span
-                            class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar
-                            com Comercial</span>
-                    </div>
-                </div>
-                <div class="flex justify-center items-center">
-                    <div class="group relative inline-block">
+                <h1 class="tracking-widest m-auto py-2">Engenharia</h1>
+                <div class="grid gap-4 justify-center items-center border-b py-4">
+                    <div class="group relative inline-block m-auto">
                         <button class="focus:outline-none">
                             <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
-                            <a href="mailto:engenharia@zettatecck.com.br"
-                                class="lg:text-base xl:text-xl">engenharia@zettatecck.com.br</a>
+                            <a href="mailto:engenharia@zettatecck.com.br" class="lg:text-base xl:text-xl">engenharia@zettatecck.com.br</a>
                         </button>
-                        <span
-                            class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar
-                            com Engenharia</span>
+                        <span class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar com Engenharia</span>
                     </div>
                 </div>
-                <div class="flex justify-center items-center">
-                    <div class="group relative inline-block">
+                <h1 class="tracking-widest m-auto py-2">Administrativo</h1>
+                <div class="grid grid-cols-2 gap-4 justify-center items-center border-b py-4
+                xs:max-lg:grid-cols-1">
+                    
+                    <div class="group relative inline-block m-auto">
                         <button class="focus:outline-none">
                             <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
-                            <a href="mailto:financeiro@zettatecck.com.br"
-                                class="lg:text-base xl:text-xl">financeiro@zettatecck.com.br</a>
+                            <a href="mailto:suprimentos@zettatecck.com.br" class="lg:text-base xl:text-xl">suprimentos@zettatecck.com.br</a>
                         </button>
-                        <span
-                            class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar
-                            com Financeiro</span>
+                        <span class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar com Suprimentos</span>
                     </div>
+                    
+                    <div class="group relative inline-block m-auto">
+                        <button class="focus:outline-none">
+                            <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
+                            <a href="mailto:financeiro@zettatecck.com.br" class="lg:text-base xl:text-xl">financeiro@zettatecck.com.br</a>
+                        </button>
+                        <span class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar com Financeiro</span>
+                    </div>
+                    
                 </div>
-                <div class="flex justify-center items-center">
-                    <div class="group relative inline-block">
+                <h1 class="tracking-widest m-auto py-2">Recursos Humanos</h1>
+                <div class="grid grid-cols-2 gap-4 justify-center items-center pt-4
+                xs:max-lg:grid-cols-1">
+                    <div class="group relative inline-block m-auto">
                         <button class="focus:outline-none">
                             <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl xl:text-sxl"></i>
-                            <a href="mailto:rh@zettatecck.com.br"
-                                class="lg:text-base xl:text-xl">rh@zettatecck.com.br</a>
+                            <a href="mailto:rh@zettatecck.com.br" class="lg:text-base xl:text-xl">rh@zettatecck.com.br</a>
                         </button>
-                        <span
-                            class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar
-                            com RH</span>
+                        <span class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar com RH</span>
                     </div>
-                </div>
-                <div class="flex w-fit mx-auto items-center col-span-2">
-                    <div class="group relative inline-block">
-                        <button class="focus:outline-none">
-                            <i class="fa-solid fa-envelope mr-2 my-auto lg:text-xl "></i>
-                            <a href="mailto:suprimentos@zettatecck.com.br"
-                                class="lg:text-base xl:text-xl">suprimentos@zettatecck.com.br</a>
-                        </button>
-                        <span
-                            class="absolute -top-10 left-1/2 w-full transform -translate-x-1/2 z-20 px-4 py-2 text-sm text-center font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Conversar
-                            com Suprimentos</span>
+                    <div class="group relative inline-block m-auto">
+                        <div class="group relative inline-block m-auto">
+                            <button class="focus:outline-none">
+                                <i class="fa-brands fa-square-whatsapp mr-2 lg:text-2xl"></i>
+                                <a href="https://wa.me/5519991046687" class="lg:text-base xl:text-xl">(19) 99104-6687</a>
+                            </button>
+                            <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 z-20 px-4 py-2 text-sm font-bold text-[#00AAC0] bg-[#111827] rounded-lg shadow-lg transition-transform duration-300 ease-in-out scale-0 group-hover:scale-100">Whatsapp</span>
+                        </div>
                     </div>
                 </div>
             </div>
