@@ -72,7 +72,6 @@
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#carouselQGBT" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
                     </div>
                     <div class="carousel-inner rounded-2xl">
                         <div class="carousel-item rounded-2xl active" data-bs-interval="5000">
@@ -86,9 +85,6 @@
                         </div>
                         <div class="carousel-item rounded-2xl" data-bs-interval="5000">
                             <img src="@/assets/media/panels/qgbt/qgbt 4.webp" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item rounded-2xl" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qgbt/qgbt 5.webp" class="d-block w-100" alt="...">
                         </div>
                     </div>
                     <button class="carousel-control-prev rounded-l-2xl hover:bg-black hover:bg-opacity-15 transition ease-in-out duration-500" type="button" data-bs-target="#carouselQGBT" data-bs-slide="prev">
@@ -106,7 +102,7 @@
                     QGBT
                 </h3>
                 <div class="text-lg pb-12 sm:max-xl:text-lg xs:max-sm:text-justify xs:max-sm:pb-8 xs:max-sm:text-md">
-                    Oferecemos soluções para distribuição de energia em baixa tensão com os sistemas Ri4Power TS8 , VX25 (Rittal) e SIVACON (Siemens), suportando 
+                    Oferecemos soluções para distribuição de energia em baixa tensão com os sistemas Ri4Power TS8 e VX25 (Rittal), suportando 
                     <div class="relative inline-block">
                         <span class="relative z-10 p-1"> até 5500 A e 100 kA.</span>
                         <span class="absolute inset-0 bg-cyan-400 h-full w-0 group rounded-lg"></span>

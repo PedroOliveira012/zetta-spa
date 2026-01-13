@@ -67,7 +67,7 @@
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="5000">
-                            <img src="@/assets/media/panels/qgbt/qgbt 3.webp" class="d-block w-100 rounded-2xl" alt="...">
+                            <img src="@/assets/media/panels/qgbt/qgbt 1.webp" class="d-block w-100 rounded-2xl" alt="...">
                             <div class="carousel-caption d-none d-md-block text-white bg-black opacity-80">
                                 <h5></h5>
                             </div>
